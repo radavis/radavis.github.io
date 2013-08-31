@@ -1,43 +1,25 @@
----
-layout: default
-single: true
----
+{% include header.html %}
 
-<div>
-<article class="hentry" role="article">
-  {% include article.html %}
-  <footer>
-    <p class="meta">
-      {% include post/author.html %}
-      {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
-      {% include post/categories.html %}
-    </p>
-    {% unless page.sharing == false %}
-      {% include post/sharing.html %}
-    {% endunless %}
-    <p class="meta">
-      {% if page.previous.url %}
-        <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
-      {% endif %}
-      {% if page.next.url %}
-        <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
-      {% endif %}
-    </p>
-  </footer>
-</article>
-{% if site.disqus_short_name and page.comments == true %}
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
-  </section>
-{% endif %}
-</div>
-{% unless page.sidebar == false %}
-<aside class="sidebar">
-  {% if site.post_asides.size %}
-    {% include_array post_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
-{% endunless %}
+	<body>
+		{% include logo.html %}
+		<div id="wrapper">
+			<div id="content">
+				<a target="_blank" style="float:right;margin-top:15px" href="http://twitter.com/share?url=http://blog.libingcun.com{{ page.url }}&via=libingcun&text={{ page.title }}"><span class="balloon">retweet</span></a>
+				<h2>{{ page.title }}</h2>
+				<div class="cnt">
+					{{ content }}
+					<br />
+					--EOF--
+					<p>若无特别说明，本站文章均为原创，转载请保留链接，谢谢</p>
+				</div>
+				<div id="disqus_thread"></div>
+				{% include disqus.html %}
+			</div>
+			
+			<div id="footer">
+				{% include footer.html %}
+			</div>
+		</div>
+	</body>
+</html>
+
