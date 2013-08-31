@@ -22,4 +22,4 @@ I recently came across this interesting way to keep track of all instances of a 
       end
     end
 
-So, whenever we create a new instance of the class, it pushes itself onto a class object. Calling Car.all will return all instances that have been created. Pretty awesome, right?
+So, whenever we create a new instance of the class, it pushes itself onto a class-level array. Calling Car.all will return an array containing all instances that have been created. Pretty awesome, right?
