@@ -3,7 +3,7 @@ layout: post
 title: "Keep track of your instances"
 date: 2013-08-30 20:08
 comments: true
-categories:
+categories: ruby development
 ---
 
 I recently came across this interesting way to keep track of all instances of a class.
