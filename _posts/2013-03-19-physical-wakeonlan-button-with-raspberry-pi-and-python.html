@@ -1,0 +1,50 @@
+---
+layout: post
+title: Physical WakeOnLan button with Raspberry Pi and Python
+tags: raspberry-pi python wol debian raspbian gpio
+---
+
+<p>This is a fun little demo I threw together in an evening. I'm running <a href="http://www.raspberrypi.org/downloads">Raspbian "wheezy"</a>.</p>
+<p>Wire up a switch (or switches) to your GPIO port. I have switches connected to GPIO pins 22, 23, and 24.</p>
+<p><img alt="image" src="http://i.imgur.com/fR4DlPx.png" title="Schematic for wiring up switches to GPIO pins. Drawn with CircuitLab."/></p>
+<p><img alt="image" src="http://i.imgur.com/XBnKh3y.png" title="GPIO pinout provided by TNET"/></p>
+<p><img alt="image" src="http://i.imgur.com/H3z409S.png" title="Here's my setup. Ignore that IC and other components on the breadboard. That's just a MAX232 that's not being used at the moment."/></p>
+<p>Install <a href="http://pythonhosted.org/RPIO/">RPIO</a>.</p>
+<pre>sudo apt-get install python-setuptools
+sudo easy_install -U RPIO
+</pre>
+<p>Install <a href="http://manpages.debian.net/cgi-bin/man.cgi?sektion=1&amp;query=wakeonlan&amp;apropos=0&amp;manpath=sid&amp;locale=en">wakeonlan</a>.</p>
+<pre>sudo apt-get install wakeonlan</pre>
+<p>Check that you wired your switch up correctly by running &#8216;rpio-curses' from the terminal. You should see the state of the GPIO pin change when you press the button.</p>
+<p><img alt="image" src="http://i.imgur.com/h4aiy13.png" title="Result of running rpio-curses. GPIO22,23,24 go Low when I press the corresponding switch."/></p>
+<p>Save the following code to 'gpio-wol.py':</p>
+
+{% highlight python %}
+# using the RPIO library and a physical switch to perform WakeOnLan
+
+import RPIO
+from subprocess import call
+
+# this dictionary maps gpio pins to MAC addresses, substitute your machine's MAC
+gpio_to_mac = { 24: '00:00:00:00:00:00',
+                23: '11:11:11:11:11:11',
+                22: 'ff:ff:ff:ff:ff:ff'  }
+
+def gpio_callback(gpio_id, val):
+    ''' wakes up the appropriate MAC '''
+    call(['wakeonlan', gpio_to_mac[gpio_id]])
+
+# setup the GPIO pins.
+for gpio, mac in gpio_to_mac.items():
+    RPIO.add_interrupt.callback(gpio, gpio_callback, edge='falling')
+
+print('Waiting for GPIO input. Press CTRL+C to quit.')
+RPIO.wait_for_interrupts()
+{% endhighlight %}
+
+<p>Run gpio-wol.py and try it out. Note: the RPIO library requires root access.</p>
+<pre>sudo python gpio-wol.py</pre>
+<p>When you press a button, this is the output you should see:</p>
+<pre>Sending magic packet to 255.255.255.255:9 with 00:00:00:00:00:00</pre>
+<p> If you have any trouble, you can open up <a href="http://www.wireshark.org/download.html">Wireshark</a> and scan for UDP packets. Since UDP is connectionless, it is broadcast to all machines in the subnet. If you can see the WOL UDP packets and your machine isn't waking up, double-check the MAC address. Also, make sure that the machine is setup to accept WOL packets, which might mean a trip to the BIOS to change some settings.</p>
+<p>I would like to point out that you could bind any terminal command to a physical button using this technique by simply changing the gpio_callback() function. How cool is that?</p>
