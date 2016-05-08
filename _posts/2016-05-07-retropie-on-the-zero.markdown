@@ -48,7 +48,7 @@ Of course, you don't have to purchase a Zero to have this setup. There are [plen
 
 ## RetroPie
 
-[RetroPie](https://retropie.org.uk/) is a Linux distro for the Raspberry Pi that includes emulators for practically every piece of hardware released before 1999. To set things up, copy an image of the RetroPie OS to your microSD card, do a bit of configuring, and you're on your way.
+[RetroPie](https://retropie.org.uk/) is a Linux distro for the Raspberry Pi that includes emulators for practically every piece of gaming hardware released before 1999. To set things up, copy an image of the RetroPie OS to your microSD card, do a bit of configuring, and you're on your way.
 
 Here are my notes:
 
