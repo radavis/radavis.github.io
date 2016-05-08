@@ -40,7 +40,7 @@ My PC from the late 90s didn't have this much power, and was about 500x times la
 
 <br />
 
-[Amazon link to most of these products](https://www.amazon.com/gp/registry/wishlist/A9W6UVBXLQZ4/ref=cm_wl_list_o_2?), minus the Pi Zero and the Makerspot USB Hub.
+[Amazon link to most of these products](https://www.amazon.com/gp/registry/wishlist/A9W6UVBXLQZ4/ref=cm_wl_list_o_2?), minus the Pi Zero, the SD card, and the Makerspot USB Hub.
 
 **Note:** The Pi Zero is hard to come by right now. I've had decent luck finding them at my local Microcenter. [raspberrypi.org](https://www.raspberrypi.org/products/pi-zero/) lists other retailers who should have them in stock.
 
@@ -48,7 +48,7 @@ Of course, you don't have to purchase a Zero to have this setup. There are [plen
 
 ## RetroPie
 
-[RetroPie](https://retropie.org.uk/) is a Linux distro for the Raspberry Pi that includes emulators for practically every piece of hardware released before 1999. To set things up, copy an image of the RetroPie OS to your microSD card, do a bit of configuring and copying, and then you're on your way.
+[RetroPie](https://retropie.org.uk/) is a Linux distro for the Raspberry Pi that includes emulators for practically every piece of hardware released before 1999. To set things up, copy an image of the RetroPie OS to your microSD card, do a bit of configuring, and you're on your way.
 
 Here are my notes:
 
@@ -193,7 +193,7 @@ hdmi_force_edid_audio=1
 
 ## Wrap Up
 
-This isn't by any means a full step-by-step guide. Part of the fun of this is gathering the hardware and figuring out how to set it all up.
+This isn't by any means a full step-by-step guide. Part of the fun of this is gathering the hardware and figuring out how to set it all up. Hopefully, the information here will put you on the right track.
 
 If you are looking for more info, check out the following resources.
 
