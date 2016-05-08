@@ -54,7 +54,7 @@ Here are my notes:
 
 ## Setting Up EmulationStation/RetroPie on a PiZero
 
-![retro-pie splash screen](/assets/retro-pie-darkgrey.png)s
+![retro-pie splash screen](/assets/retro-pie-darkgrey.png)
 
 ### Installation (on OS X)
 
