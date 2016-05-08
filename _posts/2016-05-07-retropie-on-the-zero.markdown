@@ -12,7 +12,7 @@ I don't have much time for gaming these days. Most of my time is dedicated to co
 Here are some of my favorites:
 
 * Pengo (arcade)
-* Tetris (NES, Atari/Tegen)
+* Tetris (NES, Atari/Tengen)
 * Burgertime
 * Lode Runner (arcade)
 * Robotron 2084 (arcade)
@@ -48,7 +48,7 @@ Of course, you don't have to purchase a Zero to have this setup. There are [plen
 
 ## RetroPie
 
-[RetroPie](https://retropie.org.uk/) is a Linux distro for the Raspberry Pi that includes emulators for practically every piece of hardware released before 1999. To set things up, copy an image of the OS to your microSD card, do a bit of configuring and copying, and then you're on to gaming.
+[RetroPie](https://retropie.org.uk/) is a Linux distro for the Raspberry Pi that includes emulators for practically every piece of hardware released before 1999. To set things up, copy an image of the RetroPie OS to your microSD card, do a bit of configuring and copying, and then you're on your way.
 
 Here are my notes:
 
@@ -193,7 +193,9 @@ hdmi_force_edid_audio=1
 
 ## Wrap Up
 
-This isn't by any means a full step-by-step guide. If you are looking for more info, check out the following resources.
+This isn't by any means a full step-by-step guide. Part of the fun of this is gathering the hardware and figuring out how to set it all up.
+
+If you are looking for more info, check out the following resources.
 
 * [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki)
 * [RetroPie Fourm](https://retropie.org.uk/forum/)
