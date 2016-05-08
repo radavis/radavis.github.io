@@ -5,7 +5,7 @@ date: 2016-05-07 19:00
 tags: raspberry-pi linux hardware
 ---
 
-![retro-pie](/assets/retro-pie.png)
+![retro-pie](/assets/retro-pie.jpg)
 
 I don't have much time for gaming these days. Most of my time is dedicated to coding, or teaching. When I do have a free moment, I love firing up a classic game and racking up some points.
 
