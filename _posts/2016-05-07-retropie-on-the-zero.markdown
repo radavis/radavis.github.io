@@ -32,17 +32,17 @@ My PC from the late 90s didn't have this much power, and was about 500x times la
 | [Raspberry Pi Zero](https://www.raspberrypi.org/products/pi-zero/) |
 | 4GB (or greater) microSD card |
 | 2x [8bitdo SFC30 Controllers](http://8bitdo.com/sfc30/) |
-| [Makerspot USB Hub](http://makerspot.com/stackable-usb-hub-for-raspberry-pi-zero/) |
+| [MakerSpot USB Hub](http://makerspot.com/stackable-usb-hub-for-raspberry-pi-zero/) |
 | Edimax EW-7811Un WiFi Adapter |
 | Bluetooth Adapter |
 | 5V@2A Adapter |
-| microHDMI to HDMI cable |
+| miniHDMI to HDMI cable |
 
 <br />
 
-[Amazon link to most of these products](https://www.amazon.com/gp/registry/wishlist/A9W6UVBXLQZ4/ref=cm_wl_list_o_2?), minus the Pi Zero, the SD card, and the Makerspot USB Hub.
+[Amazon link](https://www.amazon.com/gp/registry/wishlist/A9W6UVBXLQZ4/ref=cm_wl_list_o_2?) to most of these products, minus the Pi Zero, the SD card, and the [MakerSpot USB Hub](http://makerspot.com/stackable-usb-hub-for-raspberry-pi-zero/). I assume you probably have a microSD card lying around, or that you would like to choose the amount of storage you have at your disposal.
 
-**Note:** The Pi Zero is hard to come by right now. I've had decent luck finding them at my local Microcenter. [raspberrypi.org](https://www.raspberrypi.org/products/pi-zero/) lists other retailers who should have them in stock.
+**Note:** The Pi Zero is hard to come by right now. I've had decent luck finding them at my local [MicroCenter](http://www.microcenter.com/). The [RaspberryPi](https://www.raspberrypi.org/products/pi-zero/) website lists other retailers who should have them in stock.
 
 Of course, you don't have to purchase a Zero to have this setup. There are [plenty other flavors of the Raspberry Pi](https://www.raspberrypi.org/products/) that will run this combination of hardware and software.
 
