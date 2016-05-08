@@ -11,11 +11,11 @@ I don't have much time for gaming these days. Most of my time is dedicated to co
 
 Here are some of my favorites:
 
-* Pengo (arcade)
-* Tetris (NES, Atari/Tengen)
-* Burgertime
-* Lode Runner (arcade)
-* Robotron 2084 (arcade)
+* [Pengo](http://www.arcade-museum.com/game_detail.php?game_id=8989) (arcade)
+* [Tetris](https://en.wikipedia.org/wiki/Tetris_(Atari)) (NES, Atari/Tengen)
+* [BurgerTime](http://www.classicgaming.cc/classics/burgertime/)
+* [Lode Runner](https://en.wikipedia.org/wiki/Lode_Runner) (arcade)
+* [Robotron 2084](https://en.wikipedia.org/wiki/Robotron:_2084) (arcade)
 
 There is something to be said about the simplicity and engagement of older games. They may not tell a story like the epic titles of today, but you can pick them up, get some enjoyment out of them for awhile, and then get back to life.
 
@@ -52,9 +52,9 @@ Of course, you don't have to purchase a Zero to have this setup. There are [plen
 
 Here are my notes:
 
-![retro-pie splash screen](/assets/retro-pie-darkgrey.png)
-
 ## Setting Up EmulationStation/RetroPie on a PiZero
+
+![retro-pie splash screen](/assets/retro-pie-darkgrey.png)s
 
 ### Installation (on OS X)
 
@@ -190,7 +190,7 @@ hdmi_force_edid_audio=1
 ### Resources
 
 * [MAME ROMs on archive.org](https://archive.org/details/messmame)
-* [ROMs](http://www.emuparadise.me/Complete_ROM_Sets_(Full_Sets_in_One_File)_ROMs/List-All-Titles/37)
+* [Full romsets on EmuParadise](http://www.emuparadise.me/Complete_ROM_Sets_(Full_Sets_in_One_File)_ROMs/List-All-Titles/37)
 
 ## Wrap Up
 
