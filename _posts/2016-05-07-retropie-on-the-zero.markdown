@@ -7,9 +7,9 @@ tags: raspberry-pi linux hardware
 
 ![retro-pie](/assets/retro-pie.png)
 
-I don't have much time for gaming these days. Most of my time is dedicated to coding, or teaching, or teaching people to code. But, when I do have a free moment, I love firing up a classic game and racking up some points.
+I don't have much time for gaming these days. Most of my time is dedicated to coding, or teaching. When I do have a free moment, I love firing up a classic game and racking up some points.
 
-Here's a list of some of my favorites:
+Here are some of my favorites:
 
 * Pengo (arcade)
 * Tetris (NES, Atari/Tegen)
@@ -17,7 +17,7 @@ Here's a list of some of my favorites:
 * Lode Runner (arcade)
 * Robotron 2084 (arcade)
 
-There is something to be said about the simplicity and engagement of older games. They may not tell a story like the epic games of today, but you can pick them up, get some enjoyment out of them for awhile, and then get back to life.
+There is something to be said about the simplicity and engagement of older games. They may not tell a story like the epic titles of today, but you can pick them up, get some enjoyment out of them for awhile, and then get back to life.
 
 I recently threw together some hardware for the purpose of rediscovering (and discovering) some classics.
 
@@ -40,7 +40,7 @@ My PC from the late 90s didn't have this much power, and was about 500x times la
 
 <br />
 
-[Amazon link to most of these products](https://www.amazon.com/gp/registry/wishlist/A9W6UVBXLQZ4/ref=cm_wl_list_o_2?)
+[Amazon link to most of these products](https://www.amazon.com/gp/registry/wishlist/A9W6UVBXLQZ4/ref=cm_wl_list_o_2?), minus the Pi Zero and the Makerspot USB Hub.
 
 **Note:** The Pi Zero is hard to come by right now. I've had decent luck finding them at my local Microcenter. [raspberrypi.org](https://www.raspberrypi.org/products/pi-zero/) lists other retailers who should have them in stock.
 
@@ -52,9 +52,9 @@ Of course, you don't have to purchase a Zero to have this setup. There are [plen
 
 Here are my notes:
 
-## Setting Up EmulationStation/RetroPie on a PiZero
-
 ![retro-pie splash screen](/assets/retro-pie-darkgrey.png)
+
+## Setting Up EmulationStation/RetroPie on a PiZero
 
 ### Installation (on OS X)
 
@@ -80,6 +80,14 @@ $ sudo raspi-config
 * Select 'Enable'
 
 While here, set the Internationalization and Keyboard options, too.
+
+### Connect via ssh
+
+Typically, the default credentials are username: `pi`, password: `raspberry`.
+
+```
+$ ssh pi@retropie.local
+```
 
 ### Shutdown
 
