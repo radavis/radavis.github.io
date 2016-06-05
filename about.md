@@ -12,7 +12,8 @@ Here are a few projects I have built myself or contributed to. Some are useful. 
 
   * __Horizon__
   [(site)](http://learn.launchacademy.com/)
-  [(Open Source fork)](https://github.com/launchacademy/horizon)
+  [(open source fork)](https://github.com/launchacademy/horizon)
+  \- LaunchAcademy's learning platform
 
   * __DOOM High-Res Texture Project__
   [(github)](https://github.com/KuriKai/DHTP)
