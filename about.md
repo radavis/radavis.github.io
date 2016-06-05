@@ -8,7 +8,14 @@ Hi.
 
 I'm a developer, mentor, and instructor at [__LaunchAcademy__](https://www.launchacademy.com), in Boston, Massachusetts, USA. If you're in the area, drop by and say, "Hello".
 
-Here are a few projects I have built. Some are useful. Some are fun. Others are just ridiculous:
+Here are a few projects I have built myself or contributed to. Some are useful. Some are fun. Others are just ridiculous:
+
+  * __Horizon__
+  [(site)](http://learn.launchacademy.com/)
+  [(Open Source fork)](https://github.com/launchacademy/horizon)
+
+  * __DOOM High-Res Texture Project__
+  [(github)](https://github.com/KuriKai/DHTP)
 
   * __GitHub Battle__
   [(site)](https://radavis.github.io/github-battle)
