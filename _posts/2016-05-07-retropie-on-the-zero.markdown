@@ -103,7 +103,7 @@ $ sudo reboot
 
 ### Mass convert .7z files to .zip using atool
 
-The [RetroPie documentation](https://github.com/RetroPie/RetroPie-Setup/wiki/Supported-Systems) indicates the file formats supported by each emulator. `.zip` files are supported by the NES and SNES emulators. The Genesis/MegaDrive emulator **does not** support compressed filetypes.
+The [RetroPie documentation](https://github.com/RetroPie/RetroPie-Setup/wiki/Supported-Systems) indicates the file formats supported by each emulator. `.zip` files are supported by most, if not all, emulators.
 
 ```
 $ arepack -e --format=zip *.7z
@@ -115,6 +115,18 @@ $ arepack -e --format=zip *.7z
 
 ```
 $ ls *.7z | parallel -j+0 --eta '7z x {} >/dev/null'
+```
+
+### Mass compress files
+
+```
+$ find . -type f -exec zip '{}.zip' '{}' \;
+```
+
+faster
+
+```
+$ ls *.nes | parallel -j+0 --eta 'zip {}.zip {} >/dev/null'
 ```
 
 [Source](http://stackoverflow.com/a/17771205/2675670)
