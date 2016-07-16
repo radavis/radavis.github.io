@@ -3,6 +3,7 @@ layout: post
 title: "Make 'rails new' Do Your Bidding"
 date: 2015-06-22 18:00
 tags: ruby rails
+comments: true
 ---
 
 ## `.railsrc`

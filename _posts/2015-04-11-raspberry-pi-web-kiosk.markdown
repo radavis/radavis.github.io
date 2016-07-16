@@ -3,6 +3,7 @@ layout: post
 title: "Raspberry Pi Web Kiosk"
 date: 2015-04-11 12:44
 tags: raspberry-pi raspbian debian
+comments: true
 ---
 
 # Raspberry Pi Kiosk
@@ -69,4 +70,3 @@ $ sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
 
 * Right-click on page -> ReloadEvery -> Auto Enable New Tab
 * Set your homepage in the Preferences
-

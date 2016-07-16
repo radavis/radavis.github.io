@@ -3,6 +3,7 @@ layout: post
 title: "Fun with ffmpeg"
 date: 2015-02-03 12:00
 tags: ffmpeg command-line bash
+comments: true
 ---
 
 # Sample `ffmpeg` Commands
