@@ -3,6 +3,7 @@ layout: post
 title: "RetroPie on the Zero"
 date: 2016-05-07 19:00
 tags: raspberry-pi linux hardware
+comments: true
 ---
 
 ![retro-pie](/assets/retro-pie.jpg)

@@ -69,8 +69,8 @@ $ zip -r script.hello-world.zip script.hello-world/*
 Within the Kodi interface: `System > Settings > Add-ons > Install from zip file`.
 Then, navigate to the zip file you just created.
 
-To uninstall, naviage to `System > Settings > Add-ons > My add-ons > All >
-<addon-title> > Uninstall`.
+To uninstall, naviage to
+`System > Settings > Add-ons > My add-ons > All > <addon-title> > Uninstall`.
 
 If there is a more efficient "build process" for Kodi Add-ons, I would love to
 know about it.
