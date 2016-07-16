@@ -11,7 +11,7 @@ the material you can find in the
 [Kodi Wiki Manual](http://kodi.wiki/view/Main_Page).
 
 
-### Add-on Folder Structure
+# Add-on Folder Structure
 
 ```no-highlight
 <addon-type>[.<media-type>].<addon-title>
@@ -30,7 +30,7 @@ the material you can find in the
 ```
 
 
-### Add-on Types and Media Types
+# Add-on Types and Media Types
 
 * repository
 * plugin - adds functionality
@@ -45,7 +45,7 @@ the material you can find in the
 * resource
 
 
-### The "Hello World" Kodi Script Add-on
+# The "Hello World" Kodi Script Add-on
 
 [[Source](http://kodi.wiki/view/HOW-TO:HelloWorld_addon)]
 
@@ -76,7 +76,7 @@ If there is a more efficient "build process" for Kodi Add-ons, I would love to
 know about it.
 
 
-### JSON-RPC
+# JSON-RPC
 
 The [JSON-RPC Specification](http://www.jsonrpc.org/specification) allows a
 client to request a server to run a method/function/procedure (eg- turn up the
@@ -88,7 +88,7 @@ defined by the API.
 [JSON-RPC API Examples](http://kodi.wiki/view/JSON-RPC_API/Examples)
 
 
-### Resources
+# Resources
 
 * [Kodi Add-on Development](http://kodi.wiki/view/Add-on_development)
 * [Kodi Add-on Structure](http://kodi.wiki/view/Add-on_structure)
