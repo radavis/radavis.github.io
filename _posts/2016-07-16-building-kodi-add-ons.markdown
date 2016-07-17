@@ -56,7 +56,6 @@ The easiest way to get started is to clone down the HelloWorld repository, open
 it up in your favorite text editor, and have a look around.
 
 ```no-highlight
-$ cd ~/code
 $ git clone git@github.com:zag2me/script.hello.world.git
 $ atom script.hello.world
 ```
@@ -74,11 +73,9 @@ Then, navigate to the zip file you just created.
 
 Run your script: `Programs > Hello World`.
 
-If there is a more efficient "build process" for Kodi Add-ons, I would love to
-know about it.
-
-*Note*: I'm having issues with this process. I'm getting "Failed to install
-Add-on from zip file" messages, even after I uninstall the add-on.
+**Note**: After you make changes to your add-on, you will need to restart Kodi,
+_then_ install your add-on. Otherwise, you will get a "Failed to install Add-on
+from zip file" message. At least, this has been my experience.
 
 
 # The `userdata` Folder and Log File
