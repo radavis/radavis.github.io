@@ -60,22 +60,17 @@ $ git clone git@github.com:zag2me/script.hello.world.git
 $ atom script.hello.world
 ```
 
-When you are ready to try out your changes, zip up the folder (Kodi can easily
-install add-ons this way), and load it into your locally running version of
-Kodi.
+Create a symlink to your add-on.
 
 ```no-highlight
-$ zip -r script.hello.world.zip script.hello.world/*
+$ # ln -s source destination
+$ ln -s ~/code/script.hello.world ~/Library/Application\ Support/Kodi/addons/script.hello.world
 ```
 
-Within the Kodi interface: `System > Settings > Add-ons > Install from zip file`.
-Then, navigate to the zip file you just created.
+**Note**: The destination folder will depend on your operating system.
 
-Run your script: `Programs > Hello World`.
-
-**Note**: After you make changes to your add-on, you will need to restart Kodi,
-_then_ install your add-on. Otherwise, you will get a "Failed to install Add-on
-from zip file" message. At least, this has been my experience.
+Now, when you make changes to your code, they should be immediately available in
+the Kodi application.
 
 
 # The `userdata` Folder and Log File
@@ -110,6 +105,7 @@ Keep an eye on the logfile while making changes.
 ```no-highlight
 $ tail -f ~/Library/Logs/kodi.log
 ```
+
 
 # JSON-RPC
 
