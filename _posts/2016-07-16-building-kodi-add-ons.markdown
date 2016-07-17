@@ -10,6 +10,9 @@ These are my notes on building a Kodi Add-on. This is mostly a summarization of
 the material you can find in the
 [Kodi Wiki Manual](http://kodi.wiki/view/Main_Page).
 
+These notes are focused on the [v16.0 Jarvis](http://kodi.wiki/view/releases)
+release.
+
 
 # Add-on Folder Structure
 
@@ -45,7 +48,7 @@ the material you can find in the
 * resource
 
 
-# The "Hello World" Kodi Script Add-on
+# The "Hello World" Script
 
 [[Source](http://kodi.wiki/view/HOW-TO:HelloWorld_addon)]
 
@@ -54,8 +57,8 @@ it up in your favorite text editor, and have a look around.
 
 ```no-highlight
 $ cd ~/code
-$ git clone git@github.com:zag2me/script.hello.world.git script.hello-world
-$ atom script.hello-world
+$ git clone git@github.com:zag2me/script.hello.world.git
+$ atom script.hello.world
 ```
 
 When you are ready to try out your changes, zip up the folder (Kodi can easily
@@ -63,18 +66,53 @@ install add-ons this way), and load it into your locally running version of
 Kodi.
 
 ```no-highlight
-$ zip -r script.hello-world.zip script.hello-world/*
+$ zip -r script.hello.world.zip script.hello.world/*
 ```
 
 Within the Kodi interface: `System > Settings > Add-ons > Install from zip file`.
 Then, navigate to the zip file you just created.
 
-To uninstall, naviage to
-`System > Settings > Add-ons > My add-ons > All > <addon-title> > Uninstall`.
+Run your script: `Programs > Hello World`.
 
 If there is a more efficient "build process" for Kodi Add-ons, I would love to
 know about it.
 
+*Note*: I'm having issues with this process. I'm getting "Failed to install
+Add-on from zip file" messages, even after I uninstall the add-on.
+
+
+# The `userdata` Folder and Log File
+
+> The userdata folder is where all of your settings and customizations are
+> stored.
+
+[[Source](http://kodi.wiki/view/userdata)]
+
+| Operating System | Location                                      |
+| ---------------- | --------------------------------------------- |
+| Mac OS X         | `~/Library/Application Support/Kodi/userdata` |
+| Linux            | `~/.kodi/userdata/`                           |
+| Windows          | `%APPDATA%\kodi\userdata`                     |
+
+The docs say that the logfile is located one level up from the `userdata`
+folder. I found mine some place slightly different:
+
+```no-highlight
+$ cd ~
+$ find . -name "kodi.log"
+./Library/Logs/kodi.log
+```
+
+Navigate to `Settings > System > Logging` and enable the following:
+  * Enable event logging
+    - Enable notification event logging
+  * Enable component-specific event logging
+
+Keep an eye on the logfile while making changes.
+
+```no-highlight
+$ tail -f ~/Library/Logs/kodi.log
+```
 
 # JSON-RPC
 
