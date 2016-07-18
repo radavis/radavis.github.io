@@ -13,7 +13,7 @@ install it.
 
 Take note of the username and password it generates for you.
 
-![MySQL Username and Password](/images/mysql-password.png)
+![MySQL Username and Password](/assets/images/mysql-password.png)
 
 
 # Add it to the PATH
@@ -50,7 +50,7 @@ $ chmod 0600 ~/.my.cnf
 
 Start up MySQL Server from the System Preferences menu.
 
-![MySQL System Preferences](/images/mysql-server.png)
+![MySQL System Preferences](/assets/images/mysql-server.png)
 
 
 Now, you should be able to get to the MySQL console by typing `mysql`!
