@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Started with MySQL on Mac OS X"
-date: 2016-07-16 15:30
+date: 2016-07-18 13:00
 tags: mysql
 ---
 
