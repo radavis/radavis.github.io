@@ -96,6 +96,7 @@ $ find . -name "kodi.log"
 ```
 
 Navigate to `Settings > System > Logging` and enable the following:
+
   * Enable event logging
     - Enable notification event logging
   * Enable component-specific event logging
