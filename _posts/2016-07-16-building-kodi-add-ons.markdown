@@ -39,7 +39,7 @@ release.
 * plugin - adds functionality
   - audio
   - video
-  - picture
+  - image
   - weather
 * script - a runnable program
   - module - provides support for other add-ons
@@ -99,6 +99,7 @@ Navigate to `Settings > System > Logging` and enable the following:
 
   * Enable event logging
     - Enable notification event logging
+  * Enable debug logging
   * Enable component-specific event logging
 
 Keep an eye on the logfile while making changes.
@@ -120,6 +121,13 @@ defined by the API.
 [JSON-RPC API Examples](http://kodi.wiki/view/JSON-RPC_API/Examples)
 
 
+# Examples
+
+Get some inspiration by seeing what's out there. Example Google searches:
+  * `kodi "plugin.image" site:github.com`
+  * `kodi "plugin.video" site:github.com`
+  
+
 # Resources
 
 * [Kodi Add-on Development](http://kodi.wiki/view/Add-on_development)
@@ -128,3 +136,4 @@ defined by the API.
 * [Kodi Built-in Functions](http://kodi.wiki/view/List_of_Built_In_Functions)
 * [Kodi Community Forum](http://forum.kodi.tv/index.php)
 * [Kodi Database](http://kodi.wiki/view/The_Kodi_Database)
+* [Debug Kodi Python Scripts with WinPDB](http://kodi.wiki/view/HOW-TO:Debug_python_scripts_with_WinPDB)
