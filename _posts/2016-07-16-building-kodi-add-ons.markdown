@@ -35,17 +35,17 @@ release.
 
 # Add-on Types and Media Types
 
-* repository
-* plugin - adds functionality
-  - audio
-  - video
-  - image
-  - weather
-* script - a runnable program
-  - module - provides support for other add-ons
-  - service - runs on login or startup
-* skin
-* resource
+  * repository
+  * plugin - adds functionality
+    - audio
+    - video
+    - image
+    - weather
+  * script - a runnable program
+    - module - provides support for other add-ons
+    - service - runs on login or startup
+  * skin
+  * resource
 
 
 # The "Hello World" Script
@@ -124,16 +124,17 @@ defined by the API.
 # Examples
 
 Get some inspiration by seeing what's out there. Example Google searches:
+
   * `kodi "plugin.image" site:github.com`
   * `kodi "plugin.video" site:github.com`
-  
+
 
 # Resources
 
-* [Kodi Add-on Development](http://kodi.wiki/view/Add-on_development)
-* [Kodi Add-on Structure](http://kodi.wiki/view/Add-on_structure)
-* [Kodi Addon.xml File](http://kodi.wiki/view/Addon.xml)
-* [Kodi Built-in Functions](http://kodi.wiki/view/List_of_Built_In_Functions)
-* [Kodi Community Forum](http://forum.kodi.tv/index.php)
-* [Kodi Database](http://kodi.wiki/view/The_Kodi_Database)
-* [Debug Kodi Python Scripts with WinPDB](http://kodi.wiki/view/HOW-TO:Debug_python_scripts_with_WinPDB)
+  * [Kodi Add-on Development](http://kodi.wiki/view/Add-on_development)
+  * [Kodi Add-on Structure](http://kodi.wiki/view/Add-on_structure)
+  * [Kodi Addon.xml File](http://kodi.wiki/view/Addon.xml)
+  * [Kodi Built-in Functions](http://kodi.wiki/view/List_of_Built_In_Functions)
+  * [Kodi Community Forum](http://forum.kodi.tv/index.php)
+  * [Kodi Database](http://kodi.wiki/view/The_Kodi_Database)
+  * [Debug Kodi Python Scripts with WinPDB](http://kodi.wiki/view/HOW-TO:Debug_python_scripts_with_WinPDB)
