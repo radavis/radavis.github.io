@@ -27,10 +27,16 @@ export PATH="$PATH:/usr/local/mysql/bin/"
 ```
 
 
-# Forget that password
+# Change the password, then forget it.
 
-You're not going to remember that password. Throw it into a `.my.cnf` file in
-your home folder so you don't have to type it in.
+```no-highlight
+$ mysql
+mysql> SET PASSWORD = PASSWORD('your_new_password');
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+```
+
+Create a `.my.cnf` file in your home folder so you don't have to authenticate
+when you are in your local dev environment.
 
 ```no-highlight
 # ~/.my.cnf
