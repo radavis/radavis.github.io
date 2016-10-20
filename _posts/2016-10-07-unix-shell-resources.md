@@ -10,12 +10,12 @@ I count **shell scripting** and **SQL** as two skills that will never go out of 
 Here are some of what I consider to be the best resources for learning the magical spells you can cast at the command prompt.
 
 
-### UNIX for the Beginning Mage - Joe Topjian
+# UNIX for the Beginning Mage - Joe Topjian
 
 [UFBM](http://unixmages.com/ufbm.pdf) is focused on teaching you how to effectively navigate the UNIX Shell.
 
 
-### Up and Running with Bash Scripting - Scott Simpson
+# Up and Running with Bash Scripting - Scott Simpson
 
 This
 [course on Linda.com](https://www.lynda.com/Bash-tutorials/Up-Running-Bash-Scripting/142989-2.html)
@@ -24,18 +24,18 @@ This
 Linda.com access is free to [Boston Public Libray card holders](https://www.bpl.org/kbl/2015/12/08/lynda-com-is-live).
 
 
-### UNIX for Mac OS X Users - Kevin Skoglund
+# UNIX for Mac OS X Users - Kevin Skoglund
 
 Another [course on Linda.com](https://www.lynda.com/Mac-OS-X-10-6-tutorials/Unix-for-Mac-OS-X-Users/78546-2.html)
 
 
-### Other Stuff
+# Other Stuff
 
 * [Unix as IDE](https://sanctum.geek.nz/arabesque/series/unix-as-ide/)
 * [Awesome Bash](https://github.com/awesome-lists/awesome-bash)
 * [Awesome Shell](https://github.com/alebcay/awesome-shell)
 
-#### Syntax Highlighting in nano
+# Syntax Highlighting in nano
 
 ```no-highlight
 $ brew tap homebrew/dupes
@@ -44,7 +44,7 @@ $ brew install nano
 
 Add `include /usr/local/share/nano/*.nanorc` to `~/.nanorc`.
 
-#### Update Bash
+# Update Bash
 
 ```no-highlight
 $ brew install bash
@@ -52,7 +52,7 @@ $ brew install bash
 
 [Bash Homepage](http://tiswww.case.edu/php/chet/bash/bashtop.html)
 
-#### Basic Commands
+# Basic Commands
 
 ```no-highlight
 pwd
@@ -70,7 +70,7 @@ head filename
 tail filename
 ```
 
-##### Expansions
+# Expansions
 
 ```no-highlight
 cd ~
@@ -79,7 +79,7 @@ touch {file_one,file_two,file_three,file_four}
 echo {01..100}
 ```
 
-##### Pipes and Redirection
+# Pipes and Redirection
 
 `|` - pipe the output of one command to the input of another
 `>` - redirect output
@@ -96,7 +96,7 @@ sed
 ping -c 1 example.com | grep 'bytes from' | cut -d = -f 4
 ```
 
-##### Create Bash Scripts
+# Create Bash Scripts
 
 ```no-highlight
 #!/bin/bash
@@ -108,8 +108,7 @@ ls
 chmod +x my.sh
 ```
 
-##### Variables
-
+# Variables
 
 ```no-highlight
 #!/bin/bash
@@ -136,7 +135,7 @@ echo $0  # name of the script
 [Bash Variables](http://tldp.org/LDP/abs/html/internalvariables.html)
 
 
-##### Command Substitution
+# Command Substitution
 
 ```no-highlight
 #!/bin/bash
@@ -148,7 +147,7 @@ echo "The response time was $response_time"
 ```
 
 
-##### Strings
+# Strings
 
 ```no-highlight
 a="hello"
@@ -170,7 +169,7 @@ echo ${fruit/c*/durian}
 ```
 
 
-##### Math in Bash
+# Math in Bash
 
 Wrap expressions in double parenthesis: `(( 5 + 3 ))`
 Variable assignment: `result=$(( 5 + 3 ))`
@@ -193,7 +192,7 @@ Variable assignment: `result=$(( 5 + 3 ))`
 $one_third=$(echo 1/3 | bc -l)
 ```
 
-##### Comparison Operations for Strings
+# Comparison Operations for Strings
 
 Use double square brackets when making comparisons: `[[ $x < $y ]]`
 
@@ -218,7 +217,7 @@ echo $?  # return value
 ```
 
 
-##### Comparison Operations for Numbers
+# Comparison Operations for Numbers
 
 | Operation                | Operator   |
 | ------------------------ | ---------- |
@@ -230,7 +229,7 @@ echo $?  # return value
 | Not Equal                | $x -ne $y  |
 
 
-##### Logic Operations
+# Logic Operations
 
 | Operation   | Operator |
 | ----------- | -------- |
@@ -239,7 +238,7 @@ echo $?  # return value
 | Logical NOT | ! $a     |
 
 
-##### Conditional Statements
+# Conditional Statements
 
 ```no-highlight
 if [[ -a ~/.vars ]]; then
@@ -247,7 +246,7 @@ if [[ -a ~/.vars ]]; then
 fi
 ```
 
-##### Looping and Arrays
+# Looping and Arrays
 
 ```no-highlight
 RubyVersions=( '2.3.1' '2.2.5' '2.0.0-p648' );
@@ -256,10 +255,9 @@ for version in "${RubyVersions[@]}"; do
 done
 ```
 
-##### Functions
+# Functions
 
 ```no-highlight
-
 sms() {
   number=$1
   shift
