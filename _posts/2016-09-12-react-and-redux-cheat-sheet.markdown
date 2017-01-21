@@ -120,6 +120,10 @@ node_modules/
 
 ### Redux Notes
 
+> The whole state of your app is store in an object tree inside a single store.
+> Change the state tree by emitting an **action** (an object which describes what happened).
+> Reducers describe how to transform the state tree.
+
 The Three Commandments of Redux
 
 1. There is a single source of truth for the application: **the store**.
