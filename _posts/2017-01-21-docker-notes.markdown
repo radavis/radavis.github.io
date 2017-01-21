@@ -5,7 +5,7 @@ date: 2017-01-21 15:00
 tags: docker
 ---
 
-#### References
+# References
 
 * [Docker Toolbox Overview](https://docs.docker.com/toolbox/overview/)
 * [Docker Getting Started Tutorial](https://docs.docker.com/engine/getstarted/)
@@ -13,7 +13,7 @@ tags: docker
 * [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
 * [Dockerize PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/)
 
-#### Verify Installation
+# Verify Installation
 
 This command:
 
@@ -27,19 +27,19 @@ $ docker run hello-world
 > An _image_ is a filesystem and parameters to use at runtime. (no state)
 > A _container_ is a running instance of an image.
 
-#### List All Containers
+# List All Containers
 
 ```bash
 $  docker ps -a
 ```
 
-#### List All Images
+# List All Images
 
 ```bash
 $ docker images
 ```
 
-#### Run a Container, with Arguments
+# Run a Container, with Arguments
 
 ```bash
 $ docker run docker/whalesay cowsay boo
@@ -65,7 +65,7 @@ RUN ln -sv /usr/share/cowsay/cows/docker.cow /usr/share/cowsay/cows/default.cow
 CMD ["cowsay"]
 ```
 
-#### Build an Images
+# Build an Image
 
 Run the following command from a folder where a `Dockerfile` exists.
 
@@ -73,7 +73,7 @@ Run the following command from a folder where a `Dockerfile` exists.
 $ docker build -t shykes/myapp .
 ```
 
-#### Dockerfile
+# Dockerfile
 
 [Dockefile Examples](https://docs.docker.com/engine/reference/builder/#/dockerfile-examples)
 
@@ -98,7 +98,7 @@ ARG <name>[=<default value>]
 
 > The **LABEL** instruction adds metadata to an image
 
-> The **WORKDIR** instruction sets the working directory for any RUN, CMD, ENTRYPOINT, COPY and ADD instructions that follow it in the Dockerfile.
+> The **WORKDIR** instruction sets the working directory for any **RUN**, **CMD**, **ENTRYPOINT**, **COPY** and **ADD** instructions that follow it in the `Dockerfile`.
 
 > The **ADD** instruction copies new files, directories or remote file URLs from <src> and adds them to the filesystem of the image at the path <dest>.
 
