@@ -12,6 +12,7 @@ tags: docker
 * [Docker Hub](https://hub.docker.com/)
 * [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
 * [Dockerize PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/)
+* [Docker Self-Paced Online Training](https://training.docker.com/category/self-paced-online)
 
 # Verify Installation
 
@@ -63,6 +64,57 @@ COPY docker.cow /usr/share/cowsay/cows/
 RUN ln -sv /usr/share/cowsay/cows/docker.cow /usr/share/cowsay/cows/default.cow
 
 CMD ["cowsay"]
+```
+
+### Common Commands
+
+List running containers.
+
+```no-highlight
+$ docker ps
+```
+
+View details of an image.
+
+```no-highlight
+$ docker inspect image-name
+```
+
+Check if a specific container is running.
+
+```no-highlight
+$ docker inspect --format "{{.State.Running}}" container-name
+```
+
+View Logs
+
+```no-highlight
+$ docker logs container-name
+$ docker logs -f container-name
+```
+
+View ports
+
+```no-highlight
+$ docker port container-name
+```
+
+Restart container
+
+```no-highlight
+$ docker restart container-name
+```
+
+Stop all running containers
+
+```no-highlight
+$ docker stop $(docker ps -a -q)
+```
+
+Remove all containers
+
+```no-highlight
+$ docker rm $(docker ps -a -q)
 ```
 
 # Build an Image
