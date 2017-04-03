@@ -25,7 +25,8 @@ This command:
 $ docker run hello-world
 ```
 
-> An _image_ is a filesystem and parameters to use at runtime. (no state)
+> An _image_ is a filesystem and parameters to use at runtime.
+
 > A _container_ is a running instance of an image.
 
 # List All Containers

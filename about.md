@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi.
 
-I'm a developer, mentor, and instructor at [__LaunchAcademy__](https://www.launchacademy.com), in Boston, Massachusetts, USA. If you're in the area, drop by and say, "Hello".
+I'm a developer in Boston, Massachusetts, USA. 
 
 Here are a few projects I have built myself or contributed to. Some are useful. Some are fun. Others are just ridiculous:
 

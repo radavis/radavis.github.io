@@ -65,6 +65,12 @@ file 'clip3.mov'
 $ ffmpeg -f concat -i files.txt -c copy output.mov
 ```
 
+## Replacing Audio
+
+```
+$ ffmpeg -i OriginalVideo.mp4 -i NewAudio.wav -acodec copy -vcodec copy -map 0:v -map 1:a Output.mp4
+```
+
 ## References
 * [FFmpeg and H.264 Encoding Guide](https://trac.ffmpeg.org/wiki/Encode/H.264)
 * [How can I convert a 1080p wmv video to a 720p video?](http://askubuntu.com/questions/99643/how-can-i-convert-a-1080p-wmv-video-to-a-720p-video)
