@@ -47,17 +47,18 @@ people up to
 Because HTTPS uses end-to-end encryption to keep the messages passed between the
 client (your web browser) and the server a secret, a Captive Portal enabled device
 is unable to do its thing. What happens when there are no more insecure websites
-on the web? With the movement towards a more secure web, the number of non-secure
-websites is moving towards zero.
+on the web? With the movement towards
+[a more secure web](https://letsencrypt.org/2014/11/18/announcing-lets-encrypt.html),
+the number of non-secure websites is moving towards zero.
 
 Finding an alternative to Captive Portal becomes crucial.
 
 ## Where do we go from here?
 
-RFC7710 (released December 2015) introduces a potential solution for allowing
-DCHP or Router Advertisements to inform clients they are behind a captive portal.
-However, this specification has yet to be adopted by manufacturers of networking
-equipment.
+[RFC7710](https://tools.ietf.org/html/rfc7710) (released December 2015)
+introduces a potential solution for allowing DCHP or Router Advertisements to
+inform clients they are behind a captive portal. However, this specification has
+yet to be adopted by manufacturers of networking equipment.
 
 The idea of Captive Portal seems to be at an end.
 
@@ -71,11 +72,11 @@ and [LTE](https://en.wikipedia.org/wiki/LTE_(telecommunication))
 cellular networks, asking someone to pay for WiFi when they can easily access
 the Internet via their phone seems silly. People tend to follow the path of least
 resistance when it comes to getting what they want, which means tethering their
-phone to their laptop, or going somewhere else. As a business, you would be
-more competitive if you simply thought of Wireless Internet as a necessity to
-your customers, like water or clean air, and provided it freely via a guest
-network that has
-[content filtering](https://support.opendns.com/hc/en-us/articles/227988047-Web-Content-Filtering-and-Security) and bandwidth restrictions.
+phone to their laptop, or going somewhere else. As a business, you would be more
+competitive if you simply thought of Wireless Internet as a necessity to your
+customers, like water or clean air, and provided it freely via a guest network that has
+[content filtering](https://support.opendns.com/hc/en-us/articles/227988047-Web-Content-Filtering-and-Security)
+and bandwidth restrictions.
 
 Do you want to lock-down your wireless network and ensure that only authenticated
 users have access? Then, deploying a Wireless network that utilizes the latest
