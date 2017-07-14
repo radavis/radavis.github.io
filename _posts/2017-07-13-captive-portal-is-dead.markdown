@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Captive Portal is Dead. Here's why."
-date: 2017-07-13 09:00
+title: "Paywalls are dead. Captive Portal is Dead. HTTPS killed 'em. Here's why."
+date: 2017-07-13 21:00
 tags: networking
 ---
 
@@ -14,7 +14,8 @@ Usually, there are physical advertisements directing you to connect your phone o
 laptop to a particular WiFi Access Point. Once connected, you might try to visit
 your favorite website. If the site is secure, <https://gmail.com> for example,
 you will see a "blank page". If it is insecure (<http://example.com>, note the lack of
-an 's'), your web browser will be redirected to a paywall.
+an 's'), your web browser will be redirected to
+a [Paywall](https://en.wikipedia.org/wiki/Paywall).
 
 This is **Captive Portal** in action. The idea is to restrict what the user can do
 before authentication. It uses a mechanism known as a **Man in the Middle** attack
@@ -29,27 +30,29 @@ because your browser was protecting you from potential malicious behavior.
 ## What's so bad about Captive Portal?
 
 **The user experience (UX) of Captive Portal is flawed from the start**. As a user,
-if I ask my browser for the news (e.g.- [CNN.com](http://cnn.com)), and get anything
-else but the news in return, **that is not OK**. I'm ready to leave your network,
-and your establishment, for another.
+if I ask my web browser for the news (e.g.- <http://cnn.com>), and get anything
+else but the news in return, that is **not OK**. I'm ready to leave your network,
+leave your establishment, boycott your brand, and tell everyone I know to avoid your
+business.
 
 ![MITM](/assets/images/mitm.jpg)
 
 The initial web request on a Captive Portal-enabled network will trigger a response
 _only_ when a user attempts to visit a non-HTTPS website. The user must transmit
 a HTTP request in clear-text over the network for a Captive Portal-enabled router
-able to hijack the user's request, and serve them different information. This
+to hijack the user's request, and serve them different information. This
 **highly insecure** means of restricting user access opens people up to
 [all](http://http.rip/)
 [sorts](https://www.troyhunt.com/ssl-is-not-about-encryption/) of
 [vulnerabilities](https://arstechnica.com/tech-policy/2013/04/how-a-banner-ad-for-hs-ok/).
 
 Because HTTPS uses end-to-end encryption to keep the messages passed between your
-web browser and the web server a secret, a Captive Portal network is unable to
-do its thing. What happens when there are no more insecure websites
-on the web? With the movement towards
+web browser and the web server a secret (the <https://gmail.com> example),
+a Captive Portal network is unable to do its thing. What happens when there are
+no more plain old HTTP websites on the web to initiate Captive Portal's MITM attack?
+With the movement towards
 [a more secure web](https://letsencrypt.org/2014/11/18/announcing-lets-encrypt.html),
-and search engines such as Google giving
+and websites such as Google giving
 [HTTPS sites a higher ranking](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html)
 in search results, the number of non-secure websites is accelerating towards zero.
 
@@ -63,19 +66,22 @@ With this rate of change, finding an alternative to Captive Portal becomes cruci
 
 [RFC7710](https://tools.ietf.org/html/rfc7710) (released December 2015)
 introduces a potential solution for allowing DCHP or Router Advertisements to
-inform clients they are behind a captive portal. For the uninitiated, RFCs are
-the documents on which the open-standards of the web are built upon. They
-require the adoption of hardware and software companies to become canon.
-As of current, RFC7710 has yet to be adopted by manufacturers of networking
-equipment.
+inform clients they are behind a captive portal. For the uninitiated, RFCs
+document the open-standards the web is built upon. They require the adoption of
+hardware and software companies to become canon. As of current (July 2017),
+RFC7710 has yet to be implemented by manufacturers of networking equipment.
 
-The idea of a Captive Portal network seems to be at an end.
+The idea of a Captive Portal network seems to be a poor marketing tactic at its
+end-of-life.
 
 ## Where do we go from here?
 
-This spurs the question, what do we do now? As a business, you should
-evaluate your reasons for implementing Captive Portal in the first place, and
-formulate a plan to move away from it.
+As a business, you should evaluate your reasons for implementing Captive Portal
+in the first place, and formulate a plan to move away from it.
+
+**Do you want to direct your users to your brand or website?** Instead of Captive
+Portal advertisements, use physical ones. People are already using your business
+if they are on your WiFi. Give them an incentive to visit your online presence.
 
 **Do you want to require visitors to pay by the hour for Wireless Internet access?**
 In the era of [4G](https://en.wikipedia.org/wiki/4G)
@@ -85,7 +91,7 @@ People tend to follow the path of least resistance when it comes to getting what
 they want, which means tethering their phone to their laptop, or going somewhere
 else. As a business, you would be more competitive if you simply thought of
 Wireless Internet as a necessity to your customers, like clean air and water, and
-provided it freely via guest network that has WPA2 encryption
+provided it freely via a guest network that uses WPA2 encryption
 [(not WEP or WPA!)](https://www.howtogeek.com/167783/htg-explains-the-difference-between-wep-wpa-and-wpa2-wireless-encryption-and-why-it-matters/),
 [content filtering](https://support.opendns.com/hc/en-us/articles/227988047-Web-Content-Filtering-and-Security)
 and bandwidth restrictions.
@@ -97,12 +103,12 @@ only authorized users are allow to access the network, and no one else.
 
 ## Summary
 
-There are business benefits to offering fast, free, secure WiFi. You can count
-companies who have realized this
+There are business benefits to offering fast, free, secure WiFi. Feel free to
+search for these articles, yourself.
 
 The bottom line is, if you care about the users of your network, if you want to
 keep their data secure and computing devices free of malware, and keep them coming
-back, use of a Captive Portal on your network should be eliminated.
+back, use of a Captive Portal network should be eliminated.
 
 The era of insecure data transmission is over. The hijacking of web requests through
 MITM attacks and Captive Portal is no longer an acceptable practice. HTTPS is the
