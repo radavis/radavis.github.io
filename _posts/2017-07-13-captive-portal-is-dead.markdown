@@ -29,11 +29,13 @@ because your browser was protecting you from potential malicious behavior.
 
 ## What's so bad about Captive Portal?
 
-**The user experience (UX) of Captive Portal is flawed from the start**. As a user,
+**The user experience (UX) of Captive Portal is flawed**. As a user,
 if I ask my web browser for the news (e.g.- <http://cnn.com>), and get anything
-else but the news in return, that is **not OK**. I'm ready to leave your network,
-leave your establishment, boycott your brand, and tell everyone I know to avoid your
-business.
+else but the news in return, that is **not OK**. I am being served alternative
+facts.
+
+I'm ready to leave your network, leave your establishment, boycott your brand,
+and tell everyone I know to avoid your business.
 
 ![MITM](/assets/images/mitm.jpg)
 
