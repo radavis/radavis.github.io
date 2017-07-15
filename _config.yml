@@ -16,8 +16,7 @@ twitter_username: theebeastmaster
 github_username:  radavis
 linkedin_username: davisra
 paginate: 5
-# Build settings
+paginate_path: "/pages/:num"
 markdown: kramdown
-
 gems:
   - jekyll-sitemap
