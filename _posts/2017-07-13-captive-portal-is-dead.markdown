@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paywalls are dead. Captive Portal is Dead. HTTPS killed 'em. Here's why."
+title: "WiFi paywalls are dead. Captive Portal is dead. HTTPS killed 'em. Here's why."
 date: 2017-07-13 21:00
 tags: networking
 ---
@@ -60,7 +60,8 @@ in search results, the number of non-secure websites is accelerating towards zer
 
 ![Let's Encrypt 2016 Statistics](/assets/images/2016-https-cert-stats.png)
 
-By EOY 2016, Let's Encrypt was supporting over 20M active HTTPS certificates.
+By EOY 2016, Let's Encrypt was supporting over 20M active SSL certificates (the
+means by which a server can send an receive secure HTTP messages).
 
 With this rate of change, finding an alternative to Captive Portal becomes crucial.
 
@@ -73,8 +74,8 @@ document the open-standards the web is built upon. They require the adoption of
 hardware and software companies to become canon. As of current (July 2017),
 RFC7710 has yet to be implemented by manufacturers of networking equipment.
 
-The idea of a Captive Portal network seems to be a poor marketing tactic at its
-end-of-life.
+**The idea of a Captive Portal network seems to be a poor marketing tactic at its
+end-of-life.**
 
 ## Where do we go from here?
 
@@ -95,7 +96,7 @@ else. As a business, you would be more competitive if you simply thought of
 Wireless Internet as a necessity to your customers, like clean air and water, and
 provided it freely via a guest network that uses WPA2 encryption
 [(not WEP or WPA!)](https://www.howtogeek.com/167783/htg-explains-the-difference-between-wep-wpa-and-wpa2-wireless-encryption-and-why-it-matters/),
-[content filtering](https://support.opendns.com/hc/en-us/articles/227988047-Web-Content-Filtering-and-Security)
+[content filtering](https://support.opendns.com/hc/en-us/articles/227988047-Web-Content-Filtering-and-Security),
 and bandwidth restrictions.
 
 **Do you want to lock-down your wireless network and ensure that only authenticated
@@ -105,12 +106,13 @@ only authorized users are allow to access the network, and no one else.
 
 ## Summary
 
-There are business benefits to offering fast, free, secure WiFi. Feel free to
+There are business benefits to offering fast, free, and secure WiFi. Feel free to
 search for these articles, yourself.
 
 The bottom line is, if you care about the users of your network, if you want to
-keep their data secure and computing devices free of malware, and keep them coming
-back, use of a Captive Portal network should be eliminated.
+keep your customer's data secure and their computing devices free of malware, and
+you want to keep them coming back, **the use of a Captive Portal network should be
+eliminated**.
 
 The era of insecure data transmission is over. The hijacking of web requests through
 MITM attacks and Captive Portal is no longer an acceptable practice. HTTPS is the
