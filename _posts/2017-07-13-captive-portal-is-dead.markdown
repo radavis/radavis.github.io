@@ -13,14 +13,14 @@ Have you ever visited an airport or coffee shop that offers pay-by-the-minute Wi
 Usually, there are physical advertisements directing you to connect your phone or
 laptop to a particular WiFi Access Point. Once connected, you might try to visit
 your favorite website. If the site is secure, <https://gmail.com> for example,
-you will see a "blank page". If it is insecure (<http://example.com>, note the lack of
-an 's'), your web browser will be redirected to
-a [Paywall](https://en.wikipedia.org/wiki/Paywall).
+you will see a "blank page". If it is insecure (<http://example.com>, note the
+lack of an 's'), your web browser will be redirected to a WiFi
+[Paywall](https://en.wikipedia.org/wiki/Paywall).
 
 This is **Captive Portal** in action. The idea is to restrict what the user can do
 before authentication. It uses a mechanism known as a **Man in the Middle** attack
 (MITM) to hijack your web browser's request for your favorite website, and instead,
-serve you a different webpage (a paywall).
+serve you a different webpage.
 
 ![Google Chrome: webpage not available](/assets/images/webpage-not-available.jpg)
 
@@ -31,13 +31,21 @@ because your browser was protecting you from potential malicious behavior.
 
 **The user experience (UX) of Captive Portal is flawed**. As a user,
 if I ask my web browser for the news (e.g.- <http://cnn.com>), and get anything
-else but the news in return, that is **not OK**. I am being served alternative
-facts.
+else besides the news in return, that is _not_ acceptable.
 
-I'm ready to leave your network, leave your establishment, boycott your brand,
-and tell everyone I know to avoid your business.
+You have altered the contract of the Hypertext Transfer Protocol (HTTP) to
+perform a task it should never do. I asked the server for a document. Instead, I
+have been served alternative facts.
+
+As a web technologist, this abuse of HTTP infuriates me. I'm ready to leave your
+network, leave your establishment, boycott your brand, and tell everyone I know
+to avoid your business.
+
+## How does Captive Portal work?
 
 ![MITM](/assets/images/mitm.jpg)
+
+<!-- Perhaps, expand upon HTTP, here. "To understand Captive Portal, we must first understand HTTP." -->
 
 The initial web request on a Captive Portal-enabled network will trigger a response
 _only_ when a user attempts to visit a non-HTTPS website. The user must transmit
@@ -47,6 +55,8 @@ to hijack the user's request, and serve them different information. This
 [all](http://http.rip/)
 [sorts](https://www.troyhunt.com/ssl-is-not-about-encryption/) of
 [vulnerabilities](https://arstechnica.com/tech-policy/2013/04/how-a-banner-ad-for-hs-ok/).
+
+## HTTPS: The nail in the coffin for HTTP abusers
 
 Because HTTPS uses end-to-end encryption to keep the messages passed between your
 web browser and the web server a secret (the <https://gmail.com> example),
@@ -74,8 +84,8 @@ document the open-standards the web is built upon. They require the adoption of
 hardware and software companies to become canon. As of current (July 2017),
 RFC7710 has yet to be implemented by manufacturers of networking equipment.
 
-**The idea of a Captive Portal network seems to be a poor marketing tactic at its
-end-of-life.**
+The idea of a Captive Portal network seems to be a poor marketing tactic at its
+end-of-life.
 
 ## Where do we go from here?
 
@@ -111,8 +121,8 @@ search for these articles, yourself.
 
 The bottom line is, if you care about the users of your network, if you want to
 keep your customer's data secure and their computing devices free of malware, and
-you want to keep them coming back, **the use of a Captive Portal network should be
-eliminated**.
+you want to keep them coming back, the use of a Captive Portal network should be
+eliminated.
 
 The era of insecure data transmission is over. The hijacking of web requests through
 MITM attacks and Captive Portal is no longer an acceptable practice. HTTPS is the
@@ -120,7 +130,7 @@ way forward for a more secure web.
 
 ## Resources
 
-Want to read more on this subject. Check out these resources:
+Want to read more on this subject? Please take the time to read these resources:
 
 * [http.rip](http://http.rip/)
 * [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security#Applicability)
