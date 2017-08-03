@@ -4,16 +4,19 @@ title: About
 permalink: /about/
 ---
 
-Hi.
+Projects I have contributed to:
 
-I'm a developer in Boston, Massachusetts, USA. 
-
-Here are a few projects I have built myself or contributed to. Some are useful. Some are fun. Others are just ridiculous:
+  * __Workbar__
+  [(site)](https://wobbe.workbar.com/)
 
   * __Horizon__
   [(site)](http://learn.launchacademy.com/)
   [(open source fork)](https://github.com/launchacademy/horizon)
   \- LaunchAcademy's learning platform
+
+  * __Ruby Playground__
+  [(github)](https://github.com/LaunchAcademy/ruby-playground)
+  \- Open-source programming exercises
 
   * __DOOM High-Res Texture Project__
   [(github)](https://github.com/KuriKai/DHTP)
@@ -27,6 +30,14 @@ Here are a few projects I have built myself or contributed to. Some are useful. 
   [(site)](https://launchvotes.herokuapp.com)
   [(github)](https://github.com/omidbachari/launchvotes)
   \- Launch Academy students nominate and vote on weekly awards.
+
+
+Projects I have created:
+
+  * __Exloc__
+  [(site)](https://exloc.io)
+  [(github)](https://github.com/exloc/app)
+  \- Code example aggregation site.
 
   * __ActiveRecord Naming Challenge__
   [(site)](http://ar-naming.herokuapp.com/)
@@ -57,4 +68,8 @@ Here are a few projects I have built myself or contributed to. Some are useful. 
   [(github)](https://github.com/radavis/mbta-subway)
   \- When does the next train arrive at your T stop? Find out, here.
 
-Sometimes, interesting tidbits of knowledge pop up on my [__GitHub Gists__](https://gist.github.com/radavis).
+
+Notes:
+
+  * [__gist.github.com/radavis__](https://gist.github.com/radavis)
+  * [__blog__](https://radavis.github.io/)

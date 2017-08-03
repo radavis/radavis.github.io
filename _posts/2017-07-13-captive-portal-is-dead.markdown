@@ -27,25 +27,7 @@ serve you a different webpage.
 The reason you saw a blank page when attempting to visit a HTTPS website was
 because your browser was protecting you from potential malicious behavior.
 
-## What's so bad about Captive Portal?
-
-**The user experience (UX) of Captive Portal is flawed**. As a user,
-if I ask my web browser for the news (e.g.- <http://cnn.com>), and get anything
-else besides the news in return, that is _not_ acceptable.
-
-You have altered the contract of the Hypertext Transfer Protocol (HTTP) to
-perform a task it should never do. I asked the server for a document. Instead, I
-have been served alternative facts.
-
-As a web technologist, this abuse of HTTP infuriates me. I'm ready to leave your
-network, leave your establishment, boycott your brand, and tell everyone I know
-to avoid your business.
-
 ## How does Captive Portal work?
-
-![MITM](/assets/images/mitm.jpg)
-
-<!-- Perhaps, expand upon HTTP, here. "To understand Captive Portal, we must first understand HTTP." -->
 
 The initial web request on a Captive Portal-enabled network will trigger a response
 _only_ when a user attempts to visit a non-HTTPS website. The user must transmit
@@ -55,6 +37,24 @@ to hijack the user's request, and serve them different information. This
 [all](http://http.rip/)
 [sorts](https://www.troyhunt.com/ssl-is-not-about-encryption/) of
 [vulnerabilities](https://arstechnica.com/tech-policy/2013/04/how-a-banner-ad-for-hs-ok/).
+
+## What's so bad about Captive Portal?
+
+![MITM](/assets/images/mitm.jpg)
+
+**The user experience (UX) of a Captive Portal is very awkward**.
+
+As a user, if I ask my web browser for the news (e.g.- <http://cnn.com>), and
+get something else in return, that is not acceptable. I asked for information,
+and you provided me with a paywall.
+
+You have altered the contract of the Hypertext Transfer Protocol (HTTP) to
+perform a task it should never do. I asked the server for a document. Instead, I
+have been served alternative facts.
+
+As a web technologist, this abuse of HTTP infuriates me. I'm ready to leave your
+network, leave your establishment, boycott your brand, and tell everyone I know
+to avoid your business.
 
 ## HTTPS: The nail in the coffin for HTTP abusers
 
@@ -136,4 +136,3 @@ Want to read more on this subject? Please take the time to read these resources:
 * [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security#Applicability)
 * [Quora - How does a MITM attack work?](https://www.quora.com/How-does-man-in-the-middle-attack-work)
 * [Airheads - Captive Portal, why do I get those certificate warnings?](http://community.arubanetworks.com/t5/Technology-Blog/Captive-Portal-why-do-I-get-those-certificate-warnings/ba-p/268921)
-* [Meraki - Wireless Encryption and Authentication Overview](https://documentation.meraki.com/MR/Encryption_and_Authentication/Wireless_Encryption_and_Authentication_Overview)
