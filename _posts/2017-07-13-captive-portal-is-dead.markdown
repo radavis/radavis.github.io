@@ -5,7 +5,9 @@ date: 2017-07-13 21:00
 tags: networking
 ---
 
-> A captive portal is a network that forces an HTTP client to see a special web page (usually for authentication purposes) before using the Internet normally. A captive portal turns a Web browser into an authentication device.
+> A captive portal is a network that forces an HTTP client to see a special web
+> page (usually for authentication purposes) before using the Internet normally.
+> A captive portal turns a Web browser into an authentication device.
 
 [source](https://grpugh.wordpress.com/2014/10/29/an-undocumented-change-to-captive-network-assistant-settings-in-os-x-10-10-yosemite/)
 
