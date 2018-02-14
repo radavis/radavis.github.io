@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WiFi paywalls are dead. Captive Portal is dead. HTTPS killed 'em. Here's why."
+title: "Captive Portal is dead."
 date: 2017-07-13 21:00
 tags: networking
 ---
@@ -131,8 +131,6 @@ MITM attacks and Captive Portal is no longer an acceptable practice. HTTPS is th
 way forward for a more secure web.
 
 ## Resources
-
-Want to read more on this subject? Please take the time to read these resources:
 
 * [http.rip](http://http.rip/)
 * [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security#Applicability)
