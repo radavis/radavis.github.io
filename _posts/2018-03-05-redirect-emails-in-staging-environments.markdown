@@ -11,9 +11,9 @@ imperative that emails are never sent to end users.
 
 Rails has a built-in feature that allows you to [intercept emails][1]. Couple
 this with an [environment variable][2] containing a list of comma-separated
-emails, and you have an simple way for your team to verify that your staging
-server is in fact triggering email deliveries, as well as ensuring that none of
-your customers are receiving email spam outside of production.
+emails, and you have an simple, environment-based switch that allows your team 
+to verify the staging server is in fact triggering email deliveries, and also 
+ensures that your customers are not receiving email spam outside of production.
 
 Set the following variables in your staging server's environment.
 
