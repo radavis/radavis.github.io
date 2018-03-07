@@ -19,7 +19,7 @@ Set the following variables in your staging server's environment.
 
 ```bash
 HOSTNAME="yourapp.com"
-REDIRECT_ALL_OUTGOING_EMAIL_TO="jack@example.com, jill@example.com"
+REDIRECT_ALL_OUTGOING_EMAIL_TO="rahul@eg.com, rich@eg.com, riki@eg.com, jackie@eg.com"
 ```
 
 Configure your Rails application to use the appropriate hostname when creating
@@ -39,7 +39,7 @@ module YourApp
     end
 
     # set REDIRECT_ALL_OUTGOING_EMAIL_TO to one or more comma separated emails
-    if !Rails.env.test? && !ENV["REDIRECT_ALL_OUTGOING_EMAIL_TO"].nil?
+    if !Rails.env.test? && ENV["REDIRECT_ALL_OUTGOING_EMAIL_TO"].present?
       ActionMailer::Base.register_interceptor(RedirectAllOutgoingEmail)
     end
   end
