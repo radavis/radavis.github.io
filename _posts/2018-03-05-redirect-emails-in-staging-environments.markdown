@@ -11,8 +11,8 @@ imperative that emails are never sent to end users.
 
 Rails has a built-in feature that allows you to [intercept emails][1]. Couple
 this with an [environment variable][2] containing a list of comma-separated
-emails, and you have an simple, environment-based switch that allows your team 
-to verify the staging server is in fact triggering email deliveries, and also 
+emails, and you have an simple, environment-based switch that allows your team
+to verify the staging server is in fact triggering email deliveries, and also
 ensures that your customers are not receiving email spam outside of production.
 
 Set the following variables in your staging server's environment.
@@ -73,8 +73,17 @@ You may need to add this line to your `config/application.rb` file to load the
 config.autoload_paths << "#{Rails.root}/lib"
 ```
 
+Depending on the email output of your application, you may want to
+[create an inbox filter][3], remove your email address from the
+`REDIRECT_ALL_OUTGOING_EMAIL_TO` variable in the environment after verification
+of a feature, or [turn off email deliveries][4] altogether for a particular
+environment by providing an environmental variable switch for setting
+`config.action_mailer.perform_deliveries` to `false`.
+
 Now, you can rest assured that emails are only being delivered to end-users in
 the production environment.
 
 [1]: http://guides.rubyonrails.org/action_mailer_basics.html#intercepting-emails
 [2]: https://12factor.net/config
+[3]: https://support.google.com/mail/answer/6579?hl=en
+[4]: http://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration
