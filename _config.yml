@@ -18,5 +18,5 @@ linkedin_username: davisra
 paginate: 8
 paginate_path: "/pages/:num"
 markdown: kramdown
-gems:
+plugins:
   - jekyll-sitemap
