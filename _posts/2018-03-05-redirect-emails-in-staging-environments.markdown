@@ -47,8 +47,9 @@ end
 ```
 
 Here's where the actual overriding of emails occurs. In this case, we're
-redirecting all outgoing deliveries to our CSV list of emails, and updating the
-email subject to include any relevant information.
+redirecting all outgoing email deliveries to our CSV list of emails, and 
+updating the email subject to include all the relevant information about
+the environment that is delivering the email.
 
 ```ruby
 # lib/redirect_all_outgoing_email.rb
@@ -75,10 +76,8 @@ config.autoload_paths << "#{Rails.root}/lib"
 
 Depending on the email output of your application, you may want to
 [create an inbox filter][3], remove your email address from the
-`REDIRECT_ALL_OUTGOING_EMAIL_TO` variable in the environment after verification
-of a feature, or [turn off email deliveries][4] altogether for a particular
-environment by providing an environmental variable switch for setting
-`config.action_mailer.perform_deliveries` to `false`.
+`REDIRECT_ALL_OUTGOING_EMAIL_TO` variable, or [turn off email deliveries][4], 
+altogether.
 
 Now, you can rest assured that emails are only being delivered to end-users in
 the production environment.
