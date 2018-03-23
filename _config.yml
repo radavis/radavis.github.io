@@ -15,7 +15,7 @@ url: "https://radavis.github.io" # the base hostname & protocol for your site
 twitter_username: theebeastmaster
 github_username:  radavis
 linkedin_username: davisra
-paginate: 8
+paginate: 10
 paginate_path: "/pages/:num"
 markdown: kramdown
 plugins:

@@ -1,5 +1,5 @@
 ---
-layout: draft
+layout: post
 title: "Notes on Radius"
 date: 2018-02-11 11:05
 tags: radius wifi
