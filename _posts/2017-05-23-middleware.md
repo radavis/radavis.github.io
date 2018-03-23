@@ -19,7 +19,7 @@ How does the application know how to map HTTP requests to Controller actions?
 Rails routes are a middleware that map the HTTP Verb and Path (within a HTTP request) to a Controller action.
 
 ```ruby
-Wobbe::Application.routes.draw do
+YourRailsApp::Application.routes.draw do
   get '/profile', to: 'users#show'  # UsersController.action(:show).call
 end
 ```
@@ -37,7 +37,7 @@ use ActionDispatch::Cookies
 use ActionDispatch::Session::CookieStore
 use ActionDispatch::Flash
 ...
-run Wobbe::Application.routes  # the HTTP Verbs and Paths that Wobbe can respond to
+run YourRailsApp::Application.routes  # the HTTP Verbs and Paths that your app can respond to
 ```
 
 [Rails Middleware](http://edgeguides.rubyonrails.org/rails_on_rack.html#internal-middleware-stack)
