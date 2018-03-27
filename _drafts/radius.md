@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Notes on Radius"
+title: "Notes on RADIUS"
 date: 2018-02-11 11:05
 tags: radius wifi
 ---
-
-# RADIUS
 
 Remote Authentication Dial-In User Service
 
@@ -40,6 +38,16 @@ responses:
 * Access Reject
 * Access Challenge
 * Access Accept
+
+## Authentication
+
+Verify the identity of a user.
+
+## Authorization
+
+What permissions are granted to this user?
+
+e.g. - Grant the user permission to use the local network and access the Internet.
 
 ## Accounting
 
