@@ -35,9 +35,9 @@ and opt-in to marketing emails from that business and other local businesses.
 ### RADIUS
 
 A hosted RADIUS server, located at an IP address and accepting commands on a
-port (typically 1812 or 1813), accepts (1) a username, (2) a password, (3) a
-shared secret as input from a RADIUS client, and returns Accept, Reject, or
-Challenge.
+port (1812 for auth, 1813 for accounting), accepts (1) a username,
+(2) a password, (3) a shared secret as input from a RADIUS client, and returns
+Accept, Reject, or Challenge.
 
 A RADIUS client is typically a Network Access Server (NAS) such as a switch or
 Wireless Access Point.
