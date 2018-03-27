@@ -84,8 +84,10 @@ $ docker inspect image-name
 Check if a specific container is running.
 
 ```no-highlight
-$ docker inspect --format "{{.State.Running}}" container-name
+$ docker inspect --format "\{\{.State.Running\}\}" container-name
 ```
+
+[link](https://stackoverflow.com/a/35528861)
 
 View Logs
 

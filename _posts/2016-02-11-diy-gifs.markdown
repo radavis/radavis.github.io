@@ -5,7 +5,7 @@ date: 2016-02-11 19:00
 tags: gif bash
 ---
 
-![Pry session demonstrating how to set the visibility of a method to private](/assets/private.gif)
+![Pry session demonstrating how to set the visibility of a method to private](/assets/images/private.gif)
 
 If a picture is worth 1000 words, does that mean an animated GIF is worth num_frames * 1000 words?
 

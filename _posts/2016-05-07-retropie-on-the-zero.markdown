@@ -6,7 +6,7 @@ tags: raspberry-pi linux hardware
 comments: true
 ---
 
-![retro-pie](/assets/retro-pie.jpg)
+![retro-pie](/assets/images/retro-pie.jpg)
 
 I don't have much time for gaming these days. Most of my time is dedicated to coding, or teaching. When I do have a free moment, I love firing up a classic game and racking up some points.
 
@@ -24,7 +24,7 @@ I recently threw together some hardware for the purpose of rediscovering (and di
 
 ## This is my retro-gaming hardware.
 
-![Raspberry Pi Zero and 8bitdo SFC30 Controller](/assets/pi-zero.png)
+![Raspberry Pi Zero and 8bitdo SFC30 Controller](/assets/images/pi-zero.png)
 
 My PC from the late 90s didn't have this much power, and was about 500x times larger.
 
@@ -55,7 +55,7 @@ Here are my notes:
 
 ## Setting Up EmulationStation/RetroPie on a PiZero
 
-![retro-pie splash screen](/assets/retro-pie-darkgrey.png)
+![retro-pie splash screen](/assets/images/retro-pie-darkgrey.png)
 
 ### Installation (on OS X)
 
