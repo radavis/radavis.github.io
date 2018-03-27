@@ -1,18 +1,18 @@
 # Pull Request Workflow
 
-1. Assign a [Jira Story](https://workbar.atlassian.net/) to yourself and click "Start Progress."
-1. Create a new branch, write code to satisfy the requirements of the Jira Story, along with backing tests. Verify the feature works by manually testing it in your local development environment.
-1. When committing your code, include the relevant Jira Story Number at the end of your commit message. (e.g. - "add validations to user model [WOBBE-1024]")
+1. Assign a Story to yourself in our Project Tracking Software and click "Start Progress."
+1. Create a new branch, write code to satisfy the requirements of the Story, along with backing tests. Verify the feature works by manually testing it in your local development environment.
+1. When committing your code, include the relevant Story Number at the end of your commit message. (e.g. - "add validations to user model [APPNAME-1024]")
 1. Push your code to GitHub regularly (at the end of each day and when the feature is complete).
-1. Create a Pull Request prefixed with `[WIP]` (Work In Progress). This will trigger [Codeship](https://app.codeship.com/projects/232692) to run the full test suite.
-1. Announce to the team that you will be utilizing the Staging Server. 
+1. Create a Pull Request prefixed with `[WIP]` (Work In Progress). This will trigger Continuous Integration to run the full test suite.
+1. Announce to the team that you will be utilizing the Staging Server.
 1. Follow the instructions for creating a [database snapshot](https://github.com/techpoint/wobbe/blob/master/docs/database-snapshots.md) of production data, and load it into the staging database.
 1. Deploy your code to Staging and verify the feature manually.
 1. Add any necessary documentation for this feature.
-1. Once you are satisfied that your code meets the requirements of the Jira Story, and CI tests are passing, update your Pull Request from `[WIP]` to `[RFR]` (Ready For Review).
-1. Assign **one** member of the development team to review the Pull Request.
+1. Once you are satisfied that your code meets the requirements of the Story, and CI tests are passing, update your Pull Request from `[WIP]` to `[RFR]` (Ready For Review).
+1. Assign another member of the development team to review the Pull Request.
 1. At this point, the code will be **accepted and merged**, or **rejected**. If your Pull Request is rejected, please make the necessary corrections and notify the reviewer.
-1. Once the Pull Request has been merged, update the Jira Story: click "Stop Progress" and then "Resolve Issue" and mark as "Done."
+1. Once the Pull Request has been merged, update the Story: click "Stop Progress" and then "Resolve Issue" and mark as "Done."
 
 ## Valid Reasons to Reject a Pull Request
 
@@ -40,5 +40,5 @@ and git commits.
 
 ## Important links
 
-* [Jira](https://workbar.atlassian.net/)
-* [Codeship](https://app.codeship.com/projects/232692)
+* [Jira](https://www.atlassian.com/software/jira)
+* [Codeship](http://codeship.com/)

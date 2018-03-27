@@ -19,20 +19,6 @@ The idea here is to clearly and succinctly identify:
 1. The Feature (or bugfix)
 1. The Business Value provided by the feature
 
-## Workbar Stakeholders
-
-* Admin
-  - Community Manager (CM)
-  - Business Analyst
-  - Developer
-  - Network Partner
-* Workbar Member (or simply "Member")
-
-## User Stories at Workbar
-
-We utilize the User Story format to describe all features and bugfixes for Software
-Development work that needs to be accomplished.
-
 ## Acceptance Criteria
 
 How do you know when you have completed the functionality requested by a

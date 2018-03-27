@@ -1,5 +1,7 @@
 # Web Design
 
+Notes from [Web Design in 4 minutes](https://jgthms.com/web-design-in-4-minutes/).
+
 ### Content
 
 > The purpose of design is to enhance the presentation of the content it is
@@ -41,3 +43,4 @@ Choose or create a logo.
 * [Unsplash](https://unsplash.com/) - Free high-resolution photos.
 * [The Elements of Typographic Style Applied to the Web](http://webtypography.net/toc/)
 * [Free Frontend](http://freefrontend.com/) - Excellent CSS/JS examples and resources
+* [JavaScript in 14 minutes](https://jgthms.com/javascript-in-14-minutes/)
