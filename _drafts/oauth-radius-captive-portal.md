@@ -83,24 +83,6 @@ authentication systems.
 
 [Homepage](http://www.chillispot.org/features.html#mozTocId447423)
 
-Necessary Components (hosted either locally or remotely):
-
-* ChilliSpot
-* A RADIUS Server
-* A Webserver
-
-
-##### Authentication Methods via ChilliSpot
-
-* UAM - client requests IP, Chilli provides IP, client opens browser, Chilli
-  captures the TCP connection and redirects the browser to an Authentication
-  Web Server. The client is prompted for their credentials. Credentials are
-  encrypted and sent to Chilli.
-* WPA - authentication is handled by the access point, then auth data is
-  forwarded to Chilli.
-
-Both methods require a RADIUS server.
-
 #### WiFidog
 
 > The Wifidog project is a complete and embeddable captive portal solution for those who wish to operate a open hotspot or network of hotspots while preventing abuse of their Internet connection.
@@ -116,6 +98,12 @@ Both methods require a RADIUS server.
 Seems useful for showing WiFi users a landing page. Authorization is performed
 by clicking a button.
 
+#### CoovaChilli
+
+> CoovaChilli is an open-source software access controller, based on the popular, but now defunct, ChilliSpot project, and is actively maintained by an original ChilliSpot contributor.
+
+[Homepage](http://coova.github.io/CoovaChilli/)
+
 ### WiFi Firmware
 
 * [DD-WRT](https://www.dd-wrt.com/wiki/index.php/Tutorials)
@@ -124,6 +112,7 @@ by clicking a button.
 
 * [Sputnik](http://www.sputnik.com/)
 * [JumpCloud](https://jumpcloud.com/)
+* [Aislelabs](https://www.aislelabs.com/)
 
 ## Resources
 
@@ -131,3 +120,4 @@ by clicking a button.
 * [Acceptable Use Policy (AUP)](https://en.wikipedia.org/wiki/Acceptable_use_policy)
 * [Optware](https://en.wikipedia.org/wiki/Optware)
 * [Authentication Protocols](https://community.getkisi.com/which-authentication-protocol-to-choose-ldap-kerberos-oauth2-saml-radius/)
+* [ChilliSpot FAQ](http://www.chillispot.org/FAQ.html)

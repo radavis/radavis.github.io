@@ -10,6 +10,9 @@ tags: radius wifi
 * Installation
 * Verification via PAP (Plain-text passwords)
 * Configure Secure Authentication via EAP
+  - Generate bunk certificates
+  - Generate production certificates "Root CA"
+* Import the Root CA to each NAS client
 
 ## Installation
 
@@ -39,8 +42,6 @@ $ freeradius -X
 ```
 
 Test it, then add more users, and configure databases.
-
-[freeRADIUS technical guide](http://networkradius.com/doc/FreeRADIUS%20Technical%20Guide.pdf)
 
 ## Test the freeRADIUS installation
 
@@ -85,7 +86,7 @@ Test the interaction between the NAS client and the freeRADIUS server.
 
 ## Configure Secure Authentication via EAP
 
-Create "snake oil" certs.
+Create bunk certs.
 
 ```
 $ cd /etc/freeradius/3.0/certs
@@ -118,4 +119,9 @@ The key here is: "Shared secret is incorrect."
 
 ## Resources
 
-* [freeRADIUS Technical Guide](/assets/docs/freeradius-technical-guide.pdf)
+* [freeRADIUS Technical Guide](/assets/docs/freeradius-ch1-4-technical-guide.pdf)
+* [freeRADIUS - Basic Auth Methods](/assets/docs/freeradius-ch5-basic-auth-methods.pdf)
+* [freeRADIUS - EAP](/assets/docs/freeradius-ch6-eap.pdf)
+* [freeRADIUS - Debugging](/assets/docs/freeradius-ch11-debugging.pdf)
+* [freeRADIUS - Unlang Policy Language](/assets/docs/freeradius-ch16-unlang.pdf)
+* [freeRADIUS Documentation](http://networkradius.com/freeradius-documentation/)
