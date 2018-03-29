@@ -1,5 +1,3 @@
-# Code Style Guide
-
 Following a style guide can improve code quality and minimize code churn. This
 document serves to identify the coding styles and conventions the team should
 follow when building software.

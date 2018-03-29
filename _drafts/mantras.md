@@ -1,6 +1,4 @@
-# Mantras
-
-These are our department's guiding principles. They are documented here so that
+These are our guiding principles. They are documented here so that
 they are clear and actionable. We want to create the best workplace possible
 for each other, with our health, well-being, and happiness as **the** primary focus.
 

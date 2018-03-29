@@ -6,7 +6,7 @@
 1. Push your code to GitHub regularly (at the end of each day and when the feature is complete).
 1. Create a Pull Request prefixed with `[WIP]` (Work In Progress). This will trigger Continuous Integration to run the full test suite.
 1. Announce to the team that you will be utilizing the Staging Server.
-1. Follow the instructions for creating a [database snapshot](https://github.com/techpoint/wobbe/blob/master/docs/database-snapshots.md) of production data, and load it into the staging database.
+1. Creating a database snapshot of production data, and load it into the staging database.
 1. Deploy your code to Staging and verify the feature manually.
 1. Add any necessary documentation for this feature.
 1. Once you are satisfied that your code meets the requirements of the Story, and CI tests are passing, update your Pull Request from `[WIP]` to `[RFR]` (Ready For Review).

@@ -1,5 +1,3 @@
-# Feature Branch Workflow
-
 ## Creating a new "Feature Branch"
 
 When starting a new feature, create a new [git branch](https://git-scm.com/docs/git-branch)
@@ -30,7 +28,7 @@ need to switch gears and work on a different feature.
 1. Switch to the master branch: `git checkout master`
 1. Create a new branch for your work off of master: `git checkout -b new-branch-name`
 1. Drop and re-create your development database: `bundle exec rake db:drop db:create`
-1. Load a database snapshot from Production. See instructions, [here](https://github.com/techpoint/wobbe/blob/master/docs/database-snapshots.md).
+1. Load a database snapshot from Production.
 1. Migrate the database: `bundle exec rake db:migrate`
 
 ### Option B: Step Back Migrations

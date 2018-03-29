@@ -1,8 +1,6 @@
-# Versioning and Releasing Software
-
 The general process for releasing software involves using Git to push code to
-GitHub, and then deploying to production. You may assign a version number to a
-release before or after a deploy.
+GitHub, and then deploying to production. Assign a version number to a release
+before or after a deploy.
 
 
 ## Steps
@@ -12,14 +10,7 @@ release before or after a deploy.
 For the current commit:
 
 ```
-$ git rev-parse --short HEAD
-```
-
-For a deployed commit (in Wobbe):
-
-```
-$ bundle exec cap production deploy:revision
-0bfbf24
+$ git rev-parse
 ```
 
 ### 2) Determine the version of the release
@@ -94,11 +85,3 @@ See steps, above.
 $ bundle exec cap demo deploy --trace BRANCH="v5.1.1"
 $ bundle exec cap production deploy --trace BRANCH="v5.1.1"
 ```
-
-## Wobbe Major Versions
-
-* v1 => Original Wobbe; almost purely member-facing; reservations and rudimentary presence tracking the key features
-* v2 => Site redesign; the introduction of billing and accounts; rudimentary reporting
-* v3 => Automation of day usage overages; more sophisticated presence tracking; more sophisticated reporting (revenue, etc.) Released 5/25/2016
-* v4 => Reservation overage automation (tokens) Released 6/5/2017, and digital onboarding/automatic membership billing
-* v5 => Rails 4 upgrade
