@@ -3,8 +3,9 @@
 ## User Stories
 
 **User Stories** are a way for technical and non-technical people to communicate
-about Software Requirements. It gives the developer and the stakeholder a way
-to describe the desired functionality of an application, in a common language.
+about **Software Requirements**. It gives the developer and the stakeholder a
+way to describe the desired functionality of an application, in a common language.
+
 User Stories follow the format:
 
 ```

@@ -30,7 +30,9 @@ Host debian94
 
 * [x] - [Initial Server Setup with Debian 8][1]
 * [x] - [How to Install and Use PostgreSQL 9.4 on Debian 8][2]
-* [ ] - `apt-get install freeradius`
+* [x] - `apt-get install freeradius`
+* [x] - [chruby](https://github.com/postmodern/chruby)
+* [x] - [ruby-install](https://github.com/postmodern/ruby-install)
 
 
 [1]: https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-8
