@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 ruby '2.5.1'
 
 gem 'jekyll-auth'
+gem 'puma'
 gem 'rack-jekyll'
 gem 'rake'
 
