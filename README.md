@@ -2,6 +2,17 @@
 
 My blog.
 
+## rack-jekyll and Heroku
+
+Maintain a separate `drafts` branch that is deployed to Heroku and secured with
+jekyll-auth
+
+```
+$ git checkout drafts
+$ jekyll build --drafts
+$ git push heroku HEAD:master
+```
+
 ## Resources
 
 * [GitHub Pages](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
