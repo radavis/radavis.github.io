@@ -16,6 +16,10 @@ end
 class Broccoli < Sinatra::Base
   get('/broccoli') { '🥦' }
 end
+
+class Bacon < Sinatra::base
+  get ('/bacon') { '🥓' }
+end
 ```
 
 ```ruby
@@ -25,7 +29,7 @@ require 'bundler'
 Bundler.setup(:default)
 
 require './app'
-run Rack::Cascade.new [Banana, Broccoli]
+run Rack::Cascade.new [Banana, Broccoli, Bacon]
 ```
 
 ```ruby

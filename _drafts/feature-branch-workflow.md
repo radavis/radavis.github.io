@@ -1,3 +1,7 @@
+## Follow GitHub Flow
+
+[source](http://scottchacon.com/2011/08/31/github-flow.html#how-we-do-it)
+
 ## Creating a new "Feature Branch"
 
 When starting a new feature, create a new [git branch](https://git-scm.com/docs/git-branch)
