@@ -2,16 +2,9 @@
 
 My blog.
 
-## rack-jekyll and Heroku
+## Heroku
 
-Maintain a separate `drafts` branch that is deployed to Heroku and secured with
-jekyll-auth
-
-```
-$ git checkout drafts
-$ jekyll build --drafts
-$ git push heroku HEAD:master
-```
+Automatic deploys from `master` are enabled. [source](https://dashboard.heroku.com/apps/radavis/deploy/github)
 
 ## Resources
 
