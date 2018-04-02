@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.5.1'
 
-gem 'jekyll-auth'
+# gem 'jekyll-auth'  # setup and configure this (rack-jekyll not necessary?)
 gem 'puma'
 gem 'rack-jekyll'
 gem 'rake'
