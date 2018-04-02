@@ -1,3 +1,3 @@
-require "rack/jekyll"
+require "jekyll-auth"
 
-run Rack::Jekyll.new
+run JekyllAuth.site
