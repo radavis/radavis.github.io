@@ -18,4 +18,54 @@ This file lets us completely customize our rails app, right down to which gems t
 
 The following files set up my new Rails apps the way I like 'em: RSpec, Factory Girl, and Capybara for testing. Foundation for the front-end. Postgres on the back. [Copy](https://gist.github.com/radavis/979ce4a34e84580be243) and customize to suit your needs.
 
-{% gist radavis/979ce4a34e84580be243 %}
+```
+# ~/.railsrc
+
+--database=postgresql
+--skip-bundle
+--skip-spring
+--skip-test-unit
+--skip-turbolinks
+--template=/path/to/rails_template.rb
+```
+
+```
+# ~/rails_template.rb
+
+gem_group :development, :test do
+  gem "capybara"
+  gem "factory_girl_rails"
+  gem "rspec-rails", "~> 3.0"
+  gem "pry-rails"
+  gem "shoulda-matchers"
+end
+
+gem_group :test do
+  gem "launchy", require: false
+  gem "valid_attribute"
+end
+
+gem_group :production, :staging do
+  gem "rails_12factor"
+end
+
+scss = <<-SCSS
+@import "*";
+SCSS
+
+run "echo '#{scss}' >> app/assets/stylesheets/application.scss"
+run "rm app/assets/stylesheets/application.css"
+run "rm README.rdoc"
+run "echo '# #{@app_name.titleize}' >> README.md"
+
+run("bundle install")
+
+generate("rspec:install")
+rake("db:create")
+
+run "echo 'require \"capybara/rails\"' >> spec/rails_helper.rb"
+
+git :init
+git add: "."
+git commit: "-a -m initial"
+```
