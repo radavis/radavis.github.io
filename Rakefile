@@ -1,5 +1,5 @@
 namespace :assets do
   task :precompile do
-    sh "bundle exec jekyll-auth build --drafts"
+    sh "bundle exec jekyll-auth build"
   end
 end
