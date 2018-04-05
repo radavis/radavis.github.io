@@ -3,6 +3,7 @@ layout: post
 title: "Identify a Linux Distribution"
 date: 2018-01-30 20:00
 tags: bash linux
+categories: cli
 ---
 
 ```

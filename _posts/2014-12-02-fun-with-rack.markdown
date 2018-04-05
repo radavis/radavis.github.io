@@ -3,6 +3,7 @@ layout: post
 title: "Fun with Rack"
 date: 2014-12-02 12:00
 tags: ruby rack
+categories: ruby
 comments: true
 ---
 

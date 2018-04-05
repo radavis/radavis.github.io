@@ -3,6 +3,7 @@ layout: post
 title: "Finding Devices on Your Local Network"
 date: 2018-03-23 12:00
 tags: bash
+categories: cli
 ---
 
 ## with nmap

@@ -3,6 +3,7 @@ layout: post
 title: "RetroPie on the Zero"
 date: 2016-05-07 19:00
 tags: raspberry-pi linux hardware
+categories: raspberry-pi
 comments: true
 ---
 
@@ -203,7 +204,7 @@ hdmi_force_edid_audio=1
 ### Resources
 
 * [MAME ROMs on archive.org](https://archive.org/details/messmame)
-* [Full romsets on EmuParadise](http://www.emuparadise.me/Complete_ROM_Sets_(Full_Sets_in_One_File)_ROMs/List-All-Titles/37)
+* [Full romsets on EmuParadise][1]
 
 ## Wrap Up
 
@@ -214,3 +215,5 @@ If you are looking for more info, check out the following resources.
 * [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki)
 * [RetroPie Fourm](https://retropie.org.uk/forum/)
 * [/r/RetroPie](https://www.reddit.com/r/retropie)
+
+[1]: http://www.emuparadise.me/Complete_ROM_Sets_(Full_Sets_in_One_File)_ROMs/List-All-Titles/37

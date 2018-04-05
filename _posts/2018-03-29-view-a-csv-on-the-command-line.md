@@ -2,7 +2,8 @@
 layout: post
 title: "View a CSV on the Command Line"
 date: 2018-03-29 11:00
-tags: cli csv
+tags: csv
+categories: cli
 ---
 
 ```

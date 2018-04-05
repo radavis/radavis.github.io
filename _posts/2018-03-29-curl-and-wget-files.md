@@ -2,7 +2,8 @@
 layout: post
 title: "cURL and Wget Files"
 date: 2018-03-29 10:00
-tags: cli curl wget
+tags: curl wget
+categories: cli
 ---
 
 Both do the same thing, more or less. Use whichever your system has installed.

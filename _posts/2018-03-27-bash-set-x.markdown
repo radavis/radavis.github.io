@@ -3,6 +3,7 @@ layout: post
 title: "bash set -x"
 date: 2018-03-27 11:20
 tags: bash scripting
+categories: cli
 ---
 
 > `set -x` enables a mode of the shell where all executed commands are printed to the terminal.

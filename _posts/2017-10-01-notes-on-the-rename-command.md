@@ -3,6 +3,7 @@ layout: post
 title: "Notes on the rename Command"
 date: 2017-10-01 16:30
 tags: rename bash
+categories: cli
 ---
 
 ## Install `rename`

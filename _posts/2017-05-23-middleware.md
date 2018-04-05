@@ -3,6 +3,7 @@ layout: post
 title: "Middleware"
 date: 2017-05-23 12:00
 tags: ruby rails middleware
+categories: ruby
 ---
 
 ## Prerequisites

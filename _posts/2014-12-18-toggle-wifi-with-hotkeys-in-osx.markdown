@@ -3,6 +3,7 @@ layout: post
 title: "Toggle WiFi with Hotkeys in OSX"
 date: 2014-12-18 15:36
 tags: osx bash hotkeys
+categories: macOS
 comments: true
 ---
 

@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Filesystem Hierarchy Standard (FHS v2.3)"
+title: "Filesystem Hierarchy Standard"
 date: 2018-03-28 17:00
 tags: unix
 ---
 
 Where should that file go in the \*nix filesystem?
+
+ ## FHS v2.3
 
 | Directory | Description |
 | --------- | ----------- |

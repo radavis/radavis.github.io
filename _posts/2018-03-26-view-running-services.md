@@ -3,6 +3,7 @@ layout: post
 title: "View Running Services"
 date: 2018-03-26 18:45
 tags: bash unix
+categories: cli
 ---
 
 ## Debian

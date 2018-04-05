@@ -1,21 +1,14 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
 title: radavis.github.io
 email: rdavis.bacs@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   A place where I occasionally dump my code and technology-related thoughts.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 url: "https://radavis.github.io" # the base hostname & protocol for your site
 twitter_username: theebeastmaster
 github_username:  radavis
 linkedin_username: davisra
 exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+permalink: /:categories/:title/
 paginate: 10
 paginate_path: "/pages/:num"
 markdown: kramdown
