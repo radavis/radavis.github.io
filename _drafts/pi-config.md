@@ -31,7 +31,8 @@ $ gunzip retropie-4.3-rpi2_rpi3.img.gz
 [source](http://man7.org/linux/man-pages/man7/hostname.7.html)
 
 
-Before booting, edit SD Card: `echo my-cool-pi-hostname >> /boot/hostnames` (unverified)
+Before booting, edit SD Card: `echo my-cool-pi-hostname >> /boot/hostnames` **(unverified)**
+
 After booting: SSH into the Pi and set the hostname through the `raspi-config` menu or by setting `/etc/hostname`.
 
 [StackExchange Answer](https://raspberrypi.stackexchange.com/a/44963)
