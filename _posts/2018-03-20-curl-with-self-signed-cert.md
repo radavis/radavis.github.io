@@ -3,6 +3,7 @@ layout: post
 title: "Making cURL requests to a host with a Self-Signed Certificate"
 date: 2018-03-20 13:00
 tags: curl
+categories: cli
 ---
 
 [Get the cert][1]

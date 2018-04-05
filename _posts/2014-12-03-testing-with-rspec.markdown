@@ -3,6 +3,8 @@ layout: post
 title: "Testing with RSpec"
 date: 2014-12-03 12:00
 tags: ruby rspec test-driven-development
+categories: ruby
+comments: true
 ---
 
 ## Resources

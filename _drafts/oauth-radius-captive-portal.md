@@ -79,19 +79,27 @@ authentication systems.
 
 #### ChilliSpot
 
-> ChilliSpot is an open source Wireless LAN access point controller. ChilliSpot is a captive portal which authenticates users of a wireless LAN.
+> ChilliSpot is an open source Wireless LAN access point controller. ChilliSpot
+> is a captive portal which authenticates users of a wireless LAN.
 
 [Homepage](http://www.chillispot.org/features.html#mozTocId447423)
 
 #### WiFidog
 
-> The Wifidog project is a complete and embeddable captive portal solution for those who wish to operate a open hotspot or network of hotspots while preventing abuse of their Internet connection.
+> The Wifidog project is a complete and embeddable captive portal solution for
+> those who wish to operate a open hotspot or network of hotspots while
+> preventing abuse of their Internet connection.
 
 [Homepage](http://dev.wifidog.org/wiki/About)
 
 #### NoCatSplash
 
-> NoCatSplash is a Open Public Network Gateway Daemon.  It performs as a [captive/open/active] portal.  When run on a gateway/router on a network, all web requests are redirected until the client either logs in or clicks "I Accept" to an AUP. The gateway daemon then changes the firewall rules on the gateway to pass traffic for that client (based on IP address and MAC address).
+> NoCatSplash is a Open Public Network Gateway Daemon.  It performs as a
+> [captive/open/active] portal.  When run on a gateway/router on a network,
+> all web requests are redirected until the client either logs in or clicks
+> "I Accept" to an AUP. The gateway daemon then changes the firewall rules on
+> the gateway to pass traffic for that client (based on IP address and MAC
+> address).
 
 [Homepage](https://github.com/arjan/NoCatSplash)
 
@@ -100,7 +108,9 @@ by clicking a button.
 
 #### CoovaChilli
 
-> CoovaChilli is an open-source software access controller, based on the popular, but now defunct, ChilliSpot project, and is actively maintained by an original ChilliSpot contributor.
+> CoovaChilli is an open-source software access controller, based on the
+> popular, but now defunct, ChilliSpot project, and is actively maintained by
+> an original ChilliSpot contributor.
 
 [Homepage](http://coova.github.io/CoovaChilli/)
 

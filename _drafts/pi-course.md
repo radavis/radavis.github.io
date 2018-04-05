@@ -4,6 +4,11 @@ Configure a RetroPie (Raspberry Pi v3 w/ WiFi, RetroPie v4.3) on UNIX or Windows
 
 ## General Steps
 
+1. Copy Retropie Image to a SD Card
+1. Boot Raspberry Pi into Retropie/Raspbian and Configure
+1. `scp` some games
+1. Play!
+
 * Download image with curl or wget.
 * Image is hosted on a Pi. "We're going to stress-test this thing."
 * Extract image with the appropriate command based on the file extension (zip, tar.gz)
@@ -75,6 +80,14 @@ Enough equipment to repurpose an old HDMI monitor.
 - Familiar with a gaming system from the 90s
 - Homework: bring a game you want to play, and your WiFi username and password
   (for configuration).
+
+## Checklist (prior to showing up)
+
+* [ ] - Home WiFi SSID and Password
+* [ ] - Hostname for Raspberry Pi on your network (e.g. - `my-cool-retropie`):
+* [ ] - Check for `id_rsa` and `id_rsa.pub` in `~/.ssh/`
+* [ ] - Identify a password for your Raspberry Pi (something other than `raspberry`!)
+* [ ] - A Retro Game cartridge (PS1 or older)
 
 ## TAs
 

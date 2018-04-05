@@ -3,6 +3,7 @@ layout: post
 title: "Generate Secret Keys"
 date: 2018-03-23 18:30
 tags: api secret-keys
+categories: ruby
 ---
 
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Android Commands"
 date: 2017-06-26 20:30
-tags: bash
+tags: bash android
+categories: cli
 ---
 
 ## Install Android Command Line Tools

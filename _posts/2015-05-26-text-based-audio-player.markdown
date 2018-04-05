@@ -3,6 +3,7 @@ layout: post
 title: "Text-based Audio Player"
 date: 2015-05-26 11:50
 tags: audio music
+categories: cli
 ---
 
 There is a little known feature of VLC that allows you to have an interactive text interface for creating playlists and listening to music.

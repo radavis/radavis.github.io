@@ -7,7 +7,10 @@ tags: wifi
 
 ## Windows 8/10
 
-> To determine Internet connectivity and captive portal status when a client first connects to a network, Windows performs a series of network tests. The destination site of these tests is www.msftncsi.com, which is a reserved domain that is used exclusively for connectivity testing.
+> To determine Internet connectivity and captive portal status when a client
+> first connects to a network, Windows performs a series of network tests. The
+> destination site of these tests is www.msftncsi.com, which is a reserved
+> domain that is used exclusively for connectivity testing.
 
 **Do not allow access to www.msftncsi.com when the user does not have access to the Internet.**
 

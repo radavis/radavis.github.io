@@ -2,6 +2,7 @@
 layout: post
 title: "Rack::Cascade and Modular Sinatra Applications"
 date: 2018-03-30 09:00
+categories: ruby
 tags: rack sinatra
 ---
 
@@ -18,7 +19,7 @@ class Broccoli < Sinatra::Base
 end
 
 class Bacon < Sinatra::base
-  get ('/bacon') { '🥓' }
+  get('/bacon') { '🥓' }
 end
 ```
 

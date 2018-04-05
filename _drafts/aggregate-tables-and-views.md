@@ -15,9 +15,11 @@
 
 ## Data Granularity
 
-The distinctive features of each row, and the frequency at which they are recorded. e.g. - customer, purchase date, product sold.
+The distinctive features of each row, and the frequency at which they are
+recorded. e.g. - customer, purchase date, product sold.
 
-An example of data aggregation would be taking these facts, and summing the number of sales for a product in a given month.
+An example of data aggregation would be taking these facts, and summing the
+number of sales for a product in a given month.
 
 ## Views
 
@@ -62,7 +64,9 @@ DROP VIEW IF EXISTS name
 
 ## SQL USING Keyword
 
-> The USING clause is a shorthand that allows you to take advantage of the specific situation where both sides of the join use the same name for the joining column(s).
+> The USING clause is a shorthand that allows you to take advantage of the
+> specific situation where both sides of the join use the same name for the
+> joining column(s).
 
 ```sql
 SELECT c1, c2, c3

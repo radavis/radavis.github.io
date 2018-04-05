@@ -21,5 +21,5 @@ Plan:
 * forum
 
 Find an existing bar and implement these ideas.
-  * music video night
-  * arcade night
+* music video night
+* arcade night

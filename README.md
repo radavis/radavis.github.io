@@ -12,3 +12,4 @@ Automatic deploys from `master` are enabled. [source](https://dashboard.heroku.c
 * [Jekyll Docs](http://jekyllrb.com/docs/home/)
 * [Deploying Rails Applications with Puma](https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server)
 * [Jekyll on Heroku](https://blog.heroku.com/jekyll-on-heroku)
+* [Jekyll Categories](https://blog.webjeda.com/jekyll-categories/)
