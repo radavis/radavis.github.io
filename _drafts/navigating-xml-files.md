@@ -1,5 +1,5 @@
 ```
-$ mame -listxml | mame.xml
+$ mame -listxml > mame.xml
 $ xmllint --shell mame.xml
 / > help
 / > ls
@@ -34,7 +34,7 @@ $ xmllint --shell mame.xml
 
 ## Interesting xpath attributes
 
-# /mame/machine/name
+# /mame/machine[@name]
 * /mame/machine/description
 * /mame/machine/year
 * /mame/machine/display[@rotate]
@@ -43,26 +43,31 @@ $ xmllint --shell mame.xml
 ## Vertical Games
 
 ```
-/ > xpath //machine/display[@rotate=90]
+/ > xpath //machine/display[@rotate=90 or @rotate=270]
 ```
 
 ## Parsing w/ Ruby
 
-`vertical_games`
+```
+$ touch vertical_games
+$ $EDITOR vertical_games
+```
 
 ```
 #!/usr/bin/env ruby
 require "nokogiri"
 doc = Nokogiri::XML(open("mame.xml"))
 
-puts "name, description, year, manufacturer"
+puts "rom, name, description, year, manufacturer"
 doc.xpath("//machine/display[@rotate=90]").each do |el|
-  name = el.parent["name"]
-  description = el.parent.xpath("description").text
-  year = el.parent.xpath("year").text
-  manufacturer = el.parent.xpath("manufacturer").text
+  machine = el.parent
+  rom = machine["romof"]
+  name = machine["name"]
+  description = machine.xpath("description").text
+  year = machine.xpath("year").text
+  manufacturer = machine.xpath("manufacturer").text
 
-  puts "#{name}, #{description}, #{year}, #{manufacturer}"
+  puts "#{rom}, #{name}, #{description}, #{year}, #{manufacturer}"
 end
 ```
 

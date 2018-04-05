@@ -39,7 +39,7 @@ mame2003-tate_mode = "enabled"
 
 ![After enabling TATE mode](/assets/images/retropie-vertical-display-tate-mode-01.jpg)
 
-The video ratio feels good. Can we do anything about the unused space/black bars)?
+The video ratio feels good. Can we do anything about the unused space/black bars?
 
 ## Disable Overscan
 
@@ -104,4 +104,4 @@ emulationstation --resolution 1920 1080
 
 [source](https://github.com/Aloshi/EmulationStation/issues/55)
 
-**No Change**
+**No Change**. This sets the resolution in the front-end.

@@ -7,7 +7,7 @@ tags: unix
 
 Where should that file go in the \*nix filesystem?
 
- ## FHS v2.3
+## FHS v2.3
 
 | Directory | Description |
 | --------- | ----------- |
