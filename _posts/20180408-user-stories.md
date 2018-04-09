@@ -1,6 +1,9 @@
-# Writing User Stories and Acceptance Criteria
-
-## User Stories
+---
+layout: post
+title: "User Stories"
+date: 2018-04-08 23:23
+tags: software
+---
 
 **User Stories** are a way for technical and non-technical people to communicate
 about **Software Requirements**. It gives the developer and the stakeholder a
