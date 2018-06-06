@@ -41,5 +41,17 @@ $ adb restore ~/Documents/android-backup-20170504.ab
 ## Clear Cache
 
 ```no-highlight
-rm -r /data/dalvik-cache
+$ rm -r /data/dalvik-cache
+```
+
+## Copy files from Android device to local storage
+
+```no-highlight
+$ adb pull /storage/292A-0FE1/Music/* /Volumes/128GB_MSD/music
+```
+
+## Sync files between devices
+
+```no-highlight
+$ adb push --sync /Volumes/128GB_MSD/music /storage/292A-0FE1/Music
 ```

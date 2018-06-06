@@ -55,6 +55,17 @@ disable_overscan=1
 
 Looks great!
 
+## Set Vertical mode for all games
+
+```
+$ nano /opt/retropie/configs/all/retroarch.cfg
+```
+
+```
+video_allow_rotate = true
+video_rotation = 3
+```
+
 ## Other Config and Commands That Were Investigated
 
 ### Configure Resolution
