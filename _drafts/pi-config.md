@@ -6,10 +6,13 @@
 1. [x] Setup WiFi: `touch /boot/wpa_supplicant.conf`
 1. [x] Install the SD Card and boot the Pi
 1. [x] Find the Pi on the Network (by IP)
+1. [x] Run `raspi-config`
 1. [x] Change Password
 1. [x] Set Pi Hostname
 1. [x] Copy SSH Key
 1. [x] Disable SSH Password Logins
+1. [x] Set the locale
+1. [x] Update the OS
 
 ## Disk Images
 
@@ -22,20 +25,6 @@
 $ wget https://github.com/RetroPie/RetroPie-Setup/releases/download/4.3/retropie-4.3-rpi2_rpi3.img.gz
 $ gunzip retropie-4.3-rpi2_rpi3.img.gz
 ```
-
-## hostnames
-
-> Valid characters for hostnames are ASCII(7) letters from a to z, the digits
-> from 0 to 9, and the hyphen (-).  A hostname may not start with a hyphen.
-
-[source](http://man7.org/linux/man-pages/man7/hostname.7.html)
-
-
-Before booting, edit SD Card: `echo my-cool-pi-hostname >> /boot/hostnames` **(unverified)**
-
-After booting: SSH into the Pi and set the hostname through the `raspi-config` menu or by setting `/etc/hostname`.
-
-[StackExchange Answer](https://raspberrypi.stackexchange.com/a/44963)
 
 ## wpa_supplicant.conf
 
@@ -71,6 +60,35 @@ Determine the Pi's Hostname and IP Address.
 $ ping my-cool-pi-hostname.local
 ```
 
+## Run `raspi-config`
+
+```
+$ ssh pi@my-cool-pi-hostname.local  # default password is 'raspberry'
+pi@retropie:~ $ sudo raspi-config
+```
+
+Set the password, hostname, and localization options.
+
+## hostnames
+
+> Valid characters for hostnames are ASCII(7) letters from a to z, the digits
+> from 0 to 9, and the hyphen (-).  A hostname may not start with a hyphen.
+
+[source](http://man7.org/linux/man-pages/man7/hostname.7.html)
+
+
+After booting: SSH into the Pi and set the hostname through the `raspi-config` menu or by setting `/etc/hostname`.
+
+[StackExchange Answer](https://raspberrypi.stackexchange.com/a/44963)
+
+
+## Change Password
+
+```
+$ passwd
+```
+
+
 ## Copy SSH Key
 
 ```
@@ -88,11 +106,6 @@ $ ssh-copy-id -i ~/.ssh/id_rsa.pub pi@192.168.1.250
 
 [source](https://www.raspberrypi.org/documentation/configuration/security.md)
 
-## Change Password
-
-```
-$ passwd
-```
 
 ## Disable SSH Password Logins
 
@@ -105,6 +118,31 @@ Add `PasswordAuthentication no` and save.
 ```
 $ sudo service ssh reload
 ```
+
+## Set the locale
+
+```
+$ sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+```
+
+[source](https://askubuntu.com/a/505424)
+
+## Set the Keyboard Layout
+
+## Change the Wi-fi Country
+
+## Set Wi-fi w/ wicd
+
+```
+$ sudo apt-get install wicd wicd-curses
+$ wicd-curses
+```
+
+## Areas to Improve
+
+* Pi Zero and Wifi connections
+* Pi Zero and HDMI resolution
+
 
 ## What's Next?
 

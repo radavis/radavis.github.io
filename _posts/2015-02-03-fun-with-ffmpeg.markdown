@@ -72,7 +72,15 @@ $ ffmpeg -f concat -i files.txt -c copy output.mov
 $ ffmpeg -i OriginalVideo.mp4 -i NewAudio.wav -acodec copy -vcodec copy -map 0:v -map 1:a Output.mp4
 ```
 
+## wav to flac
+
+```
+$ find /Volumes/128GB_MSD/_archive/tycho-epoch-wav -type f -iname "*.wav" -exec sh -c \
+'bn=${1##*/}; bn=${bn%.*}; ffmpeg -loglevel 16 -i "$1" "${0}${bn}.flac"' /Volumes/128GB_MSD/_archive/tycho-epoch/ {} \;
+```
+
 ## References
 * [FFmpeg and H.264 Encoding Guide](https://trac.ffmpeg.org/wiki/Encode/H.264)
 * [How can I convert a 1080p wmv video to a 720p video?](http://askubuntu.com/questions/99643/how-can-i-convert-a-1080p-wmv-video-to-a-720p-video)
 * [FFmpeg: Concatenate](https://trac.ffmpeg.org/wiki/Concatenate) - Check out the `mmcat` script at the bottom of the page.
+* [find + ffmpeg](https://unix.stackexchange.com/a/428025/157412)
