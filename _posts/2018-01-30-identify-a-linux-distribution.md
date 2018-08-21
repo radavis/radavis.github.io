@@ -12,3 +12,10 @@ $ lsb_release -a
 ```
 
 [link](https://unix.stackexchange.com/a/35184)
+
+
+## Get Microprocessor Identification
+
+```
+$ cat /proc/cpuinfo
+```
