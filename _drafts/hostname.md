@@ -23,7 +23,7 @@ $ dscacheutil -flushcache
 ### Linux/Unix
 
 ```
-$ sudo echo pi-b512 > hostname
+$ sudo hostnamectl set-hostname pi-b512
 $ sudo reboot
 ```
 

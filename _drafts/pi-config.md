@@ -54,7 +54,7 @@ network={
 
 Determine the Pi's Hostname and IP Address.
 
-[Using nmap or fing](https://radavis.github.io/2018/03/23/finding-devices-on-your-local-network.html)
+[Using nmap or fing](/finding-devices-on-your-local-network.html)
 
 ```
 $ ping my-cool-pi-hostname.local
@@ -81,6 +81,11 @@ After booting: SSH into the Pi and set the hostname through the `raspi-config` m
 
 [StackExchange Answer](https://raspberrypi.stackexchange.com/a/44963)
 
+## Set Hostname
+
+```
+$ sudo hostnamectl set-hostname pi-b512
+```
 
 ## Change Password
 
@@ -122,33 +127,39 @@ $ sudo service ssh reload
 ## Set the locale
 
 ```
+$ sudo nano /etc/locale.gen  # uncomment en_US.UTF-8 UTF-8
+$ sudo locale-gen
 $ sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 ```
 
 [source](https://askubuntu.com/a/505424)
 
-## Set the Keyboard Layout
-
-## Change the Wi-fi Country
-
-## Set Wi-fi w/ wicd
+## Set the Video Resolution
 
 ```
-$ sudo apt-get install wicd wicd-curses
-$ wicd-curses
+$ tvservice -m CEA  # or "DMT", to list supported video modes
+$ tvservice -e "DMT 82"  # mode 82: 1920x1080 @ 60Hz 16:9, clock:148MHz progressive
+$ tvservice -s
+$ tvservice -p  # preferred mode
 ```
 
-## Areas to Improve
+[source](https://www.raspberrypi.org/forums/viewtopic.php?t=25933)
 
-* Pi Zero and Wifi connections
-* Pi Zero and HDMI resolution
+## Update the OS
 
+```
+sudo apt-get update && sudo apt get upgrade
+```
 
 ## What's Next?
 
 * Ping Google: `ping google.com`
-* Update the OS: `sudo apt-get update && sudo apt get upgrade`
 * Copy files with `scp`
+
+
+## Other Issues
+
+* [Prevent Edimax WiFi adapter from sleeping](https://www.raspberrypi.org/forums/viewtopic.php?t=61665#p458761)
 
 ## Resources
 
