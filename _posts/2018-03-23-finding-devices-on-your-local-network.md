@@ -9,7 +9,7 @@ categories: cli
 ## with nmap
 
 ```
-$ brew install nmap
+$ brew install nmap  # or sudo apt-get install nmap
 $ sudo nmap -sP 192.168.1.1/24
 Starting Nmap 7.60 ( https://nmap.org ) at 2018-03-23 12:00 EDT
 Nmap scan report for FIOS_Quantum_Gateway.fios-router.home (192.168.1.1)
@@ -22,6 +22,7 @@ MAC Address: 78:FF:FF:FF:FF:FF (Arris Group)
 ```
 
 [link](https://nmap.org/book/install.html)
+
 
 ## with fing
 
@@ -49,3 +50,5 @@ $ sudo fing
 ```
 
 [link](http://macappstore.org/fing/)
+
+[fingkit downloads page](https://www.fing.io/fingkit-sdk-downloads/)
