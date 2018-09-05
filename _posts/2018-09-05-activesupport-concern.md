@@ -1,4 +1,9 @@
-# ActiveSupport::Concern
+---
+layout: post
+title: "ActiveSupport::Concern"
+date: 2018-09-05 10:30
+tags: rails, concerns
+---
 
 Instead of defining an `included` method to handle extending a class, we can
 `extend ActiveSupport::Concern`.
