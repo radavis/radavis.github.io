@@ -164,6 +164,12 @@ $ tar -zxvf plans_to_take_over_the_wolrd.tar.gz
 $ tar -xvjf area51_research_documents.tar.gz2
 ```
 
+## Unpacking a tar file
+
+```
+$ tar -xvf filename.tar
+```
+
 ## Zipping a Folder
 ```
 zip -r archive_name.zip folder_to_compress

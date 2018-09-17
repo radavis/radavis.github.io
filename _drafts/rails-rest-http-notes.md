@@ -4,6 +4,7 @@ Notes for my talk on Tuesday, October 9th, 2018.
 
 Idea for example application: Movie Catalog App.
 
+
 ## HTTP Request/Response Cycle
 
 ![diagram of HTTP request/response cycle](/assets/images/http-request-response-cycle.png)
@@ -26,6 +27,7 @@ DELETE | delete
 
 * posting a post... wtf, man!??@!
 * diagram HTTP and its RESTful mapping to CRUD operations
+* REST -> A Convention
 
 
 ## Rails Tutorial MVC Diagram
@@ -47,8 +49,9 @@ DELETE | delete
 
 * initial request: HTML & JS
 * diagram the execution of code triggered by a JS HTTP request
-* JS uses ajax/fetch to communicate between front-end and back-end
+* JS uses AJAX/fetch to communicate between front-end and back-end
 * diagram the components of the stack that can be swapped out (js-frameworks)
+* note on complexity: DHH and "double MVC" https://twitter.com/dhh/status/75281941422800896
 
 
 ## Pitfalls and Anti-patterns
@@ -68,10 +71,12 @@ The stuff you probably shouldn't do, even if it works.
 
 * Visualize user interaction within your webapp using the combined HTTP/Rails MVC diagram.
 * Avoid pitfalls and anti-patterns.
+* Stick with conventions, whenever possible.
 
 
 ## Resources
 
+* [Slides](https://docs.google.com/presentation/d/1QGNgdWTNjM9_VUcDsbTTN6wvMdWtSwZdjgChCx4yKzw/edit?usp=sharing)
 * [Rails Routing](https://guides.rubyonrails.org/routing.html)
 * [Rails Tutorial - Hartl](https://www.railstutorial.org/book)
 * [REST API Tutorial](https://www.restapitutorial.com/)
