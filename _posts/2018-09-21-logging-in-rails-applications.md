@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ActiveSupport::Concern"
+title: "Logging in Rails Applications"
 date: 2018-09-21 10:00
 tags: rails, log
 ---
