@@ -43,7 +43,7 @@ DELETE | delete
 
 * diagram the execution of code triggered by an HTTP request
 * diagram the components of the stack that can be swapped out (db, view layers)
-
+* importance of naming
 
 ## HTTP/Rails MVC Diagram (with JS/wiz wit)
 

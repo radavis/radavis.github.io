@@ -11,7 +11,6 @@ Projects I have contributed to:
 
   * __Horizon__
   [(site)](http://learn.launchacademy.com/)
-  [(open source fork)](https://github.com/launchacademy/horizon)
   \- LaunchAcademy's learning platform
 
   * __Ruby Playground__
@@ -34,11 +33,6 @@ Projects I have contributed to:
 
 Projects I have created:
 
-  * __Exloc__
-  [(site)](https://exloc.io)
-  [(github)](https://github.com/exloc/app)
-  \- Code example aggregation site.
-
   * __ActiveRecord Naming Challenge__
   [(site)](http://ar-naming.herokuapp.com/)
   [(github)](https://github.com/launchacademy/ar-naming/)
@@ -57,16 +51,6 @@ Projects I have created:
   [(site)](http://seizure-roulette.herokuapp.com/)
   [(github)](https://github.com/radavis/gif_monet)
   \- My tribute to [Cache Monet](http://www.cachemonet.com/)
-
-  * __MBTA Commuter Rail Departures__
-  [(site)](http://mbta-cr.herokuapp.com/)
-  [(github)](https://github.com/radavis/mbta-cr)
-  \- Mirrors the departure boards at North and South station.
-
-  * __MBTA Subway Arrival Times__
-  [(site)](http://mbta-subway.herokuapp.com/)
-  [(github)](https://github.com/radavis/mbta-subway)
-  \- When does the next train arrive at your T stop? Find out, here.
 
 
 Notes:
