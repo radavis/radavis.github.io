@@ -5,8 +5,6 @@ date: 2018-09-21 10:00
 tags: rails, log
 ---
 
-# Logging in Rails
-
 ## Log levels
 
 From 0 to 5 in severity:
