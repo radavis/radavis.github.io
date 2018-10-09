@@ -34,3 +34,10 @@ $ ruby -e "require 'securerandom'; puts SecureRandom.hex(64)"  # from anywhere
 also contains methods for generating UUIDs, random
 [base64 strings](https://en.wikipedia.org/wiki/Base64), and random
 binary strings.
+
+
+If you need a URL-safe key, say for API key generation, Ruby has you covered.
+
+```ruby
+SecureRandom.urlsafe_base64
+```
