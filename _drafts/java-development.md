@@ -8,11 +8,25 @@ Instructions for managing multiple Java versions, [here](https://stackoverflow.c
 * install Java versions (e.g. - 1.6, 1.8, 10.0, ...)
 * add Java versions to `jenv`
 
+Download:
+
+* [OpenJDK8](https://jdk.java.net/8/)
+* [OpenJDK10](https://jdk.java.net/10/)
+* [OpenJDK11](https://jdk.java.net/11/)
+
+```
+$ jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home
+$ jenv add /Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home
+$ jenv add /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+```
+
 ## List installed Java versions
 
 ```
 $ /usr/libexec/java_home -V
 ```
+
+**Note**: Java is installed on Macs @ `/Library/Java/JavaVirtualMachines`
 
 ## Set default Java version
 
