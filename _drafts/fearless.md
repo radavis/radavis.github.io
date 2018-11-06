@@ -1,18 +1,23 @@
-# Fearless
+## Repositories
+
+* [FearlessSolutions/otm-manager-in-focus-app](https://github.com/FearlessSolutions/otm-manager-in-focus-app)
+* [FearlessSolutions/otm-manager-in-focus-api](https://github.com/FearlessSolutions/otm-manager-in-focus-api)
+* [FearlessSolutions/otm-manager-in-focus-design](https://github.com/FearlessSolutions/otm-manager-in-focus-design)
 
 ## Technologies and Tools
 
-* [JIRA](https://fearless.jira.com/)
-* [Confluence](https://fearless.jira.com/wiki)
+* [JIRA](https://fearless.jira.com/secure/RapidBoard.jspa?rapidView=35&projectKey=OTM&view=planning)
+* [Confluence](https://fearless.jira.com/wiki/spaces/OTM/overview)
 * [Zoom](https://zoom.us/j/674096407)
 * [Slack](https://fearless.slack.com/)
 * [GitHub](https://github.com/FearlessSolutions)
-* [AWS/C2S](https://aws.amazon.com/blogs/publicsector/announcing-the-new-aws-secret-region/)
+* [AWS](https://overthemoon.signin.aws.amazon.com/console)
 * [React](https://reactjs.org/)
 * [Front-end Framework](https://material-ui.com/)
 * [Cypress](https://docs.cypress.io)
 * [Mocha](https://mochajs.org/)
 * [Chai](https://www.chaijs.com/)
+* [InVision](https://projects.invisionapp.com/share/PMOX9BX8EUX#/329237767_Landing_A)
 
 ## Other Links
 
@@ -21,6 +26,7 @@
 * [Keep](https://keep.google.com/)
 * [ClickTime](https://app.clicktime.com/)
 * [BambooHR](https://fearless.bamboohr.com/)
+* [CareFirst](https://www.member.carefirst.com/members/home.page)
 
 ## GitHub Team
 
@@ -31,21 +37,11 @@
 * [supermonkeybrainz](https://github.com/supermonkeybrainz)
 * [scotthesterberg](https://github.com/scotthesterberg)
 
-## SIDS
+## SIDs
 
 * scheste
 * Jgmccra
 * lftherr
-
-## Git Flow Summary
-
-1. A `develop` branch is created from `master`
-2. A `release` branch is created from `develop`
-3. `feature` branches are created from `develop`
-4. When a `feature` is complete it is merged into the `develop` branch
-5. When the `release` branch is done it is merged into `develop` and `master`
-6. If an issue in `master` is detected a `hotfix` branch is created from `master`
-7. Once the `hotfix` is complete it is merged to both `develop` and `master`
 
 ## Resources
 
