@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "bash set -x"
+title: "User Story Workshop"
 date: 2018-11-15 11:00
 tags: user-stories
 categories: scrum
