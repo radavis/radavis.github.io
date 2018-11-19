@@ -3,6 +3,13 @@
 * [FearlessSolutions/otm-manager-in-focus-app](https://github.com/FearlessSolutions/otm-manager-in-focus-app)
 * [FearlessSolutions/otm-manager-in-focus-api](https://github.com/FearlessSolutions/otm-manager-in-focus-api)
 * [FearlessSolutions/otm-manager-in-focus-design](https://github.com/FearlessSolutions/otm-manager-in-focus-design)
+* [FearlessSolutions/otm-manager-in-focus-infrastructure](https://github.com/FearlessSolutions/otm-manager-in-focus-infrastructure)
+
+## Designs
+
+* [Filtering Wireframe 20181108](https://projects.invisionapp.com/share/EUP0VWN7ZJR#/screens/330329067)
+* [Landing Page 20181030](https://projects.invisionapp.com/share/UHP00UE3M8K#/screens)
+* [Landing Page (initial)](https://projects.invisionapp.com/share/PMOX9BX8EUX#/screens/329237767)
 
 ## Technologies and Tools
 
