@@ -16,7 +16,7 @@ When building software, what are some of the goals we would like to achieve...
 
 ## Software Goals: (Possible) Answers
 
-The Client wants software delivered on time and within budget that satisfies the needs of the user base.
+The Client wants software delivered on time and within budget. The Client wants software that satisfies the needs of the user base.
 
 The Development Team wants to work in parallel to build robust, useful, and beautiful software.
 
@@ -26,7 +26,7 @@ The Development Team wants to work in parallel to build robust, useful, and beau
 ## Basic Format
 
 ```
-As a [role or persona],
+As a [persona],
 I want [a feature],
 So that [a business need is satisfied].
 ```
@@ -69,7 +69,7 @@ So that I can help them schedule a training session and bring them back into com
 ```
 
 
-## A Good User Story
+## Good User Stories...
 
 A good User Story answers the following questions (for the developer):
 
@@ -78,7 +78,7 @@ A good User Story answers the following questions (for the developer):
 * What business value am I adding to the application?
 
 
-## A Good User Story
+## Good User Stories...
 
 A good User Story has the following attributes:
 
@@ -114,7 +114,9 @@ e.g.
 3. Feature Test
 
 
-## User Stories + Designs: Going from simply functional software to beautiful software
+## User Stories + Designs
+
+#### Going from simply functional software to beautiful software
 
 Designs help to shape client expectations as to how software will look and behave.
 
