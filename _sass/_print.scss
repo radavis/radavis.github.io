@@ -1,0 +1,13 @@
+/**
+ * Print Styling
+ */
+
+@media print {
+  .site-header {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+}
