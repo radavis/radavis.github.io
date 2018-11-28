@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "User Story Workshop"
-date: 2018-11-15 11:00
+date: 2018-11-27 12:00
 tags: user-stories
 categories: scrum
 ---
@@ -64,8 +64,10 @@ Best
 
 ```
 As a Manager of The X-Files department within the FBI,
-I want to view a list of my Employees that are non-compliant with Extraterrestrial Autopsy Training,
-So that I can help them schedule a training session and bring them back into compliance.
+I want to view a list of my Employees that are non-compliant
+  with Extraterrestrial Autopsy Training,
+So that I can help them schedule a training session and bring
+  them back into compliance.
 ```
 
 
