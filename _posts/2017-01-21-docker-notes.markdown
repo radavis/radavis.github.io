@@ -5,7 +5,7 @@ date: 2017-01-21 15:00
 tags: docker
 ---
 
-# References
+# References/Resources
 
 * [Docker Toolbox Overview](https://docs.docker.com/toolbox/overview/)
 * [Docker Getting Started Tutorial](https://docs.docker.com/engine/getstarted/)
@@ -13,6 +13,8 @@ tags: docker
 * [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
 * [Dockerize PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/)
 * [Docker Self-Paced Online Training](https://training.docker.com/category/self-paced-online)
+* [Docker ARG, ENV, and .env](https://vsupalov.com/docker-arg-env-variable-guide/)
+* [Setting Default Docker Environment Variables During Image Build](https://vsupalov.com/docker-build-time-env-values/)
 
 # Verify Installation
 
