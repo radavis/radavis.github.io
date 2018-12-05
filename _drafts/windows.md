@@ -2,7 +2,6 @@
 layout: post
 title: "Windows"
 date: 2017-06-29 19:45
-tags: radius wifi
 ---
 
 Necessity of a Windows PC: gaming

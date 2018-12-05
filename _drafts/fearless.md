@@ -1,9 +1,9 @@
 ## Repositories
 
-* [FearlessSolutions/otm-manager-in-focus-app](https://github.com/FearlessSolutions/otm-manager-in-focus-app)
-* [FearlessSolutions/otm-manager-in-focus-api](https://github.com/FearlessSolutions/otm-manager-in-focus-api)
-* [FearlessSolutions/otm-manager-in-focus-design](https://github.com/FearlessSolutions/otm-manager-in-focus-design)
-* [FearlessSolutions/otm-manager-in-focus-infrastructure](https://github.com/FearlessSolutions/otm-manager-in-focus-infrastructure)
+* [app](https://github.com/FearlessSolutions/otm-manager-in-focus-app)
+* [api](https://github.com/FearlessSolutions/otm-manager-in-focus-api)
+* [design](https://github.com/FearlessSolutions/otm-manager-in-focus-design)
+* [infrastructure](https://github.com/FearlessSolutions/otm-manager-in-focus-infrastructure)
 
 ## Designs
 
