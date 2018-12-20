@@ -1,3 +1,12 @@
+---
+layout: post
+title: "sqlite3"
+date: 2018-10-16 09:45
+tags: sqlite3
+---
+
+## sqlite3 command line
+
 ```
 $ sqlite3 database-name.db
 sqlite> .help
@@ -8,3 +17,18 @@ sqlite> .mode column
 sqlite> select * from table_name limit 40;
 sqlite> .q
 ```
+
+## `~/.sqliterc`
+
+```
+.headers on
+.mode column
+```
+
+## sqlite3 datatypes
+
+* null
+* integer
+* real
+* text
+* blob
