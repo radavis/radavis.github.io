@@ -15,6 +15,7 @@ tags: docker
 * [Docker Self-Paced Online Training](https://training.docker.com/category/self-paced-online)
 * [Docker ARG, ENV, and .env](https://vsupalov.com/docker-arg-env-variable-guide/)
 * [Setting Default Docker Environment Variables During Image Build](https://vsupalov.com/docker-build-time-env-values/)
+* [Docker Tutorial Series](https://rominirani.com/docker-tutorial-series-a7e6ff90a023)
 
 # Verify Installation
 
@@ -34,7 +35,7 @@ $ docker run hello-world
 # List All Containers
 
 ```bash
-$  docker ps -a
+$ docker ps -a
 ```
 
 # List All Images
@@ -155,20 +156,32 @@ ARG <name>[=<default value>]
 
 > The **LABEL** instruction adds metadata to an image.
 
-> The **WORKDIR** instruction sets the working directory for any **RUN**, **CMD**, **ENTRYPOINT**, **COPY** and **ADD** instructions that follow it in the `Dockerfile`.
+> The **WORKDIR** instruction sets the working directory for any
+> **RUN**, **CMD**, **ENTRYPOINT**, **COPY** and **ADD** instructions that
+> follow it in the `Dockerfile`.
 
-> The **ADD** instruction copies new files, directories or remote file URLs from `<src>` and adds them to the filesystem of the image at the path `<dest>`.
+> The **ADD** instruction copies new files, directories or remote file URLs
+>  from `<src>` and adds them to the filesystem of the image at the path `<dest>`.
 
-> The **COPY** instruction copies new files or directories from `<src>` and adds them to the filesystem of the container at the path `<dest>`.
+> The **COPY** instruction copies new files or directories from `<src>` and
+> adds them to the filesystem of the container at the path `<dest>`.
 
-> The **RUN** instruction will execute any commands in a new layer on top of the current image and commit the results.
+> The **RUN** instruction will execute any commands in a new layer on top of
+> the current image and commit the results.
 
-> The **VOLUME** instruction creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other containers.
+> The **VOLUME** instruction creates a mount point with the specified name and
+> marks it as holding externally mounted volumes from native host or other containers.
 
 > The main purpose of a **CMD** is to provide defaults for an executing container.
 
 > An **ENTRYPOINT** allows you to configure a container that will run as an executable.
 
-> The **ONBUILD** instruction adds to the image a trigger instruction to be executed at a later time, when the image is used as the base for another build. The trigger will be executed in the context of the downstream build, as if it had been inserted immediately after the FROM instruction in the downstream `Dockerfile`.
+> The **ONBUILD** instruction adds to the image a trigger instruction to be
+> executed at a later time, when the image is used as the base for another
+> build. The trigger will be executed in the context of the downstream build,
+> as if it had been inserted immediately after the FROM instruction in the
+> downstream `Dockerfile`.
 
-> The **ARG** instruction defines a variable that users can pass at build-time to the builder with the docker build command using the `--build-arg <varname>=<value>` flag.
+> The **ARG** instruction defines a variable that users can pass at build-time
+> to the builder with the docker build command using the
+> `--build-arg <varname>=<value>` flag.
