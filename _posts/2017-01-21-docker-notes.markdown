@@ -24,7 +24,7 @@ This command:
 * creates and runs a **Docker container**
 * in the container, the `hello-world` **image** is loaded
 
-```bash
+```
 $ docker run hello-world
 ```
 
@@ -34,19 +34,19 @@ $ docker run hello-world
 
 # List All Containers
 
-```bash
+```
 $ docker ps -a
 ```
 
 # List All Images
 
-```bash
+```
 $ docker images
 ```
 
 # Run a Container, with Arguments
 
-```bash
+```
 $ docker run docker/whalesay cowsay boo
 ```
 
@@ -74,19 +74,19 @@ CMD ["cowsay"]
 
 List running containers.
 
-```no-highlight
+```
 $ docker ps
 ```
 
 View details of an image.
 
-```no-highlight
+```
 $ docker inspect image-name
 ```
 
 Check if a specific container is running.
 
-```no-highlight
+```
 $ docker inspect --format "\{\{.State.Running\}\}" container-name
 ```
 
@@ -94,32 +94,38 @@ $ docker inspect --format "\{\{.State.Running\}\}" container-name
 
 View Logs
 
-```no-highlight
+```
 $ docker logs container-name
 $ docker logs -f container-name
 ```
 
 View ports
 
-```no-highlight
+```
 $ docker port container-name
+```
+
+Connect to running container
+
+```
+$ docker exec -it [container-id] bash
 ```
 
 Restart container
 
-```no-highlight
+```
 $ docker restart container-name
 ```
 
 Stop all running containers
 
-```no-highlight
+```
 $ docker stop $(docker ps -a -q)
 ```
 
 Remove all containers
 
-```no-highlight
+```
 $ docker rm $(docker ps -a -q)
 ```
 
@@ -127,7 +133,7 @@ $ docker rm $(docker ps -a -q)
 
 Run the following command from a folder where a `Dockerfile` exists.
 
-```bash
+```
 $ docker build -t username/image .
 ```
 
