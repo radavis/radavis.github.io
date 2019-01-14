@@ -16,6 +16,7 @@ tags: docker
 * [Docker ARG, ENV, and .env](https://vsupalov.com/docker-arg-env-variable-guide/)
 * [Setting Default Docker Environment Variables During Image Build](https://vsupalov.com/docker-build-time-env-values/)
 * [Docker Tutorial Series](https://rominirani.com/docker-tutorial-series-a7e6ff90a023)
+* [How to use Entrypoint](https://medium.com/the-code-review/how-to-use-entrypoint-with-docker-and-docker-compose-1c2062aa17a2)
 
 # Verify Installation
 
@@ -154,7 +155,7 @@ COPY <source> <destination>
 RUN <command>
 EXPOSE <port>
 VOLUME ["/data"]
-CMD ["executable","param1","param2"]
+CMD ["executable", "param1", "param2"]
 ENTRYPOINT ["executable", "param1", "param2"]
 ONBUILD [INSTRUCTION]
 ARG <name>[=<default value>]
@@ -167,7 +168,7 @@ ARG <name>[=<default value>]
 > follow it in the `Dockerfile`.
 
 > The **ADD** instruction copies new files, directories or remote file URLs
->  from `<src>` and adds them to the filesystem of the image at the path `<dest>`.
+> from `<src>` and adds them to the filesystem of the image at the path `<dest>`.
 
 > The **COPY** instruction copies new files or directories from `<src>` and
 > adds them to the filesystem of the container at the path `<dest>`.

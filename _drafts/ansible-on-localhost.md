@@ -10,12 +10,18 @@
 
 ## Setup
 
-Create a couple of containers running Ubuntu.
+Create a couple of containers running Debian and Python3
 
 ```
 $ docker pull python:3-stretch
 $ docker run -it -d --name server01.local python:3-stretch /bin/bash
 $ docker run -it -d --name server02.local python:3-stretch /bin/bash
+```
+
+View running containers
+
+```
+$ docker ps
 ```
 
 Tell Ansible how to connect to the Docker containers
@@ -38,6 +44,7 @@ ansible_connection=docker
 $ ansible all --inventory-file=inventory --module-name ping
 $ ansible all -i inventory -m ping
 $ ansible all -i inventory --args uptime
+$ ansible all -i inventory -a "/bin/echo hello"
 ```
 
 
