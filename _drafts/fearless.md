@@ -15,6 +15,7 @@
 
 * [JIRA](https://fearless.jira.com/secure/RapidBoard.jspa?rapidView=35&projectKey=OTM&view=planning)
 * [Confluence](https://fearless.jira.com/wiki/spaces/OTM/overview)
+* [Zeplin](https://zpl.io/V4Q0Y4J)
 * [Zoom](https://zoom.us/j/674096407)
 * [Slack](https://fearless.slack.com/)
 * [GitHub](https://github.com/FearlessSolutions)
