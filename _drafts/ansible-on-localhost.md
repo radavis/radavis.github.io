@@ -37,6 +37,11 @@ server02.local
 ansible_connection=docker
 ```
 
+Or, via ssh:
+
+```
+$ ssh-copy-id username@remote-host
+```
 
 ## Interact with the Docker Images
 
