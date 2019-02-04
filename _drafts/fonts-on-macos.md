@@ -20,3 +20,4 @@ $ cp *ttf ~/Library/Fonts
 * [Installing fonts from the terminal](https://apple.stackexchange.com/questions/240381/installing-fonts-from-terminal-instead-of-font-book)
 * [B612 Font Family](http://b612-font.com/)
 * [IBM 3270 Font](https://github.com/rbanffy/3270font)
+* [Hack Font](https://sourcefoundry.org/hack/)
