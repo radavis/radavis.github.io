@@ -18,11 +18,11 @@ while true; do
     current_timestamp=$(timestamp)
     echo "publishing changes at $current_timestamp"
     git add .
-    git commit -m 'auto-commit $pathname at $current_timestamp'
+    git commit -m "auto-commit $pathname at $current_timestamp"
     git push origin HEAD
     echo "success!"
   else
     echo "$script: no changes, yet..."
   fi
-  sleep 10
+  sleep 30
 done
