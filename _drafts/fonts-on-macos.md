@@ -21,3 +21,4 @@ $ cp *ttf ~/Library/Fonts
 * [B612 Font Family](http://b612-font.com/)
 * [IBM 3270 Font](https://github.com/rbanffy/3270font)
 * [Hack Font](https://sourcefoundry.org/hack/)
+* [Slant: What are the best programming fonts?](https://www.slant.co/topics/67/~best-programming-fonts#88)
