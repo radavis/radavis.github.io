@@ -3,9 +3,14 @@
 
 ## Requirements
 
-* Ansible
-* Docker
 * Python3
+* [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#latest-releases-via-pip) - `pip install ansible`
+* Docker
+
+
+## Configure Ansible
+
+[source](https://docs.ansible.com/ansible/latest/installation_guide/intro_configuration.html#configuration-file)
 
 
 ## Setup

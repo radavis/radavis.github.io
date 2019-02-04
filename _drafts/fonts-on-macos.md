@@ -1,0 +1,21 @@
+# Fonts on macOS
+
+* Locations:
+  - `/System/Library/Fonts` (not writeable)
+  - `/Library/Fonts` (system-wide)
+  - `~/Library/Fonts` (local user)
+* TrueType Fonts: `.ttf` or `.ttc`
+* OpenType Fonts: `.otf` or `.ttf`
+
+
+# Copy `.ttf` fonts for use by the local user
+
+```
+$ cp *ttf ~/Library/Fonts
+```
+
+## Resources
+
+* [How to Locate Mac or Windows Font Files](https://www.lifewire.com/locate-font-files-1074150)
+* [Installing fonts from the terminal](https://apple.stackexchange.com/questions/240381/installing-fonts-from-terminal-instead-of-font-book)
+* [B612 Font Family](http://b612-font.com/)

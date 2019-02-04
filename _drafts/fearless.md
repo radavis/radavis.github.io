@@ -1,17 +1,28 @@
-## Repositories
+## People Processor
+
+### Planning
+
+* [JIRA](https://fearless.jira.com/secure/RapidBoard.jspa?projectKey=PCS&rapidView=46&view=planning)
+* [Zeplin Designs](https://app.zeplin.io/project/5c51b19add3ba3431f635635)
+* [Confluence Documentation](https://fearless.jira.com/wiki/spaces/OTM/pages/302350390/People+Processing)
+* [Interviews & Initial Design](https://drive.google.com/drive/u/1/folders/1MCylKpeaX84JgsfDLjfdWwYADzZN5HKo)
+
+## GoUs App
+
+### Repositories
 
 * [app](https://github.com/FearlessSolutions/otm-manager-in-focus-app)
 * [api](https://github.com/FearlessSolutions/otm-manager-in-focus-api)
 * [design](https://github.com/FearlessSolutions/otm-manager-in-focus-design)
 * [infrastructure](https://github.com/FearlessSolutions/otm-manager-in-focus-infrastructure)
 
-## Designs
+### Designs
 
 * [Filtering Wireframe 20181108](https://projects.invisionapp.com/share/EUP0VWN7ZJR#/screens/330329067)
 * [Landing Page 20181030](https://projects.invisionapp.com/share/UHP00UE3M8K#/screens)
 * [Landing Page (initial)](https://projects.invisionapp.com/share/PMOX9BX8EUX#/screens/329237767)
 
-## Technologies and Tools
+### Technologies and Tools
 
 * [JIRA](https://fearless.jira.com/secure/RapidBoard.jspa?rapidView=35&projectKey=OTM&view=planning)
 * [Confluence](https://fearless.jira.com/wiki/spaces/OTM/overview)
@@ -44,12 +55,6 @@
 * [gainesmc](https://github.com/gainesmc)
 * [supermonkeybrainz](https://github.com/supermonkeybrainz)
 * [scotthesterberg](https://github.com/scotthesterberg)
-
-## SIDs
-
-* scheste
-* Jgmccra
-* lftherr
 
 ## Resources
 
