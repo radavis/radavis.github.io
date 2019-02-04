@@ -20,7 +20,7 @@ while true; do
     git add .
     git commit -m "auto-commit $pathname at $current_timestamp"
     git push origin HEAD
-    echo "success!"
+    initial_checksum=$current_checksum
   else
     echo "$script: no changes, yet..."
   fi
