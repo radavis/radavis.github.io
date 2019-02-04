@@ -6,6 +6,12 @@ My blog.
 
 Automatic deploys from `master` are enabled. [source](https://dashboard.heroku.com/apps/radavis/deploy/github)
 
+## TODO
+
+* [ ] Script for publishing a draft
+* [ ] Change website title based on environment
+* [ ] Full-text search of articles
+
 ## Resources
 
 * [GitHub Pages](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)

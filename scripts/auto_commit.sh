@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+folder_checksum() {
+  echo `tar -cf - $1 | md5`
+}
+
+timestamp() {
+  echo `date "+%Y%m%d %H%M%S"`
+}
+
+script=`basename "$0"`
+pathname=$1
+initial_checksum=$(folder_checksum $pathname)
+
+while true; do
+  current_checksum=$(folder_checksum $pathname)
+  if [ $initial_checksum != $current_checksum ]; then
+    current_timestamp=$(timestamp)
+    echo "publishing changes at $current_timestamp"
+    git add .
+    git commit -m 'auto-commit $pathname at $current_timestamp'
+    git push origin HEAD
+    echo "success!"
+  else
+    echo "$script: no changes, yet..."
+  fi
+  sleep 10
+done
