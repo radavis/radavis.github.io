@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
+#
+# Watch a folder, commit and push when changes are detected
+#   usage: ./auto_commit.sh folder_name
 
 folder_checksum() {
-  echo "$(tar -cf - $1 | md5)"
+  echo "$(tar -cf - "$1" | md5)"
 }
 
 timestamp() {
