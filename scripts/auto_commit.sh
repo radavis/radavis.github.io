@@ -5,7 +5,7 @@ folder_checksum() {
 }
 
 timestamp() {
-  echo $("date '+%Y%m%d %H%M%S'")
+  echo $(date "+%Y%m%d %H%M%S")
 }
 
 script=$(basename "$0")
@@ -16,7 +16,7 @@ initial_checksum=$(folder_checksum "$pathname")
 while true; do
   current_checksum=$(folder_checksum "$pathname")
 
-  if [ "$initial_checksum" != "$current_checksum" ]; then
+  if [[ "$initial_checksum" != "$current_checksum" ]]; then
     current_timestamp=$(timestamp)
     echo "\n$script: publishing changes at $current_timestamp"
     git add .
