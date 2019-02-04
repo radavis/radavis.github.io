@@ -1,4 +1,9 @@
-# Fonts on macOS
+---
+layout: post
+title: "Fonts on macOS"
+date: 2019-02-04 18:55
+tags: rails, rest, http
+---
 
 * Locations:
   - `/System/Library/Fonts` (not writeable)
