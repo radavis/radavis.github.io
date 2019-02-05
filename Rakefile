@@ -5,5 +5,5 @@ namespace :assets do
 end
 
 task :watch_drafts do
-  sh "./scripts/auto_commit.sh _drafts"
+  sh "./script/auto_commit _drafts"
 end
