@@ -57,6 +57,13 @@ $ ansible all -i inventory --args uptime
 $ ansible all -i inventory -a "/bin/echo hello"
 ```
 
+## Execute a playbook
+
+```
+$ ansible-playbook -i hosts webserver.yml
+```
+
+Then, visit `http://localhost:8081` or `http://localhost:8082` in your browser.
 
 ## Cleanup
 

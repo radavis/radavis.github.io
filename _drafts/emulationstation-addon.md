@@ -4,7 +4,6 @@ ncurses interface for browsing, searching, and downloading roms.
 
 ## Technologies
 
-*
 * Transmission BitTorrent client
 * Archive.org - for rom torrents
 * Emuparadise.me - for rom ratings
