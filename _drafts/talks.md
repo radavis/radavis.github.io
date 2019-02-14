@@ -1,6 +1,3 @@
-# Talks
-
-
 **Authentication and Authorization**
 
 - Goal: Understand the basics of Auth, and how Web Auth systems work.
