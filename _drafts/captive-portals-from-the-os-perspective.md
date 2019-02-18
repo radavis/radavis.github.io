@@ -14,6 +14,9 @@ tags: wifi
 
 **Do not allow access to www.msftncsi.com when the user does not have access to the Internet.**
 
+**Example**: If a client needs to authenticate before being allowed access to the
+Internet, don't whitelist this domain as accessible before authenticating.
+
 
 ## macOS
 
