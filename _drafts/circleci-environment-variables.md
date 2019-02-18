@@ -1,0 +1,31 @@
+
+## CircleCI Environment Variables
+
+Typical variables and example values that are set when a CircleCI spins up the
+working environment.
+
+```
+BASH_ENV=/tmp/.bash_env-5c65d43c1bc1cc0008841c4c-0-build
+CI=true
+CIRCLECI=true
+CIRCLE_BRANCH=master
+CIRCLE_BUILD_NUM=1
+CIRCLE_BUILD_URL=https://circleci.com/gh/radavis/albums-api/1
+CIRCLE_COMPARE_URL=
+CIRCLE_JOB=build
+CIRCLE_NODE_INDEX=0
+CIRCLE_NODE_TOTAL=1
+CIRCLE_PREVIOUS_BUILD_NUM=
+CIRCLE_PROJECT_REPONAME=albums-api
+CIRCLE_PROJECT_USERNAME=radavis
+CIRCLE_REPOSITORY_URL=git@github.com:radavis/albums-api.git
+CIRCLE_SHA1=d57e2cc3592703de349e9e9110b3b125593da528
+CIRCLE_SHELL_ENV=/tmp/.bash_env-5c65d43c1bc1cc0008841c4c-0-build
+CIRCLE_STAGE=build
+CIRCLE_USERNAME=radavis
+CIRCLE_WORKFLOW_ID=1908ff5a-7231-456c-afab-390ff6211951
+CIRCLE_WORKFLOW_JOB_ID=d7b3cc5c-bc9e-4d19-9817-0aeba12e174a
+CIRCLE_WORKFLOW_UPSTREAM_JOB_IDS=
+CIRCLE_WORKFLOW_WORKSPACE_ID=1908ff5a-7231-456c-afab-390ff6211951
+CIRCLE_WORKING_DIRECTORY=~/repo
+```
