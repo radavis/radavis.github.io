@@ -108,3 +108,39 @@ pacman -S grub
 grub-install --target=i386-pc --recheck /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
+
+## Enable DHCP
+
+The network interface will not be enabled by default. Enable it, and set IPs by
+DHCP.
+
+```
+ip link set <interface> up
+systemctl enable dhcpcd.service
+```
+
+## Setup SSH Server
+
+```
+pacman -S openssh
+# add users/groups to /etc/ssh/sshd_config
+systemctl enable sshd.socket
+systemctl start sshd.socket
+```
+
+## Install Python (for Ansible)
+
+```
+pacman -S python
+```
+
+## Install and configure sudo
+
+```
+pacman -S sudo
+EDITOR=nano visudo
+```
+
+add `%wheel      ALL=(ALL) ALL`
+
+## Install cdrtools
