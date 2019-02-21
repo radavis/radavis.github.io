@@ -133,4 +133,5 @@ app:
 - Have `npm test` run the entire test suite. (unit, e2e, a11y, etc)
 - Refactor the application so that e2e tests are hitting the api layer.
 - Remove basic auth, add a simple OAuth layer low-side.
-- Combine repositories, or have the api serve front-end assets.
+- Have the api serve front-end assets. e.g. - avoid having to build a new
+  front-end with new configuration details when we scale the application.
