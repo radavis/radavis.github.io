@@ -1,11 +1,11 @@
 ## Frequently Used Links
 
-* [JIRA: Unified Staff](https://fearless.jira.com/secure/RapidBoard.jspa?projectKey=PCS&rapidView=46&view=planning)
-* [GitHub: Unified Staff App](https://github.com/FearlessSolutions/otm-manager-in-focus-app/pulls)
-* [GitHub: Unified Staff API](https://github.com/FearlessSolutions/otm-manager-in-focus-api/pulls)
-* [JIRA: GoUs](https://fearless.jira.com/secure/RapidBoard.jspa?rapidView=35&projectKey=OTM&view=planning)
-* [GitHub: GoUs App](https://github.com/FearlessSolutions/otm-manager-in-focus-app)
-* [GitHub: GoUs API](https://github.com/FearlessSolutions/otm-manager-in-focus-api)
+* [JIRA: Travel Guide](https://fearless.jira.com/secure/RapidBoard.jspa?projectKey=PCS&rapidView=46&view=planning)
+* [GitHub: Travel Guide App](https://github.com/FearlessSolutions/otm-manager-in-focus-app/pulls)
+* [GitHub: Travel Guide API](https://github.com/FearlessSolutions/otm-manager-in-focus-api/pulls)
+* [JIRA: Unified Staff](https://fearless.jira.com/secure/RapidBoard.jspa?rapidView=35&projectKey=OTM&view=planning)
+* [GitHub: Unified Staff App](https://github.com/FearlessSolutions/otm-manager-in-focus-app)
+* [GitHub: Unified Staff API](https://github.com/FearlessSolutions/otm-manager-in-focus-api)
 
 ## People Processor
 
