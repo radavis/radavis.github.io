@@ -72,3 +72,5 @@
 * [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 * [editor.swagger.io](http://editor.swagger.io/)
 * [devarch.com/react](https://devarchy.com/react)
+
+## Outdated Links
