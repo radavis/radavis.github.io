@@ -1,8 +1,16 @@
+## Frequently Used Links
+
+* [JIRA: Unified Staff](https://fearless.jira.com/secure/RapidBoard.jspa?projectKey=PCS&rapidView=46&view=planning)
+* [GitHub: Unified Staff App](https://github.com/FearlessSolutions/otm-manager-in-focus-app/pulls)
+* [GitHub: Unified Staff API](https://github.com/FearlessSolutions/otm-manager-in-focus-api/pulls)
+* [JIRA: GoUs](https://fearless.jira.com/secure/RapidBoard.jspa?rapidView=35&projectKey=OTM&view=planning)
+* [GitHub: GoUs App](https://github.com/FearlessSolutions/otm-manager-in-focus-app)
+* [GitHub: GoUs API](https://github.com/FearlessSolutions/otm-manager-in-focus-api)
+
 ## People Processor
 
 ### Planning
 
-* [JIRA](https://fearless.jira.com/secure/RapidBoard.jspa?projectKey=PCS&rapidView=46&view=planning)
 * [Zeplin Designs](https://app.zeplin.io/project/5c51b19add3ba3431f635635)
 * [Confluence Documentation](https://fearless.jira.com/wiki/spaces/OTM/pages/302350390/People+Processing)
 * [Interviews & Initial Design](https://drive.google.com/drive/u/1/folders/1MCylKpeaX84JgsfDLjfdWwYADzZN5HKo)
@@ -11,8 +19,6 @@
 
 ### Repositories
 
-* [app](https://github.com/FearlessSolutions/otm-manager-in-focus-app)
-* [api](https://github.com/FearlessSolutions/otm-manager-in-focus-api)
 * [design](https://github.com/FearlessSolutions/otm-manager-in-focus-design)
 * [infrastructure](https://github.com/FearlessSolutions/otm-manager-in-focus-infrastructure)
 
@@ -24,7 +30,6 @@
 
 ### Technologies and Tools
 
-* [JIRA](https://fearless.jira.com/secure/RapidBoard.jspa?rapidView=35&projectKey=OTM&view=planning)
 * [Confluence](https://fearless.jira.com/wiki/spaces/OTM/overview)
 * [Zeplin](https://zpl.io/V4Q0Y4J)
 * [Zoom](https://zoom.us/j/674096407)
@@ -37,6 +42,8 @@
 * [Mocha](https://mochajs.org/)
 * [Chai](https://www.chaijs.com/)
 * [InVision](https://projects.invisionapp.com/share/PMOX9BX8EUX#/329237767_Landing_A)
+* [Jest v23.x](https://jestjs.io/docs/en/23.x/tutorial-react)
+* [Enzyme](https://airbnb.io/enzyme/)
 
 ## Other Links
 
@@ -47,7 +54,7 @@
 * [BambooHR](https://fearless.bamboohr.com/)
 * [CareFirst](https://www.member.carefirst.com/members/home.page)
 
-## GitHub Team
+## GitHub Team Members
 
 * [lsemesky](https://github.com/lsemesky)
 * [radavis](https://github.com/radavis)
@@ -58,9 +65,7 @@
 
 ## Resources
 
-* [Six Reasons We Split Front-end and Back-end Code Into Two Git Repositories](https://quickleft.com/blog/six-reasons-we-split-front-end-and-back-end-code-into-two-git-repositories-working-with-github-repositories/)
 * [React Context](https://reactjs.org/docs/context.html)
 * [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 * [editor.swagger.io](http://editor.swagger.io/)
 * [devarch.com/react](https://devarchy.com/react)
-* [cypress](https://www.cypress.io/) - JavaScript e2e testing framework
