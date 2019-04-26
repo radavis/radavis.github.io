@@ -1,8 +1,11 @@
-## Frequently Used Links
+## Travel Guide
 
 * [JIRA: Travel Guide](https://fearless.jira.com/secure/RapidBoard.jspa?projectKey=PCS&rapidView=46&view=planning)
-* [GitHub: Travel Guide App](https://github.com/FearlessSolutions/otm-manager-in-focus-app/pulls)
-* [GitHub: Travel Guide API](https://github.com/FearlessSolutions/otm-manager-in-focus-api/pulls)
+* [GitHub: Travel Guide App](https://github.com/FearlessSolutions/otm-people-processing-app/pulls)
+* [GitHub: Travel Guide API](https://github.com/FearlessSolutions/otm-people-processing-api/pulls)
+
+## Unified Staff
+
 * [JIRA: Unified Staff](https://fearless.jira.com/secure/RapidBoard.jspa?rapidView=35&projectKey=OTM&view=planning)
 * [GitHub: Unified Staff App](https://github.com/FearlessSolutions/otm-manager-in-focus-app)
 * [GitHub: Unified Staff API](https://github.com/FearlessSolutions/otm-manager-in-focus-api)
