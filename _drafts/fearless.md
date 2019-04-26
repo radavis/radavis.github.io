@@ -12,18 +12,7 @@
 * [GitHub: Unified Staff API](https://github.com/FearlessSolutions/otm-manager-in-focus-api)
 * [GitHub: Unified Staff Infrastructure](https://github.com/FearlessSolutions/otm-manager-in-focus-infrastructure)
 
-## GoUs App
-
-### Repositories
-
-
-### Designs
-
-* [Filtering Wireframe 20181108](https://projects.invisionapp.com/share/EUP0VWN7ZJR#/screens/330329067)
-* [Landing Page 20181030](https://projects.invisionapp.com/share/UHP00UE3M8K#/screens)
-* [Landing Page (initial)](https://projects.invisionapp.com/share/PMOX9BX8EUX#/screens/329237767)
-
-### Technologies and Tools
+## Technologies and Tools
 
 * [Confluence](https://fearless.jira.com/wiki/spaces/OTM/overview)
 * [Zeplin](https://zpl.io/V4Q0Y4J)
@@ -70,3 +59,6 @@
 * [Travel Guide: Zeplin Designs](https://app.zeplin.io/project/5c51b19add3ba3431f635635)
 * [Travel Guide: Interviews & Initial Design](https://drive.google.com/drive/u/1/folders/1MCylKpeaX84JgsfDLjfdWwYADzZN5HKo)
 * [Unified Staff: design](https://github.com/FearlessSolutions/otm-manager-in-focus-design)
+* [Unified Staff: Filtering Wireframe 20181108](https://projects.invisionapp.com/share/EUP0VWN7ZJR#/screens/330329067)
+* [Unified Staff: Landing Page 20181030](https://projects.invisionapp.com/share/UHP00UE3M8K#/screens)
+* [Unified Staff: Landing Page (initial)](https://projects.invisionapp.com/share/PMOX9BX8EUX#/screens/329237767)
