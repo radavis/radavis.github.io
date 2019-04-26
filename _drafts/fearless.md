@@ -1,6 +1,7 @@
 ## Travel Guide
 
 * [JIRA: Travel Guide](https://fearless.jira.com/secure/RapidBoard.jspa?projectKey=PCS&rapidView=46&view=planning)
+* [Confluence: Travel Guide](https://fearless.jira.com/wiki/spaces/OTM/pages/302350390/People+Processing)
 * [GitHub: Travel Guide App](https://github.com/FearlessSolutions/otm-people-processing-app/pulls)
 * [GitHub: Travel Guide API](https://github.com/FearlessSolutions/otm-people-processing-api/pulls)
 
@@ -9,21 +10,12 @@
 * [JIRA: Unified Staff](https://fearless.jira.com/secure/RapidBoard.jspa?rapidView=35&projectKey=OTM&view=planning)
 * [GitHub: Unified Staff App](https://github.com/FearlessSolutions/otm-manager-in-focus-app)
 * [GitHub: Unified Staff API](https://github.com/FearlessSolutions/otm-manager-in-focus-api)
-
-## People Processor
-
-### Planning
-
-* [Zeplin Designs](https://app.zeplin.io/project/5c51b19add3ba3431f635635)
-* [Confluence Documentation](https://fearless.jira.com/wiki/spaces/OTM/pages/302350390/People+Processing)
-* [Interviews & Initial Design](https://drive.google.com/drive/u/1/folders/1MCylKpeaX84JgsfDLjfdWwYADzZN5HKo)
+* [GitHub: Unified Staff Infrastructure](https://github.com/FearlessSolutions/otm-manager-in-focus-infrastructure)
 
 ## GoUs App
 
 ### Repositories
 
-* [design](https://github.com/FearlessSolutions/otm-manager-in-focus-design)
-* [infrastructure](https://github.com/FearlessSolutions/otm-manager-in-focus-infrastructure)
 
 ### Designs
 
@@ -74,3 +66,7 @@
 * [devarch.com/react](https://devarchy.com/react)
 
 ## Outdated Links
+
+* [Travel Guide: Zeplin Designs](https://app.zeplin.io/project/5c51b19add3ba3431f635635)
+* [Travel Guide: Interviews & Initial Design](https://drive.google.com/drive/u/1/folders/1MCylKpeaX84JgsfDLjfdWwYADzZN5HKo)
+* [Unified Staff: design](https://github.com/FearlessSolutions/otm-manager-in-focus-design)
