@@ -11,3 +11,4 @@
   - Start communication with API and data providers, early.
   - Architect the API/data layer, first.
   - Provide realistic example data (e.g. - a example JSON data object that would be returned from an API).
+* Problem: Unable to perform user interviews or user observation.
