@@ -37,7 +37,7 @@ networks (Cisco Meraki).
 
 Set the environment:
 
-```
+```no-highlight
 export AWS_ACCESS_KEY_ID='AK123'
 export AWS_SECRET_ACCESS_KEY='abc123'
 ```
@@ -53,21 +53,21 @@ EC2 instances can be provisioned and de-provisioned.
 
 Role file structure:
 
-```
+```bash
 $ ansible-galaxy init role-name
 ```
 
-```
+```no-highlight
 defaults/main.yml  # default variables
-files/  # files to be deployed
+files/             # files to be deployed
 handlers/main.yml
-meta/main.yml  # role metadata
-tasks/main.yml  # list of (platform specific) tasks to be executed
-templates/  # jinja2 templates
+meta/main.yml      # role metadata
+tasks/main.yml     # list of (platform specific) tasks to be executed
+templates/         # jinja2 templates
 tests/
     inventory
     test.yml
-vars/main.yml  # other variables
+vars/main.yml      # other variables
 README.md
 ```
 
@@ -83,7 +83,7 @@ README.md
 > Compile tests check source files for valid syntax on all supported python
 > versions: 2.6, 2.7, 3.5, 3.6
 
-```
+```bash
 $ ansible-test sanity --test compile
 ```
 
@@ -93,7 +93,7 @@ $ ansible-test sanity --test compile
 > analysis. The primary purpose of these tests is to enforce Ansible coding
 > standards and requirements.
 
-```
+```bash
 $ ansible-test sanity  # run sanity tests
 $ ansible-test sanity --list-tests  # view list of sanity tests (pylint, shellcheck, etc)
 ```
@@ -108,7 +108,7 @@ $ ansible-test sanity --list-tests  # view list of sanity tests (pylint, shellch
 
 [documentation](https://molecule.readthedocs.io/en/stable/)
 
-```
+```bash
 $ pip install ansible molecule docker-py
 $ molecule --version
 $ molecule init role -r radavis.example  # generate new role
@@ -119,7 +119,7 @@ $ molecule --debug test
 
 Generated files/folders:
 
-```
+```no-highlight
 molecule/default
   Dockerfile.j2 - specifies docker image/container to run tests in
   INSTALL.rst - additional software/steps to allow molecule to interface with
@@ -145,7 +145,7 @@ molecule/default
 
 Examples:
 
-```
+```python
 # molecule/test/scenarios/driver/digitalocean/molecule/default/tests/test_default.py
 
 # run command, assert command output
@@ -163,7 +163,7 @@ def test_etc_molecule_directory(host):
     assert f.mode == 0o755
 ```
 
-```
+```python
 # molecule/test/scenarios/driver/vagrant/molecule/default/tests/test_default.py
 
 # make assertions on network interfaces
@@ -175,7 +175,7 @@ def test_internal_interface(host):
     assert '192.168.0.1' in host.interface('eth2').addresses
 ```
 
-```
+```python
 # ansible-consul/molecule/default/tests/test_default.py
 
 def test_consul_is_installed(File):
@@ -201,14 +201,14 @@ Run your tests locally or on cloud providers.
 
 Useful for testing commands
 
-```
+```bash
 $ docker run -it amazonlinux:2
 $ docker run -it ubuntu:bionic
 ```
 
 How do you set the molecule test image? Via the `molecule.yml` file. Example:
 
-```
+```yaml
 ---
 driver:
   name: docker
