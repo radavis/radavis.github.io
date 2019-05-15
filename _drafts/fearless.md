@@ -1,3 +1,5 @@
+[ec2 console](https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:sort=tag:Name)
+
 ## Travel Guide
 
 * [JIRA: Travel Guide](https://fearless.jira.com/secure/RapidBoard.jspa?projectKey=PCS&rapidView=46&view=planning)
