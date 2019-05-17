@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 Projects I have contributed to:
@@ -56,4 +56,3 @@ Projects I have created:
 Notes:
 
   * [__gist.github.com/radavis__](https://gist.github.com/radavis)
-  * [__blog__](https://radavis.github.io/)
