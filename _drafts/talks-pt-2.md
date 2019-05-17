@@ -15,5 +15,6 @@
 * Styling Web Applications with the help of small CSS "Frameworks"
 * React State Management
 * Ansible Basics
+* Testing Ansible Roles with Molecule
 * Working with AWS
 * Take control of your Router with OpenWrt and Ansible

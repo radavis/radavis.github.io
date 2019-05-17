@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: cheatsheet
 title: "sudoers"
 date: 2018-02-11 11:05
-tags: bash unix
+tags: bash unix cheatsheet
 ---
 
 ## Edit the sudoers file

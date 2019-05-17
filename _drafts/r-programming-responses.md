@@ -2,7 +2,6 @@
 layout: post
 title: "/r/programming Responses"
 date: 2018-03-24 12:00
-tags: radius wifi
 ---
 
 ## What are the first 5 to 10 programs you should learn how to write when learning a new programming language?

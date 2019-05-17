@@ -4,7 +4,7 @@ title: "Windows"
 date: 2017-06-29 19:45
 ---
 
-Necessity of a Windows PC: gaming
+Necessity of a Windows PC: gaming, Excel, Minesweeper
 
 ## Backup
 
@@ -12,9 +12,33 @@ Necessity of a Windows PC: gaming
 * Measure size of Home Folder
 * Create Disc Image of Home Folder
   - < 9 GB, DVD-R
-  - > 9 GB, external drive and additional fee
+  - > 9 GB, external drive
 
 ## Verify Backup
+
+## Determine Windows Version
+
+[instructions](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running)
+
+## Obtain Windows Key
+
+From the admin command prompt or powershell:
+
+```
+wmic path softwarelicensingservice get OA3xOriginalProductKey
+```
+
+Or,
+
+```
+powershell "(Get-WmiObject -query ‘select * from SoftwareLicensingService’).OA3xOriginalProductKey"
+```
+
+[source](https://www.techspot.com/guides/1760-find-your-windows-product-key/)
+
+## Obtain Windows ISO, create boot CD/USB Stick
+
+[Windows Software Download](https://www.microsoft.com/en-us/software-download)
 
 ## Wipe Disk
 
