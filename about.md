@@ -56,4 +56,3 @@ Projects I have created:
 Notes:
 
   * [__gist.github.com/radavis__](https://gist.github.com/radavis)
-  * [__blog__](https://radavis.github.io/)
