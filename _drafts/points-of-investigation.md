@@ -2,7 +2,7 @@
 
 [source](https://news.ycombinator.com/item?id=19900955)
 
-* Messaging Middleware
+* Messaging Middleware, or Message-oriented Middleware
 * Makefiles for automating project-level tasks
   - [example](https://gitlab.com/internet-cleanup-foundation/web-security-map/blob/master/Makefile)
   - [article](http://matt.might.net/articles/intro-to-make/)
