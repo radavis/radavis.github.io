@@ -1,6 +1,6 @@
 namespace :assets do
   task :precompile do
-    sh "bundle exec jekyll build --drafts"
+    sh "bundle exec jekyll build --drafts --config _config.yml,_config-heroku.yml"
   end
 end
 
