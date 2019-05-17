@@ -1,4 +1,4 @@
-# Video Store App
+# Video and Media Cataloging App
 
 Name: LaserDisc Catalog
 
@@ -16,16 +16,4 @@ Name: LaserDisc Catalog
 
 ```
 $ rails new laserdisc-catalog -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb
-```
-
-```html
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48446254-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-48446254-3');
-</script>
 ```

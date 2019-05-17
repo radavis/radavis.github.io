@@ -1,5 +1,3 @@
-[ec2 console](https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:sort=tag:Name)
-
 ## Travel Guide
 
 * [JIRA: Travel Guide](https://fearless.jira.com/secure/RapidBoard.jspa?projectKey=PCS&rapidView=46&view=planning)
@@ -13,6 +11,7 @@
 * [GitHub: Unified Staff App](https://github.com/FearlessSolutions/otm-manager-in-focus-app)
 * [GitHub: Unified Staff API](https://github.com/FearlessSolutions/otm-manager-in-focus-api)
 * [GitHub: Unified Staff Infrastructure](https://github.com/FearlessSolutions/otm-manager-in-focus-infrastructure)
+* [ec2 console](https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:sort=tag:Name)
 
 ## Technologies and Tools
 

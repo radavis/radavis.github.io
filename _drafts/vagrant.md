@@ -1,4 +1,8 @@
-# Vagrant
+---
+layout: post
+title: "Vagrant"
+date: 2019-01-09 18:00
+---
 
 > Vagrant is a tool for building and managing virtual machine environments in a single workflow.
 

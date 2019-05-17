@@ -1,11 +1,10 @@
 ---
-layout: post
+layout: cheatsheet
 title: "NGINX"
 date: 2018-11-28 17:00
-tags: nginx
+tags: nginx cheatsheet
 categories: devops
 ---
-
 
 ## Important Files & Folders
 

@@ -1,3 +1,9 @@
+---
+layout: cheatsheet
+title: "ssh"
+tags: ssh cheatsheet
+---
+
 ## Connect to remote Secure Shell (SSH) server
 
 ```

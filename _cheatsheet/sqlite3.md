@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: cheatsheet
 title: "sqlite3"
-date: 2018-10-16 09:45
-tags: sqlite3
+tags: sqlite3 cheatsheet
 ---
 
 ## sqlite3 command line

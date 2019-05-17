@@ -1,4 +1,8 @@
-# Git Flow Summary
+---
+layout: cheatsheet
+title: "Git Flow Summary"
+tags: gitflow
+---
 
 1. A `develop` branch is created from `master`
 2. A `release` branch is created from `develop`
