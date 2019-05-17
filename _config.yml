@@ -8,9 +8,9 @@ twitter_username: theebeastmaster
 github_username:  radavis
 linkedin_username: davisra
 exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
-permalink: /:categories/:title
+permalink: /:categories/:title/
 paginate: 12
-paginate_path: "/pages/:num"
+paginate_path: "/pages/:num/"
 markdown: kramdown
 plugins:
   - jekyll-paginate
