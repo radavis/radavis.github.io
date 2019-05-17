@@ -8,8 +8,14 @@ tags: ruby chruby ruby-install node nvm python pyenv
 As a developer, it is typical that you will need to work with many languages,
 as well as many different releases of those programming languages.
 
-Here are my preferred Programming Language Version Management Tools that I use
-on my development machine.
+The OS that you use will typically have a version of ruby, node, or python
+installed for use by other OS modules. Overriding this installation by `sudo`
+installing ruby, node, or other programming language interpreters is not a
+good idea! Instead, you will want to install these tools local to your user
+account.
+
+Here are my preferred Programming Language Version Management Tools that take
+care of this process for you.
 
 
 ## Ruby: chruby and ruby-install
@@ -22,7 +28,7 @@ $ ruby-install ruby-2.5.1  # install other versions, once complete
 ```
 
 Add the appropriate [configuration](https://github.com/postmodern/chruby#configuration)
-to your `~/.bash_profile`, `~/.zshrc`, `~/.profile`, or `~/.bashrc` file.
+to your [shell configuration file](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html#sect_03_01_02).
 
 ### Switch Version in current shell session
 
@@ -58,8 +64,8 @@ $ brew install nvm  # or curl and execute install script
 $ nvm install node  # or v8.11.2
 ```
 
-Add the appropriate [configuration](https://github.com/nvm-sh/nvm#installation-and-update)
-to your `~/.bash_profile`, `~/.zshrc`, `~/.profile`, or `~/.bashrc` file.
+Add the appropriate [configuration](https://github.com/postmodern/chruby#configuration)
+to your [shell initialization file](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html#sect_03_01_02).
 
 ### Switch Version in current shell session
 
@@ -98,8 +104,8 @@ $ pyenv install 2.7.15
 $ pyenv install 3.7.2  # and other versions
 ```
 
-Add the appropriate [configuration](https://github.com/pyenv/pyenv#installation)
-to your `~/.bash_profile`, `~/.zshrc`, `~/.profile`, or `~/.bashrc` file.
+Add the appropriate [configuration](https://github.com/postmodern/chruby#configuration)
+to your [shell initialization file](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html#sect_03_01_02).
 
 ### Switch Version per project
 
