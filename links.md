@@ -18,6 +18,7 @@ permalink: /links/
 * [Scrimba / Introduction to CSS](https://scrimba.com/g/gintrotocss)
 * [The CSS Handbook](https://medium.freecodecamp.org/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11)
 * [Things nobody ever taught me about CSS - Charlie Gerard](https://medium.com/@devdevcharlie/things-nobody-ever-taught-me-about-css-5d16be8d5d0e)
+* [CSS Units Best Practices](https://gist.github.com/basham/2175a16ab7c60ce8e001)
 
 ## Git
 
@@ -28,6 +29,10 @@ permalink: /links/
 
 * [HTML Shell](http://htmlshell.com/)
 * [XML character entity list](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Predefined_entities_in_XML)
+
+## HTTP
+
+* [REST API Tutorial: Using HTTP Methods for RESTful Services](https://www.restapitutorial.com/lessons/httpmethods.html)
 
 ## Images
 
@@ -41,6 +46,7 @@ permalink: /links/
 * [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
 * [JavaScript, the React Parts](https://reacttraining.com/blog/javascript-the-react-parts/)
 * [How to get create-react-app to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
+* [Promise Nuggets](https://promise-nuggets.github.io/)
 
 ## Shell
 

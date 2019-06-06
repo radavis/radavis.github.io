@@ -1,3 +1,15 @@
+## ReqWorks
+
+* [JIRA: ReqWorks](https://fearless.jira.com/jira/software/projects/REQ/boards/61/backlog)
+* [Confluence: ReqWorks](https://fearless.jira.com/wiki/spaces/OTM/pages/362807397/ReqWorks)
+
+## ReqWorks Spike
+
+* [GitLab: ReqWorks Spike](https://gitlab.com/radavis/reqworks-spike)
+* [GitLab CI/CD](https://docs.gitlab.com/ee/ci/)
+* [Sequelize](http://docs.sequelizejs.com/manual/getting-started.html)
+* [U.S. Web Design System Components](https://components.designsystem.digital.gov/)
+
 ## Travel Guide
 
 * [JIRA: Travel Guide](https://fearless.jira.com/secure/RapidBoard.jspa?projectKey=PCS&rapidView=46&view=planning)
