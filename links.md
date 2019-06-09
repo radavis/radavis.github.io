@@ -51,6 +51,7 @@ permalink: /links/
 ## Shell
 
 * [Shell programming with bash: by example](http://matt.might.net/articles/bash-by-example/)
+* [ShellCheck](https://github.com/koalaman/shellcheck#shellcheck---a-shell-script-static-analysis-tool)
 
 ## SQL
 
