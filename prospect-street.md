@@ -1,4 +1,7 @@
-# Prospect Street
+---
+layout: page
+title: Prospect Street
+---
 
 ## Appliances
 
@@ -23,6 +26,8 @@
 * **Range** - K&H 2 Burner Range
   - price: $190
   - [link](https://www.kitchen-and-home.com/products/kh-2-burner-12-lpgpropane-gas-glass-cooktop-2-gcw-lpg/)
+* **Hood** - 30" range hood
+  - search query: insert range hood
 
 
 ## Bathroom
