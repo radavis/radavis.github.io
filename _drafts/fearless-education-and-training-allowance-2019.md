@@ -12,3 +12,8 @@ Allowance: $4000/yr
 
 Total: $1559.12
 Remaining: $2440.88
+
+
+## Workshops & Learning Resources
+
+* [Testing JavaScript w/ KCD](https://testingjavascript.com/) - $40-270

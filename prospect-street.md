@@ -25,9 +25,41 @@ title: Prospect Street
   - [link](https://www.homedepot.com/p/Whirlpool-2-2-cu-ft-Countertop-Microwave-in-Black-Built-In-Capable-with-Sensor-Cooking-WMC50522AB/204102397)
 * **Range** - K&H 2 Burner Range
   - price: $190
-  - [link](https://www.kitchen-and-home.com/products/kh-2-burner-12-lpgpropane-gas-glass-cooktop-2-gcw-lpg/)
-* **Hood** - 30" range hood
-  - search query: insert range hood
+  - [product page](https://www.kitchen-and-home.com/products/kh-2-burner-12-lpgpropane-gas-glass-cooktop-2-gcw-lpg/)
+  - [manual](/assets/manuals/k&h-2-GCW-LPG.pdf)
+* **Hood** - Broan BKSA130BL
+  - search query: 30" range hood
+  - price: $125
+  - [product page](https://www.amazon.com/gp/product/B071VW47MB)
+  - [manual](/assets/manuals/broan-BKSA130BL.pdf)
+
+
+## Kitchen Sink
+
+search query: black sink 27" under
+
+* Elkay ELGU2522BK0 Black Quartz Undermount 25-inch Sink
+  - price: $253
+  - [link](https://express.google.com/u/0/product/14452525486135989441_6360440353747061114_5117101)
+* Kohler K-28000-CM7 Cairn Neoroc Undermount 27.5-inch Sink
+  - price: $450
+  - [link](https://www.wayfair.com/Kohler--Cairn-2712in-X-18516in-X-912in-Neoroc-UnderMount-SingleBowl-Kitchen-Sink-with-Sink-Rack-K28000CM-L628-K~LBPR1327.html)
+  - [datasheet](https://www.us.kohler.com/webassets/kpna/brochures/Neoroc_SellSheet.PDF)
+* Bocchi 1360-004-0120 Sotto Fireclay 27-inch Sink
+  - price: $525
+  - [link](https://www.google.com/shopping/product/13108220535263842512)
+* Blanco 522259 Precis Undermount 27-inch Sink
+  - price: $327
+  - [link](https://www.wayfair.com/Blanco--Precis-27-L-x-17.75-W-Undermount-Kitchen-Sink-522-L628-K~AAUP1062.html)
+* Winpro WGBL10305 Black Quartz Undermount 25-inch Sink
+  - price: $210
+  - [link](https://www.wayfair.com/Winpro--Granite-Quartz-25-L-x-18.5-W-Single-Bowl-Undermount-Kitchen-Sink-WGBL10305-WGMO10405-L628-K~WNPQ1004.html)
+* Daweier ESR240900 Stainless Undermount 26-inch Sink
+  - price: 127
+  - [link](https://www.wayfair.com/Daweier--26-L-x-18-W-Undermount-Kitchen-Sink-ESR240900-L628-K~DAWE1000.html)
+* Rene R1-1035S-18 Radius Stainless Undermount 28-inch Sink
+  - price: $276
+  - [link](https://www.wayfair.com/home-improvement/pdp/rene-radius-stainless-steel-28-x-17-under-mount-kitchen-sink-with-basket-strainer-w000699506.html?piid=20324591)
 
 
 ## Bathroom
