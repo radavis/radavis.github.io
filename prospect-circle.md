@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Prospect Street
+title: Prospect Circle
+redirect_from: "/prospect-street/"
 ---
 
 ## Appliances
@@ -55,7 +56,7 @@ search query: black sink 27" under
   - price: $210
   - [link](https://www.wayfair.com/Winpro--Granite-Quartz-25-L-x-18.5-W-Single-Bowl-Undermount-Kitchen-Sink-WGBL10305-WGMO10405-L628-K~WNPQ1004.html)
 * Daweier ESR240900 Stainless Undermount 26-inch Sink
-  - price: 127
+  - price: $127
   - [link](https://www.wayfair.com/Daweier--26-L-x-18-W-Undermount-Kitchen-Sink-ESR240900-L628-K~DAWE1000.html)
 * Rene R1-1035S-18 Radius Stainless Undermount 28-inch Sink
   - price: $276
