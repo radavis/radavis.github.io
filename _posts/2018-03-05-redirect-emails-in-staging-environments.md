@@ -4,6 +4,7 @@ title: "Redirect Emails in Staging Environments"
 date: 2018-03-05 21:00
 tags: rails, email
 comments: true
+redirect_from: "/2018/03/05/redirect-emails-in-staging-environments.html"
 ---
 
 In a staging environment, or any environment other than production, it is
@@ -47,7 +48,7 @@ end
 ```
 
 Here's where the actual overriding of emails occurs. In this case, we're
-redirecting all outgoing email deliveries to our CSV list of emails, and 
+redirecting all outgoing email deliveries to our CSV list of emails, and
 updating the email subject to include all the relevant information about
 the environment that is delivering the email.
 
@@ -76,7 +77,7 @@ config.autoload_paths << "#{Rails.root}/lib"
 
 Depending on the email output of your application, you may want to
 [create an inbox filter][3], remove your email address from the
-`REDIRECT_ALL_OUTGOING_EMAIL_TO` variable, or [turn off email deliveries][4], 
+`REDIRECT_ALL_OUTGOING_EMAIL_TO` variable, or [turn off email deliveries][4],
 altogether.
 
 Now, you can rest assured that emails are only being delivered to end-users in
