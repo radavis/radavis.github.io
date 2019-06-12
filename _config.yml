@@ -14,4 +14,5 @@ paginate_path: "/pages/:num/"
 markdown: kramdown
 plugins:
   - jekyll-paginate
+  - jekyll-redirect-from
   - jekyll-sitemap
