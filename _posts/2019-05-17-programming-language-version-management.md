@@ -77,6 +77,7 @@ $ nvm use v8.11.2
 
 ```
 $ echo "8.11.2" > ~/code/my-project/.nvmrc
+$ nvm use
 ```
 
 ### Install a Node Package
