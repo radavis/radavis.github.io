@@ -23,7 +23,8 @@ redirect_from: "/prospect-street/"
   - [link](https://www.homedepot.com/p/Whirlpool-Top-Control-Built-In-Tall-Tub-Dishwasher-in-Black-with-Fan-Dry-51-dBA-WDT730PAHB/302850585)
 * **Microwave** - Black Whirlpool WMC50522AB
   - price: $280
-  - [link](https://www.homedepot.com/p/Whirlpool-2-2-cu-ft-Countertop-Microwave-in-Black-Built-In-Capable-with-Sensor-Cooking-WMC50522AB/204102397)
+  - [purchase page](https://www.homedepot.com/p/Whirlpool-2-2-cu-ft-Countertop-Microwave-in-Black-Built-In-Capable-with-Sensor-Cooking-WMC50522AB/204102397)
+  - [product page](https://www.whirlpool.com/kitchen/cooking/microwaves/countertop/p.2.2-cu.-ft.-countertop-microwave-with-greater-capacity.wmc50522ab.html)
 * **Range** - K&H 2 Burner Range
   - price: $190
   - [product page](https://www.kitchen-and-home.com/products/kh-2-burner-12-lpgpropane-gas-glass-cooktop-2-gcw-lpg/)
@@ -39,7 +40,7 @@ redirect_from: "/prospect-street/"
 
 * Kohler K-28000-CM7 Cairn Neoroc Undermount 27.5-inch Sink
   - price: $450
-  - [link](https://www.wayfair.com/Kohler--Cairn-2712in-X-18516in-X-912in-Neoroc-UnderMount-SingleBowl-Kitchen-Sink-with-Sink-Rack-K28000CM-L628-K~LBPR1327.html)
+  - [purchase page](https://www.wayfair.com/Kohler--Cairn-2712in-X-18516in-X-912in-Neoroc-UnderMount-SingleBowl-Kitchen-Sink-with-Sink-Rack-K28000CM-L628-K~LBPR1327.html)
   - [datasheet](https://www.us.kohler.com/webassets/kpna/brochures/Neoroc_SellSheet.PDF)
 
 
@@ -47,7 +48,10 @@ redirect_from: "/prospect-street/"
 
 * Toilet - Kohler Persuade 98864-0
   - price: $300
-  - url: https://www.lowes.com/pd/kohler-persuade-white-watersense-dual-flush-elongated-chair-height-2-piece-toilet-12-in-rough-in-size/50014348
+  - [link](https://www.lowes.com/pd/kohler-persuade-white-watersense-dual-flush-elongated-chair-height-2-piece-toilet-12-in-rough-in-size/50014348)
+* Sink - Alape Bucket Sink with Gray Trim
+  - price: $300
+  - [link](https://www.rejuvenation.com/catalog/products/alape-bucket-sink-gray-trim)
 
 
 ## Outdoor Security Lighting
