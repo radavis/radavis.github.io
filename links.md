@@ -42,11 +42,17 @@ permalink: /links/
 ## JavaScript
 
 * [ES2015+ Syntax Highlighting](https://babeljs.io/docs/en/editors)
-* [Auto-format code with Prettier and Husky](https://facebook.github.io/create-react-app/docs/setting-up-your-editor#formatting-code-automatically)
 * [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
+* [Promise Nuggets](https://promise-nuggets.github.io/)
+
+## React.js
+
 * [JavaScript, the React Parts](https://reacttraining.com/blog/javascript-the-react-parts/)
 * [How to get create-react-app to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
-* [Promise Nuggets](https://promise-nuggets.github.io/)
+* [Auto-format code with Prettier and Husky](https://facebook.github.io/create-react-app/docs/setting-up-your-editor#formatting-code-automatically)
+* [React Context](https://reactjs.org/docs/context.html)
+* [React Context API Explained - Wes Bos (video)](https://wesbos.com/react-context/)
+* [React Context API Explained - Wes Bos (code)](https://github.com/wesbos/React-Context/blob/master/src/App.js)
 
 ## Shell
 
@@ -65,3 +71,4 @@ permalink: /links/
 
 * [Can I use ...?](https://caniuse.com/)
 * [The Web Developer's Guide to DNS](https://rjzaworski.com/2019/04/the-web-developers-guide-to-dns)
+* [Amazon Web Services in Plain English](https://www.expeditedssl.com/aws-in-plain-english)

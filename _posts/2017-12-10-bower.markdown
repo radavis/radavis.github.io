@@ -3,6 +3,7 @@ layout: post
 title: "Bower"
 date: 2017-12-10 12:45
 tags: javascript
+redirect_from: "/2017/12/10/bower.html"
 ---
 
 With tools like Yarn and NPM around, Bower seems like an unnecessary technology.
