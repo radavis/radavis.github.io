@@ -3,6 +3,7 @@ layout: post
 title: "DIY GIFs"
 date: 2016-02-11 19:00
 tags: gif bash
+redirect_from: "/2016/02/11/diy-gifs.html"
 ---
 
 ![Pry session demonstrating how to set the visibility of a method to private](/assets/images/private.gif)
