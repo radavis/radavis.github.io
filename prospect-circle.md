@@ -40,7 +40,7 @@ redirect_from: "/prospect-street/"
 
 * Kohler K-28000-CM7 Cairn Neoroc Undermount 27.5-inch Sink
   - price: $450
-  - [purchase page](https://www.wayfair.com/Kohler--Cairn-2712in-X-18516in-X-912in-Neoroc-UnderMount-SingleBowl-Kitchen-Sink-with-Sink-Rack-K28000CM-L628-K~LBPR1327.html)
+  - [purchase page](https://www.homedepot.com/p/KOHLER-Cairn-27-1-2-in-x-18-5-16-in-x-9-1-2-in-Neoroc-Granite-Composite-Undermount-Single-Bowl-Kitchen-Sink-In-Matte-Black-K-28000-CM1/306306058)
   - [datasheet](https://www.us.kohler.com/webassets/kpna/brochures/Neoroc_SellSheet.PDF)
 
 
