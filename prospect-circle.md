@@ -29,7 +29,7 @@ redirect_from: "/prospect-street/"
   - price: $190
   - [product page](https://www.kitchen-and-home.com/products/kh-2-burner-12-lpgpropane-gas-glass-cooktop-2-gcw-lpg/)
   - [manual](/assets/manuals/k&h-2-GCW-LPG.pdf)
-* **Hood** - Broan BKSA130BL
+* **Hood** - Broan BKSA130BL (purchased)
   - search query: 30" range hood
   - price: $125
   - [product page](https://www.amazon.com/gp/product/B071VW47MB)
@@ -49,7 +49,7 @@ redirect_from: "/prospect-street/"
 * Toilet - Kohler Persuade 98864-0
   - price: $300
   - [link](https://www.lowes.com/pd/kohler-persuade-white-watersense-dual-flush-elongated-chair-height-2-piece-toilet-12-in-rough-in-size/50014348)
-* Sink - Alape Bucket Sink with Gray Trim
+* Sink - Alape Bucket Sink with Gray Trim (purchased)
   - price: $300
   - [link](https://www.rejuvenation.com/catalog/products/alape-bucket-sink-gray-trim)
 
@@ -62,7 +62,7 @@ redirect_from: "/prospect-street/"
 
 ## Doorbell
 
-* Rejuvenation "Please Ring" Doorbell Button, $15, [link](https://www.rejuvenation.com/catalog/collections/please-ring-doorbell-button/products/5859c43101925bf76d007de0)
+* Rejuvenation "Please Ring" Doorbell Button, $15, (purchased) [link](https://www.rejuvenation.com/catalog/collections/please-ring-doorbell-button/products/5859c43101925bf76d007de0)
 * Spore Ring Doorbell Chime, $136, [link](https://www.hayneedle.com/product/sporeringdoorbellchime.cfm?tid=LTHS468-3)
 
 
@@ -73,7 +73,7 @@ redirect_from: "/prospect-street/"
 
 ## Thermostat
 
-* Honeywell Round Thermostat, $35, [link](https://www.lowes.com/pd/honeywell-round-mechanical-non-programmable-thermostat/1000061961)
+* Honeywell Round Thermostat, $35, (purchased) [link](https://www.lowes.com/pd/honeywell-round-mechanical-non-programmable-thermostat/1000061961)
 
 
 ## Tools/Equipment

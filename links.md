@@ -19,6 +19,8 @@ permalink: /links/
 * [The CSS Handbook](https://medium.freecodecamp.org/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11)
 * [Things nobody ever taught me about CSS - Charlie Gerard](https://medium.com/@devdevcharlie/things-nobody-ever-taught-me-about-css-5d16be8d5d0e)
 * [CSS Units Best Practices](https://gist.github.com/basham/2175a16ab7c60ce8e001)
+* [Flexbox Guide (CSS-Tricks)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Centering Guide (CSS-Tricks)](https://css-tricks.com/centering-css-complete-guide/)
 
 ## Git
 
@@ -51,8 +53,8 @@ permalink: /links/
 * [How to get create-react-app to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
 * [Auto-format code with Prettier and Husky](https://facebook.github.io/create-react-app/docs/setting-up-your-editor#formatting-code-automatically)
 * [React Context](https://reactjs.org/docs/context.html)
-* [React Context API Explained - Wes Bos (video)](https://wesbos.com/react-context/)
-* [React Context API Explained - Wes Bos (code)](https://github.com/wesbos/React-Context/blob/master/src/App.js)
+* [React Context API Explained](https://wesbos.com/react-context/)
+* [Mocking Functions with Jest and Enzyme](https://www.asapdevelopers.com/mock-function-react-jest-enzyme/)
 
 ## Shell
 
