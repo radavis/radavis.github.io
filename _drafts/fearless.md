@@ -6,7 +6,7 @@
 * Designs - [InVision](https://projects.invisionapp.com)
   - [MVP](https://projects.invisionapp.com/share/2PS77CHB5JZ#/screens)
   - [Mobile](https://projects.invisionapp.com/share/WBSOMZ29RCX#/screens)
-  - [Future](https://projects.invisionapp.com/share/QNRJZTBM34J#/screens)
+  - [Future](https://projects.invisionapp.com/share/QNRJZTBM34J#/screens) - pw: fearless19
 
 ## ReqWorks
 
@@ -85,3 +85,8 @@
 * [Unified Staff: Filtering Wireframe 20181108](https://projects.invisionapp.com/share/EUP0VWN7ZJR#/screens/330329067)
 * [Unified Staff: Landing Page 20181030](https://projects.invisionapp.com/share/UHP00UE3M8K#/screens)
 * [Unified Staff: Landing Page (initial)](https://projects.invisionapp.com/share/PMOX9BX8EUX#/screens/329237767)
+
+## Slides
+
+* [Rails, REST, and HTTP](https://docs.google.com/presentation/d/14pbSFubVfARcrBtA-B4547IZYlyS0DUrcnxIKUvhkUE/edit#slide=id.p)
+* [User Stories](https://docs.google.com/presentation/d/1q7CcSnMgGtDPG59LP831wRHGONeRr45Q_IVL1djpFyE/edit#slide=id.p)
