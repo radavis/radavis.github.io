@@ -74,3 +74,5 @@ permalink: /links/
 * [Can I use ...?](https://caniuse.com/)
 * [The Web Developer's Guide to DNS](https://rjzaworski.com/2019/04/the-web-developers-guide-to-dns)
 * [Amazon Web Services in Plain English](https://www.expeditedssl.com/aws-in-plain-english)
+* [Clear is better than clever](https://dave.cheney.net/2019/07/09/clear-is-better-than-clever)
+* [Choose Boring Technology](http://boringtechnology.club/)
