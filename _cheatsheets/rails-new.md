@@ -11,7 +11,7 @@ Notes on the `rails new` command.
 ## PostgreSQL DB, No TurboLinks, No MiniTest
 
 ```
-$ rails new appname --database=postgresql -skip-bundle --skip-turbolinks --skip-test
+$ rails new appname --database=postgresql --skip-bundle --skip-turbolinks --skip-test
 ```
 
 
