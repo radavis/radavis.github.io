@@ -31,3 +31,23 @@ Create a starter Rails app w/ extras added in, automatically.
 ```
 $ rails new myapp -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb
 ```
+
+
+## My Rails Setup
+
+```
+$ rails new appname \
+    --database=postgresql \
+    --skip-action-cable \
+    --skip-spring \
+    --skip-coffee \
+    --skip-turbolinks \
+    --skip-test \
+    --skip-bootsnap \
+    --skip-bundle
+
+$ cd appname  # & add webpacker to the Gemfile
+$ bundle
+$ bundle exec rails webpacker:install
+$ bundle exec rails webpacker:install:react
+```
