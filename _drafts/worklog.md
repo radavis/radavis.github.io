@@ -1,5 +1,21 @@
 # `work.log`
 
+## Wednesday, August 14th, 2019
+
+**MPP**
+
+* Pair review today @ 11:30 w/ Tina
+* Continue w/ MPP-172
+
+
+## Tuesday, August 13th, 2019
+
+**MPP**
+
+* Reviewed MPP-133 Protege Company Information branch
+* Started MPP-172 Mentor Agreement branch
+
+
 ## Monday, August 5th, 2019
 
 **MPP**
