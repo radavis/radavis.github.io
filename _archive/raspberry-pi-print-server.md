@@ -7,6 +7,12 @@ triggered the creation of the FSF).
 Linux packages for the HL-L2320D are available for RedHat and Debian/Ubuntu i386
 architecture, but **not** for the ARM release of Debian (Raspbian).
 
+## A Better Solution
+
+Plug your USB Printer into a Router running OpenWRT and p910nd Print Server.
+
+[source](https://openwrt.org/docs/guide-user/services/print_server/p910ndprinterserver)
+
 ## Update Linux
 
 ```

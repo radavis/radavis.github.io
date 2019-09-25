@@ -17,6 +17,12 @@ app/views/users/edit.html.erb
 ...
 ```
 
+A templates named after a **controller action** will cause that file to be
+rendered by default.
+
+**Example**: The `UsersController#index` method renders
+the `app/views/users/index.html.erb` template by default.
+
 ## Partial Templates (or Partials)
 
 Use partials to extract shared code between templates. The canonical example

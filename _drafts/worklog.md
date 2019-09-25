@@ -1,11 +1,39 @@
 # `work.log`
 
+## Wednesday, September 4th, 2019
+
+**MPP**
+
+Yesterday:
+
+* Worked on 'Mentor Agreement: Digital Signature'
+* Sprint planning
+
+Today:
+
+* Code review
+* Retro
+* Moving desks?
+
+
+## Tuesday, August 20th, 2019
+
+**MPP**
+
+Current issues w/ the MPP application:
+
+* Protege form doesn't submit, validation errors on fields that were entered correctly
+* Many regex validations without tests (e.g. - How do we know they work appropriately?)
+* Database schema is out of control. 97 columns in the `proteges` table, alone!
+
+
 ## Wednesday, August 14th, 2019
 
 **MPP**
 
 * Pair review today @ 11:30 w/ Tina
 * Continue w/ MPP-172
+* Help Felix out w/ Postgres issues
 
 
 ## Tuesday, August 13th, 2019

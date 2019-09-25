@@ -1,3 +1,10 @@
+---
+layout: post
+title: "DNS Record Types"
+date: 2019-09-24 23:25
+categories: cheatsheet
+---
+
 # DNS Record Types
 
 * a - 32-bit IP address (IPv4)
@@ -17,10 +24,3 @@
 # Resources
 
 * [Namecheap DNS Record Types](https://www.namecheap.com/support/knowledgebase/article.aspx/579/2237/which-record-type-option-should-i-choose-for-the-information-im-about-to-enter)
-
-```
-www.exloc.io: redirect to exloc.io
-exloc.io: redirect to exloc.herokuapp.com
-exloc.herokuapp.com
-ip
-```

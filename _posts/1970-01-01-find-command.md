@@ -1,4 +1,9 @@
-# `find`
+---
+layout: post
+title: "find"
+date: 2019-09-24 23:25
+categories: cheatsheet
+---
 
 ## Find and delete files from 5 minutes ago
 

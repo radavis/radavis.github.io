@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "package.json Versions, Decoded"
+date: 2019-09-24 23:25
+categories: cheatsheet
 ---
 
 ## Semver

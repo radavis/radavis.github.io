@@ -2,7 +2,7 @@
 layout: post
 title: "Reverse SSH"
 date: 2018-03-28 12:00
-tags: ssh
+categories: cheatsheet
 ---
 
 ## Local Port Forwarding
