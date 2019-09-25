@@ -1,7 +1,8 @@
 ---
-layout: cheatsheet
+layout: post
 title: "ssh"
-tags: ssh cheatsheet
+date: 2019-09-24 23:25
+categories: cheatsheet
 ---
 
 ## Connect to remote Secure Shell (SSH) server
