@@ -50,3 +50,8 @@ People often think I'm angry when I'm simply in a mode of quiet contemplation.
 I'm an introvert. I live quite a bit in my own brain. It might take me a moment
 to organize my thoughts when I'm verbally expressing what I'm thinking, so,
 apologies for the awkward pauses when I speak.
+
+
+### Resources
+
+* [User Manuals - Leah Fessler](https://qz.com/1046131/writing-a-user-manual-at-work-makes-teams-less-anxious-and-more-productive/)
