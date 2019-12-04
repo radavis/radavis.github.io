@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "HTML Boilerplate"
-date: 2018-09-05 10:30
 categories: cheatsheet
 ---
 

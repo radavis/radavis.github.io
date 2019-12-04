@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "find"
-date: 2019-09-24 23:25
 categories: cheatsheet
 ---
 
