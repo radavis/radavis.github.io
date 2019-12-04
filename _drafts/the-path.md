@@ -8,12 +8,12 @@ I want ..
 So that ..
 
 
-
 ## User Story
 
 As an urban explorer,
 I want to record an experience (location, activity),
 So that I can share things to do in a city with others.
+
 
 ## Acceptance Criteria
 

@@ -25,3 +25,8 @@ $ docker container run \
 * `--detach` will run the container in the background.
 * `--name` will name it mydb.
 * `-e` will use an environment variable to specify the root password
+
+
+## Resources
+
+* [docker katas](https://github.com/praqma-training/docker-katas)

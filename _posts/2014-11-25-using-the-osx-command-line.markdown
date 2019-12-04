@@ -277,6 +277,12 @@ renice -n -5 -p pid
 system_profiler SPUSBDataType
 ```
 
+## Resize images larger than 1M
+
+```
+find . -type f -size +1M -exec convert {} -resize 50% {} \;
+```
+
 ## End
 ```
 say 'Thank you'
