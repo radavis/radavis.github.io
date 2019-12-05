@@ -14,13 +14,14 @@ probably need to take a break, take a walk, and recharge.
 
 ### What do I value?
 
-I value open-mindedness, collaboration, honest feedback, positive thinking,
-knowledge sharing, and being kind.
+I value open-mindedness, collaboration, honest feedback, positive thinking
+(the [pygmalion effect](https://nesslabs.com/pygmalion-effect) is reality),
+sharing knowledge, and being kind.
 
 
 ### What don’t I have patience for?
 
-I don't have patience for ignorance shaming, pretension, or judgemental
+I don't have patience for ignorance shaming, pretension, or judgmental
 points-of-view.
 
 
@@ -33,13 +34,13 @@ few minutes, let's schedule a time to chat.
 is typically up-to-date, and I know of some good spots to grab coffee.
 
 "Headphones on" means I'm "heads-down working." I probably don't want to talk
-about my weekend, right now. However, if you have something important or urgent
-that needs my attention, please interrupt me.
+about my weekend, right now. However, if you have something urgent and important
+that needs my immediate attention, please interrupt me.
 
 
 ### How can you help me?
 
-Help me to see the alternatives. I may have not considered every possibility.
+Help me to see the alternatives. I'm sure I have not considered every possibility.
 How does the situation look from your perspective? Help me to see the desired
 outcomes and your current concerns.
 
