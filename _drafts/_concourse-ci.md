@@ -53,6 +53,7 @@ docker-compose down  # when done
 * [tutorial](https://concoursetutorial.com/)
 * [concourse-ci & docker](https://blog.anynines.com/getting-started-with-concourse-ci-and-docker/)
 * [flight school](https://github.com/praqma-training/concourse/blob/master/flightschool.md)
+* [tutorial (specify.io)](https://specify.io/how-tos/concourse-ci-continious-integration-and-delivery-of-microservices)
 
 
 ## Try this
