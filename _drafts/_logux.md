@@ -26,3 +26,23 @@ username: rdavis_fearless
 ```
 env $(cat .env | xargs) ./run [cmd]
 ```
+
+
+## Gaining Access to Military Websites
+
+Visit [militarycac.com](http://militarycac.com/) and download the
+[DoD certificates](http://militarycac.com/macnotes.htm#DoD_certificates)
+
+Add Military DNS Servers:
+
+* 4.2.2.2
+* 4.2.2.3
+
+
+## When Adding a Dependency...
+
+Add a section titled "Security Acceptance Criteria" to the Tracker Ticket.
+
+List the Dependency and what it does.
+
+SecOps will review story before deploying to production.

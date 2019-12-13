@@ -55,3 +55,5 @@ java -jar build/libs/hello-gradle.jar  # or
 ## Resources
 
 * [gradle katas](https://github.com/praqma-training/gradle-katas)
+* [Display test results in console - mkyong](https://www.mkyong.com/gradle/gradle-display-test-results-in-console/)
+* [Gradle Exec Output](https://medium.com/@esycat/gradle-exec-output-f18f297c068)

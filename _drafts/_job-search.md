@@ -17,3 +17,9 @@
   - Managers who disrupt sprints by adding stories to the top of the current, in-progress sprint.
 * Requiring developers to pair-program 100% of the time.
 * Not allowing time for quiet contemplation of a problem.
+
+
+## Questions
+
+* How are software teams at your organization set up?
+* What ceremonies do you have in place? What are their frequencies?
