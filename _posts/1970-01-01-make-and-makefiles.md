@@ -54,3 +54,5 @@ tasks compared to normal shell scripts.
 - [aeuquitas on hacker news](https://news.ycombinator.com/item?id=19900955)
 
 [example makefile](https://gitlab.com/internet-cleanup-foundation/web-security-map/blob/master/Makefile)
+
+[The Language Agnostic, All-Purpose, Incredible, Makefile](https://web.archive.org/web/20191123215706/https://blog.mindlessness.life/makefile/2019/11/17/the-language-agnostic-all-purpose-incredible-makefile.html)
