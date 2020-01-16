@@ -50,8 +50,8 @@ ant test -Djavac.source=1.8 -Djavac.target=1.8
 ant test-single \
   -Djavac.source=1.8 \
   -Djavac.target=1.8 \
-  -Djavac.includes=Hand.java \
-  -Dtest.includes=HandTest.java
+  -Djavac.includes=BulkTank.java \
+  -Dtest.includes=BulkTankTest.java
 
 # run single test method
 ant test-single-method \
@@ -73,31 +73,145 @@ ant test-single-method \
   location of that object is passed by value to a method.
 * Strings are immutable; once created, they cannot be modified.
 * "Good programmers write code that humans can understand." - Martin Fowler
-* An **Interface** is used to define functionality that a class should implement.
-  It contains method signatures, without implementation. Interfaces allow us to
-  create a 'loose coupling' between classes. Examples:
-    - List (implemented by ArrayList, LinkedList)
-    - Map (implemented by HashMap)
-    - Set (implemented by HashSet)
-    - Collection (implemented by List and Set interfaces)
-* A **Generic** method or class can handle multiple types of objects.
-  For example, the ArrayList class can handle a list of Integers or Strings.
-
-  ```
-  ArrayList<Integer> grades = new ArrayList<Integer>();
-  ArrayList<String> names = new ArrayList<String>();
-
-  ArrayList<T> aList = new ArrayList<T> ();
-  ```
-
-  Convert an array to a list:
-
-  ```
-  public <T> List<T> fromArrayToList(T[] a) {
-      return Arrays.stream(a).collect(Collectors.toList());
-  }
-  ```
 * Single Responsibility Principle: a class should have one clear role.
+
+### Constructor Overloading
+
+```java
+public class MindfulDictionary {
+    private Map<String, String> finnishToEnglish;
+    private Map<String, String> englishToFinnish;
+    private String filename;
+
+    public MindfulDictionary() {
+        finnishToEnglish = new HashMap<String, String>();
+        englishToFinnish = new HashMap<String, String>();
+    }
+
+    public MindfulDictionary(String filename) {
+        this();  // call to other constructor must come first
+        this.filename = filename;
+    }
+}
+```
+
+### Random numbers
+
+Generate a random integer between two numbers:
+
+```java
+int result = new Random().nextInt(max - min + 1) + min;
+```
+
+Generate a random double between two numbers:
+
+```java
+double result = new Random().nextDouble() * (max - min) + min;
+```
+
+### `equals()` method
+
+Useful for comparing objects when **searching**. The `equals()` method is used
+by the `contains()` method in ArrayList.
+
+```java
+@Override
+public boolean equals(Object obj) {
+    if (this == obj) return true;
+    if (obj == null) return false;
+    if (getClass() != obj.getClass()) return false;
+
+    // check instance variables
+    final YourClass other = (YourClass) obj;
+    if ((this.instanceVar == null) ? (other.instanceVar != null) : !this.instanceVar.equals(other.instanceVar)) {
+        return false;
+    }
+    // repeat for other instance vars
+
+    return true;  // if all prior conditions pass, objects must be equal
+}
+```
+
+### `hashCode()` method
+
+Used for determining where an object will fall within a data structure that uses
+hashes for organization (e.g. - `HashMap`, `Map`). Implement `hashCode()` and
+`equals()` in your class to allow objects to become keys within a `HashMap`.
+
+```java
+@Override
+public int hashCode() {
+    int hash = 3;
+    hash = 67 * hash + (this.instanceVar != null ? this.instanceVar.hashCode() : 0);
+    // repeat above statement for other instance vars
+    return hash;
+}
+```
+
+### Interfaces
+
+An **Interface** is used to define functionality that a class should implement.
+It contains method signatures, without implementation. Interfaces allow us to
+create a 'loose coupling' between classes. Examples:
+
+- [List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html) (implemented by ArrayList, LinkedList)
+- [Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) (implemented by HashMap)
+- [Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html) (implemented by HashSet)
+- [Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) (implemented by List and Set interfaces)
+
+
+### Generics
+
+A **Generic** method or class can handle multiple types of objects.
+For example, the ArrayList class can handle a list of Integers or Strings.
+
+```java
+ArrayList<Integer> grades = new ArrayList<Integer>();
+ArrayList<String> names = new ArrayList<String>();
+
+ArrayList<T> aList = new ArrayList<T> ();
+```
+
+Convert an array to a list:
+
+```java
+public <T> List<T> fromArrayToList(T[] a) {
+    return Arrays.stream(a).collect(Collectors.toList());
+}
+```
+
+### Implementing the `Comparable` Interface
+
+Allows us to specify how a collection of objects is sorted.
+
+```java
+public class UserStory implements Comparable<UserStory> {
+    private String content;
+    private String author;
+    private int value;
+
+    public UserStory(String content, String author, int value) {
+        this.content = content;
+        this.author = author;
+        this.value = value;
+    }
+
+    @Override
+    public int compareTo(UserStory otherUserStory) {
+        if (this.value > otherUserStory.value) return -1;  // higher-value first
+        if (this.value < otherUserStory.value) return 1;
+        return 0;
+    }
+}
+```
+
+```java
+Collections.sort(userStories);  // sorts the list, in-place
+```
+
+### Writing Tests
+
+https://github.com/junit-team/junit4/wiki/Getting-started-%E2%80%93-Ant
 
 ## References
 

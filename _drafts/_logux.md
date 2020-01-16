@@ -9,6 +9,7 @@
 * [lastpass]() - username: rdavis@fearsol.com
 * [contacts](https://docs.google.com/spreadsheets/d/1ZjWgy4nWTo8Zawl5whINL_lw5KePihmTYQJ9g2fVR8M/edit?ts=5daf2422#gid=0)
 * [concourse](https://ci.aoc-pathfinder.cloud/)
+* [mattermost](https://mattermost.bespinmobile.cloud/ecosystem/channels/bonobur-team)
 
 username: rdavis_fearless
 
@@ -87,5 +88,19 @@ M. Sutton
   assistance solving the issue.
 - Asking people about their political views.
 - Thinks everything is a caching issue.
-- 1/2/2019 - Found out who to ask in regards to the Hashicorp Vault issue, but
+- 1/2/2020 - Found out who to ask in regards to the Hashicorp Vault issue, but
   didn't want to ask for fear of looking stupid, even after being told what to say.
+- 1/8/2020 - Didn't understand that completion of a ticket means pushing code
+  __AND__ tests to the repository.
+
+## Warloc Offline
+
+* We have a __Web__ Application. Users want to be able to use it offline.
+
+## Warloc Pipeline
+
+* Deploying via a pipeline that is currently under development is a hair-pulling
+experience.
+* Vault -> CredHub doesn't work. Have to ask someone on the Platform to set
+secrets for us?!?
+* RADD doesn't work. Doesn't bubble up errors in the UI. (e.g. - click -> nothing happens.)

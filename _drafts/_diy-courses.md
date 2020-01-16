@@ -6,3 +6,19 @@ or don't remember what it is like to be a beginner.
 peers in the field, instead of tuning their language towards their audience.
 * They assume knowledge.
 * They fail to engage the reader with practical examples.
+
+
+## Idea
+
+Build an intermediate Java course.
+
+* Resources for beginners
+  - learn X in Y minutes
+  - Java syntax overview
+* VSCode setup, Atom setup
+* Gradle
+* lombok for getters and setters
+* File I/O
+* HTTP
+* Streams
+* Testing with JUnit
