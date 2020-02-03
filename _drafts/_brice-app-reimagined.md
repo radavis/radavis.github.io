@@ -111,6 +111,19 @@ So that there is a single source of truth for the history of aircraft maintenanc
 
 ## Feature Rollout
 
+### Phase 0
+
+**Proof of concept**
+
+Developer spike:
+
+* Fill out/obtain completed 781-A forms.
+* Digitize completed forms.
+* Reliably extract OCR data from forms.
+* Create a web service:
+    - `POST /form-781-a` w/ image payload, return id
+    - `GET /form-781-a/:id.json`, return JSON data of processed form
+
 ### Phase 1
 
 * Developers:
@@ -132,3 +145,11 @@ So that there is a single source of truth for the history of aircraft maintenanc
 
 * Developers:
     - implement OCR training/Data correction interface
+
+
+## Resources
+
+* [A gentle introduction to OCR](https://towardsdatascience.com/a-gentle-introduction-to-ocr-ee1469a201aa)
+* [Have we solved the problem of Handwriting Recognition?](https://towardsdatascience.com/https-medium-com-rachelwiles-have-we-solved-the-problem-of-handwriting-recognition-712e279f373b) - Using convolutional neural networks to analyze handwriting yielded a 0.27% error rate.
+* [New York Times is using Google Cloud for OCR](https://cloud.google.com/blog/products/ai-machine-learning/how-the-new-york-times-is-using-google-cloud-to-find-untold-stories-in-millions-of-archived-photos)
+* [Amazon Textract](https://aws.amazon.com/textract/)
