@@ -32,9 +32,20 @@ Initialize a new Spring Boot application. [docs][springboot-cli-init-app]
 ```bash
 spring init \
   --dependencies=web,data-jpa,mysql,lombok,flyway \
-  --groupId=com.loderunners \
+  --groupId=org.fearless \
   --type=gradle-project \
-  albums
+  recordstore
+```
+
+## Create a Database and a User in MySQL
+
+```bash
+$ mysql
+mysql> create database albums_development;
+mysql> create user 'albums-admin'@'localhost' identified by 's3cR3+';
+mysql> grant all privileges on 'albums_development'.* to 'albums-admin'@'localhost';
+mysql> flush privileges;
+mysql> \q
 ```
 
 ## Configure your Database Connection
@@ -42,12 +53,12 @@ spring init \
 ```
 # src/main/resources/application.properties
 spring.jpa.hibernate.ddl-auto=none
-spring.datasource.url=jdbc:${DATABASE_URL}
+spring.datasource.url=${DATABASE_URL}
 ```
 
 ```
 # .env
-DATABASE_URL=mysql://localhost:3306/albums_development
+DATABASE_URL=jdbc:mysql://localhost:3306/albums_development
 ```
 
 ```
@@ -55,32 +66,10 @@ DATABASE_URL=mysql://localhost:3306/albums_development
 .env
 ```
 
-## Create a Database in MySQL
-
-```bash
-$ mysql
-mysql> create database albums_development;
-mysql> \q
-```
-
 ## Create a Database Migration
 
 ```
 touch src/main/resources/db/migration/V$(TZ=UTC date "+%Y%m%d%H%M%S")__Create_Albums_Table.sql
-```
-
-```bash
-#!/bin/bash
-# filename: bin/create_migration
-# usage: ./bin/create_migration Name_of_Your_Migration
-
-migration_name="$1"
-migration_path="./src/main/resources/db/migration"
-timestamp=$(env TZ=UTC date "+%Y%m%d%H%M%S")
-filename="$migration_path"/V"$timestamp"__"$migration_name".sql
-
-echo "creating $filename"
-echo "-- $migration_name" > "$filename"
 ```
 
 ## Add Gradle Plugin for Flyway migrations
@@ -99,6 +88,54 @@ plugins {
 ```bash
 ./gradlew tasks --all
 ```
+
+## Install the Pivotal Cloud Foundry (PCF) Command Line Interface (CLI)
+
+```
+brew install cloudfoundry/tap/cf-cli
+```
+
+## Login to PCF via the command line
+
+```
+cf login \
+  -a API_URL \
+  -u USERNAME \
+  -p PASSWORD \
+  -o ORG \
+  -s SPACE
+
+cf login \
+  -a api.run.pivotal.io \
+  -u rdavis@fearless.tech \
+  -o com.loderunners \
+  -s development
+```
+
+## Add a MySQL instance to the PCF Space
+
+```
+cf create-service cleardb spark mysql
+```
+
+So, this creates a mysql instance. What are the connection details?
+
+## Push your app
+
+```
+cf push albums-api
+```
+
+## Credhub
+
+[docs](https://docs.pivotal.io/credhub-service-broker/using.html)
+
+```
+cf create-service credhub default credhub
+```
+
+**Note**: Credhub is not a typical service paired with Pivotal Web Services (PWS).
+Credhub is specific to the Pivotal "Platform", or Pivotal Cloud Foundry (PCF).
 
 
 ## Resources

@@ -51,6 +51,9 @@ java -jar build/libs/hello-gradle.jar  # or
 ./gradlew bootRun
 ```
 
+## Example build.gradle Files
+
+[web3j/web3j-spring-boot-starter](https://github.com/web3j/web3j-spring-boot-starter/blob/master/build.gradle)
 
 ## Resources
 

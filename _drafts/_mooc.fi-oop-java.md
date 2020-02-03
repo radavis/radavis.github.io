@@ -61,6 +61,13 @@ ant test-single-method \
   -Dtest.includes=DictionaryTest.java \
   -Dtest.class=DictionaryTest \
   -Dtest.method=translateMethod
+
+
+ant test-single \
+  -Djavac.includes=Part1_7Test.java \
+  -Dtest.includes=Part1_7Test.java
+
+
 ```
 
 
@@ -73,7 +80,7 @@ ant test-single-method \
   location of that object is passed by value to a method.
 * Strings are immutable; once created, they cannot be modified.
 * "Good programmers write code that humans can understand." - Martin Fowler
-* Single Responsibility Principle: a class should have one clear role.
+* Single Responsibility Principle: a class should have a singular, clear role.
 
 ### Constructor Overloading
 
