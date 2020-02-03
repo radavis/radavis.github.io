@@ -35,7 +35,7 @@ Why aren't people using Brice?
 * **No WiFi on the flight line.**
 * Data Entry into IMDS is part of a Crew Chief's training.
 * A typical web app can't solve every problem.
-* Paper Forms and Binders are a part of Air Force culture.
+* Paper Forms and **Binders are a part of Air Force culture**.
 
 
 ## The Vision...
