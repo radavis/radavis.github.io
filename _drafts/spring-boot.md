@@ -15,7 +15,7 @@ Spring Data JPA
 
 ## Layers
 
-![Spring Data JPA Layers](/assets/images/spring-data-jpa.png)
+![Spring Data JPA Layers](/assets/images/spring-boot/spring-data-jpa.png)
 
 * Controller: Handles HTTP GET, POST, PUT/PATCH, and DELETE (and other) requests.
   - `DispatcherServlet` - aka "Front Controller":
@@ -155,3 +155,10 @@ public class Application {
 * [Spring Interview Questions (edureka)](https://www.edureka.co/blog/interview-questions/spring-interview-questions/)
 * [Spring Boot Interview Questions (edureka)](https://www.edureka.co/blog/interview-questions/spring-boot-interview-questions/)
 * [Spring MVC Interview Questions (baeldung)](https://www.baeldung.com/spring-mvc-interview-questions)
+
+## Images
+
+* [HTTP Request Lifecycle](/assets/images/spring-boot/request-lifecycle.png)
+* [Spring MVC Model 2](assets/images/spring-boot/spring-mvc-model2.png)
+* [Spring MVC Processing Sequence](assets/images/spring-boot/spring-mvc-processing-sequence.png)
+* [Spring MVC Workflow](assets/images/spring-boot/spring-mvc-workflow.png)
