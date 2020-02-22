@@ -26,3 +26,4 @@
 * How large is your company? How fast are you growing?
 * What are your plans for sustainable growth?
 * Who are your clients? Who are your customers?
+* What is your team's approach to pair programming? How often do you pair?

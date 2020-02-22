@@ -11,12 +11,12 @@ Allowance: $4000/yr
 20190529 Docker Summit McLean, VA Time off $423
 20191116 Java (4 hrs.) $212
 
-Remaining: $2230
+20191213 O'Reilly OSCON Portland, OR $1395
+20191213 Motel 6 (07-12-2020 to 07-16-2020) $424
+20191213 Books, pt. 1 $364
+20191213 Books, pt. 2 $61
 
-
-## Workshops & Learning Resources
-
-* [Testing JavaScript w/ KCD](https://testingjavascript.com/) - $40-270
+Remaining: -$14
 
 
 ## Technical Allowance (aka Tech Budget)
