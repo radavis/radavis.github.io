@@ -76,3 +76,4 @@ permalink: /links/
 * [Amazon Web Services in Plain English](https://www.expeditedssl.com/aws-in-plain-english)
 * [Clear is better than clever](https://dave.cheney.net/2019/07/09/clear-is-better-than-clever)
 * [Choose Boring Technology](http://boringtechnology.club/)
+* [nomnoml - create UML/ER diagrams in the browser](http://www.nomnoml.com/)
