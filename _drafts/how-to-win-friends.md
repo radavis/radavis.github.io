@@ -56,8 +56,7 @@
 
 ## Chapter 3
 
-* I prefer Strawberries and Cream. Fish prefer worms.
-* Bait the hook to suit the fish.
+* I prefer Strawberries and Cream. Fish prefer worms. Bait the hook to suit the fish.
 * We are interested in what we want. To influence others, talk about what they
   want and show them how to get it.
 * The whole purpose of advertising is to convince you that you want something.

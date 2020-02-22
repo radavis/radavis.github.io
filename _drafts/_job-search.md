@@ -2,8 +2,8 @@
 
 ## What kinds of companies would I work for?
 
-* Product or Consultancy
-* Large, Medium, or Small
+* Product or Consultancy: Leaning towards Product. Depends on client-base of consultancy.
+* Large, Medium, or Small: Never worked for a large company. Medium to small, preferred.
 
 
 ## What are examples of companies I have enjoyed working for?
@@ -23,3 +23,6 @@
 
 * How are software teams at your organization set up?
 * What ceremonies do you have in place? What are their frequencies?
+* How large is your company? How fast are you growing?
+* What are your plans for sustainable growth?
+* Who are your clients? Who are your customers?

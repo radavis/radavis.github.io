@@ -1,5 +1,9 @@
 # Spring Boot
 
+## Labs - by Brian Clozel
+
+* [Introduction](https://bclozel.github.io/lectures/spring-boot-lab.html)
+
 ## Definitions
 
 Java Persistence API (JPA)
@@ -43,10 +47,9 @@ classes.
 - `@Component` - a (generic) Spring managed component. "Meta-annotations":
     * `@Service` - holds the "business logic" of the application.
     * `@Repository` - A _Data_ Repository, or Data Access Object (DAO). Catches persistence-specific exceptions & rethrows.
-    * `@Controller` - Handles HTTP requests, returns HTTP responses
+    * `@Controller` - Handles HTTP requests, returns HTTP responses. Controllers should be lightweight and call other components in your application to perform actual work.
 
 - `@Configuration` - Contain `@Bean` definition methods. (e.g. - How to initialize a particular )
-
 
 ## What is the Spring IoC container?
 
@@ -58,7 +61,10 @@ classes.
 
 > A bean is an object that is [...] managed by a Spring IoC container. [docs.spring.io](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-introduction)
 
-Is a `@Component` also a `@Bean`?
+Is a `@Component` also a `@Bean`?... Yes!
+
+- Use the `@Component` annotation for classes that you write.
+- Use the `@Bean` method annotation in a configuration class.
 
 `@Bean` annotation indicates that a method produces a bean to be managed by the
 Spring Container.
