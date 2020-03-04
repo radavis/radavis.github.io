@@ -4,6 +4,7 @@
 
 Allowance: $4000/yr
 
+* 20200217 Books: SQL Antipatterns, Smart Notes, Bmore Book $61
 * Book Hotel for Portland Open Source Conference Summer 2020
 
 Remaining: $4000
