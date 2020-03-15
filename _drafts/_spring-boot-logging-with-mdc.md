@@ -146,6 +146,7 @@ pattern layout: `%X{req.*}%n%d - %m%n`
 * [Slf4j MDC servlet filter (closed issue on spring-boot repo)](https://github.com/spring-projects/spring-boot/issues/7927)
 * [Spring Boot: Servlet Filter (tutorialspoint)](https://www.tutorialspoint.com/spring_boot/spring_boot_servlet_filter.htm)
 * [LOGBack: MDC: MDCInsertingServletFilter](http://logback.qos.ch/manual/mdc.html#mis)
+* [Examples](https://github.com/search?q=in%3Afile+language%3Ajava+springframework+Filter+MDC&type=Code)
 
 https://medium.com/@moelholm/spring-boot-enhance-your-logging-fa7d2c49f489
 http://logback.qos.ch/xref/chapters/mdc/UserServletFilter.html

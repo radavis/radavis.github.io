@@ -66,8 +66,6 @@ ant test-single-method \
 ant test-single \
   -Djavac.includes=Part1_7Test.java \
   -Dtest.includes=Part1_7Test.java
-
-
 ```
 
 
