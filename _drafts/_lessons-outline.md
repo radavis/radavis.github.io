@@ -20,3 +20,10 @@ What does a developer need to know to work on BRICE/WARLOC apps?
 ## Next Step
 
 write migrations for org-fearless-recordstore/relationships branch
+
+## Lesson/App Series
+
+* Create a backend (api)
+* Create a frontend (ui)
+* Docker development environment
+* Create a pipeline
