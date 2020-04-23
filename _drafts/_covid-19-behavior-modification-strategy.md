@@ -4,6 +4,7 @@
 
 * Keep some sort of routine.
 * Start the day with small wins.
+* When frustration creeps in, take a break.
 
 ## Daily Checklist for Workdays
 
