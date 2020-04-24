@@ -10,7 +10,7 @@ binding class methods in the component constructor.
 
 ```js
 // explicitly bind the updateValue class method
-class app extends Component {
+class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
