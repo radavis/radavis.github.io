@@ -8,7 +8,7 @@ date: 2019-10-25 18:15
 
 I'm chill. I try not to panic. I'll often imagine the worst case scenario for
 any given situation so that I can plan for it. I have a daily "human interaction
-time limit" that I sometimes hit. So, if I seem irritable, I apologize. I
+time limit" that I sometimes hit. If I seem irritable, I apologize. I
 probably need to take a break, take a walk, and recharge.
 
 
@@ -56,3 +56,4 @@ apologies for the awkward pauses when I speak.
 ### Resources
 
 * [User Manuals - Leah Fessler](https://qz.com/1046131/writing-a-user-manual-at-work-makes-teams-less-anxious-and-more-productive/)
+* [Why office noise bothers some people more than others - Zaria Gorvett](https://www.bbc.com/worklife/article/20191115-office-noise-acceptable-levels-personality-type)
