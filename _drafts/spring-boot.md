@@ -161,6 +161,16 @@ public class Application {
 * [Spring Interview Questions (edureka)](https://www.edureka.co/blog/interview-questions/spring-interview-questions/)
 * [Spring Boot Interview Questions (edureka)](https://www.edureka.co/blog/interview-questions/spring-boot-interview-questions/)
 * [Spring MVC Interview Questions (baeldung)](https://www.baeldung.com/spring-mvc-interview-questions)
+* [Getting Started w/ Spring Boot: Scaffolding and Annotations](https://medium.com/@ragunathrajasekaran/https-medium-com-ragunathrajasekaran-lets-learn-full-stack-development-part2-7986debc485d)
+* https://spring.io/guides/gs/accessing-data-mysql/
+* http://nomnoml.com/
+* https://hub.docker.com/_/nginx
+* https://medium.com/@xiaolishen/develop-in-docker-a-node-backend-and-a-react-front-end-talking-to-each-other-5c522156f634
+* https://medium.com/@wkrzywiec/how-to-run-database-backend-and-frontend-in-a-single-click-with-docker-compose-4bcda66f6de
+* https://spin.atomicobject.com/2019/06/10/docker-compose-local-dev/
+* https://medium.com/softonic-eng/docker-compose-from-development-to-production-88000124a57c
+* https://runnable.com/blog/a-better-dev-workflow-with-docker-compose
+* https://hackernoon.com/efficient-development-with-docker-and-docker-compose-e354b4d24831
 
 ## Images
 

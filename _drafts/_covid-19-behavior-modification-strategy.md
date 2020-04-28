@@ -14,13 +14,14 @@ Get your day started.
 
 * [ ] Shower and Self-Grooming
 * [ ] Eat breakfast, make coffee
-* [ ] Clean the Kitchen
+* [ ] Drink water
 * [ ] Take Medication
+* [ ] Clean the Kitchen
 * [ ] Meditate for 5 minutes
 * [ ] Do yoga for 20 minutes
 * [ ] Identify your Most Important Task (MIT) for today
 * [ ] Complete a small coding exercise and document it
-* [ ] Start a meal in the slow-cooker for lunch or dinner
+
 
 ### Day
 
@@ -34,6 +35,8 @@ Get some work done. Some days will be consumed by meetings and interactions. Thi
 * [ ] What is your next action?
 * [ ] Take a break
 * [ ] Go for a walk
+* [ ] What's for Lunch?
+* [ ] What's for Dinner?
 
 ### Evening
 
