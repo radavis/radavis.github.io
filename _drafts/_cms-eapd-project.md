@@ -16,6 +16,9 @@
   * [ ] confluence.cms.gov
   * [ ] github.cms.gov
 
+- [x] e-QIP Registration Code: 61G23BNJYM7IWT
+- [x] OF-306
+
 ## Links
 
 * [18F/cms-hitech-apd pipeline](https://app.circleci.com/pipelines/github/18F/cms-hitech-apd)
