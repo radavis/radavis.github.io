@@ -48,3 +48,27 @@ show express routes
 ```
 $ DEBUG=express:* node index.js
 ```
+
+update documentation diagram written in mermaid
+
+```
+$ npm install -g @mermaid-js/mermaid-cli  # install mermaid-cli
+$ mmdc -i diagrams/auth.verify.mmd -o diagrams/auth.verify.png
+```
+
+
+## 2100
+
+### Branch: remove-request-node-module
+
+* `request` is deprecated: https://www.npmjs.com/package/request
+* We use axios on the front-end. Why not use it when testing the API, as well?
+* Tests needed to be refactored in order to accomodate the move from cookie auth to token auth.
+* Condensed the two `endpoint.util` files into one.
+* Moved call to `multer` to `routes/apds/files.js`. It shouldn't be used as global middleware according to the docs.
+* TODO: fix `endpointCoverageMiddleware.js`
+
+
+## Next
+
+* [Budget Table Math](https://app.mural.co/t/gsa6/m/gsa6/1585942490744/d53ca4663eff051ca34dada15dc3d0172474eec8)
