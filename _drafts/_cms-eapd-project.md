@@ -33,31 +33,38 @@
 * [eAPD logic flow](https://app.mural.co/t/gsa6/m/gsa6/1550093095167/6af6517f3e12e173f4df52bc4eb9bb6067725cfd)
 * [Team Availability](https://docs.google.com/spreadsheets/d/1O9P67TlPhGE1nbknZckGXXhmwm3QFrZ_3T0ov5ZLHb8/edit#gid=1386256029)
 * [Brownbag Talks](https://drive.google.com/drive/folders/1Cynv9pTzEDQEmZQ0q3aDitSpcafgaxhe)
+* [Math flows](https://app.mural.co/t/eapd5455/m/eapd5455/1588711183141/acecb4562692e2b1e5bd412411b4d5c540d07b3e)
 
 
 ## Useful commands
 
 postgres development console (after running `docker-compose up`)
 
-```
+```bash
 $ psql postgres://postgres:cms@localhost:54325/hitech_apd
 ```
 
 show express routes
 
-```
+```bash
 $ DEBUG=express:* node index.js
 ```
 
 update documentation diagram written in mermaid
 
-```
+```bash
 $ npm install -g @mermaid-js/mermaid-cli  # install mermaid-cli
 $ mmdc -i diagrams/auth.verify.mmd -o diagrams/auth.verify.png
 ```
 
+run migrations
 
-## 2100
+```bash
+$ docker-compose exec api npm run migrate
+```
+
+
+## 2100 - Refactor Authentication (remove cookies)
 
 ### Branch: remove-request-node-module
 
@@ -69,6 +76,6 @@ $ mmdc -i diagrams/auth.verify.mmd -o diagrams/auth.verify.png
 * TODO: fix `endpointCoverageMiddleware.js`
 
 
-## Next
+## 2169 - Update Budget Reducer Math
 
 * [Budget Table Math](https://app.mural.co/t/gsa6/m/gsa6/1585942490744/d53ca4663eff051ca34dada15dc3d0172474eec8)

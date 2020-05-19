@@ -34,5 +34,5 @@ the list of acceptance criteria can be used as a guide to creating feature tests
 
 ## Resources
 
-* [User Story Examples and Counterexamples](http://blogs.collab.net/agile/user-story-examples-and-counterexamples)
+* [User Stories with Examples and Template](https://www.atlassian.com/agile/project-management/user-stories)
 * [The Path: Going from an Idea to Working Software](https://gist.github.com/radavis/9bafb2930fa3f6f9e441782cf7631250)

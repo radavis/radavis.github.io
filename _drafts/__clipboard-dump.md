@@ -23,3 +23,15 @@ L24: Wrapping up documentation for [#2100](https://github.com/18F/cms-hitech-apd
 N24: Digging into [#2131](https://github.com/18F/cms-hitech-apd/issues/2131) - Budget table bug, and [#2169](https://github.com/18F/cms-hitech-apd/issues/2169) - Updating the Budget reducer.
 Asks: @jeromeleeCMS, when you have a moment, could you take a look at https://ec2-34-201-43-187.compute-1.amazonaws.com and verify you can log in and out. Then approve this PR: https://github.com/18F/cms-hitech-apd/pull/2158 ? Thanks!
 Blockers: none
+
+I've been bouncing around on the emotional spectrum between "I've got this" and "I'm a complete idiot, why did I choose this career?" so, I'm not sure how I'm doing. I've just been taking lots of breaks to make sure my brain has enough space to attempt to complete some work.
+
+Remembering back to my first Fearless project, we had an nginx service that sat in front of our app that handled auth. If they were unauthorized, the request failed (4xx HTTP response). Otherwise, a header was included in the request with the username, permissions, and other user data.
+
+I’m fairly new to the ATO process. From my understanding, it’s necessary to satisfy the following NIST Security Controls to qualify for ATO. https://nvd.nist.gov/800-53 So, if you can satisfy these requirements with a passwordless app, you're good. (Apologies if I'm stating the obvious.)
+
+Balance: 8
+L24: Apologies for missing our meetings, yesterday. I tried to complete some "quick" errands over lunch, which turned out to be not-so-quick...
+N24: Understanding/executing on [#2169](https://github.com/18F/cms-hitech-apd/issues/2169) - Updating the Budget reducer, [#2170](https://github.com/18F/cms-hitech-apd/issues/2170) - State Costs Summary Table.
+Asks: Could the team look at my questions, [here](https://app.zenhub.com/workspaces/cms-hitech-apd-5a3823ad3659e94d8ee569be/issues/18f/cms-hitech-apd/2169), please?
+Blockers: none
