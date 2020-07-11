@@ -63,6 +63,28 @@ run migrations
 $ docker-compose exec api npm run migrate
 ```
 
+revert app to prior release
+
+```bash
+git checkout vX.Y.Z
+
+cd api
+rm -rf node_modules
+npm i
+
+cd ../web
+rm -rf node_modules
+npm i
+
+cd ../
+rm -rf pgdata/*
+
+docker system prune -a
+docker-compose up
+docker-compose exec api npm run migrate
+docker-compose exec api npm run seed
+```
+
 
 ## 2100 - Refactor Authentication (remove cookies)
 
@@ -79,3 +101,35 @@ $ docker-compose exec api npm run migrate
 ## 2169 - Update Budget Reducer Math
 
 * [Budget Table Math](https://app.mural.co/t/gsa6/m/gsa6/1585942490744/d53ca4663eff051ca34dada15dc3d0172474eec8)
+
+
+## 2188 - VerticalNav Bug
+
+* Updated from @cmsgov/design-system-core v1.32.1 to v3.4.2 back in early January
+* Currently at @cmsgov/design-system-core v3.7.0
+* When did the VerticalNav component signature change?
+  - Can't choose versions @ https://design.cms.gov/
+  - Revert app to v2.2.0 (before updating to @cmsgov/design-system-core v3.4.2)
+  - I don't think the design system is the issue.
+* When did the Sidebar.js Container Component change?
+
+
+## Breadcrumbs
+
+- import file using relative directory syntax
+- add spacing between activity list items, move pr from draft status
+
+
+## MFA/2FA Auth for ATO
+
+There are multiple concerns to weigh. Sounds like right now we are thinking,
+take the shortest path to ATO since effort applied to MFA/2FA (Multi/Two factor auth)
+takes away from eADP work.
+
+* [What is 2FA?](https://authy.com/what-is-2fa/)
+* [ATO Running Notes](https://docs.google.com/document/d/11HzGywm BwS17h-KxGvPLJV12yusZp4O_CVjkNQ92wjE/edit#)
+* https://github.com/okta/okta-signin-widget#okta-sign-in-widget
+* [Okta Sign-in Widget](https://developer.okta.com/code/javascript/okta_sign-in_widget/)
+* [Okta 2FA Articles](https://www.okta.com/corporate-blog/tag/2fa/)
+* https://confluenceent.cms.gov/display/IDM/MACPro-eAPD+-++CMCS+-+IDM+Integration+Meetings
+* https://confluenceent.cms.gov/display/IDM/Authentication+Offerings+-+OaaS
