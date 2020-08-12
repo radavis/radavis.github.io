@@ -68,18 +68,12 @@ revert app to prior release
 ```bash
 git checkout vX.Y.Z
 
-cd api
-rm -rf node_modules
-npm i
-
-cd ../web
-rm -rf node_modules
-npm i
-
+rm -rf {api,web}/node_modules pgdata/*
+cd api && npm i
+cd ../web && npm i
 cd ../
-rm -rf pgdata/*
 
-docker system prune -a
+docker rmi --force $(docker images -q --filter=reference='cms-eapd/*')
 docker-compose up
 docker-compose exec api npm run migrate
 docker-compose exec api npm run seed
@@ -133,3 +127,98 @@ takes away from eADP work.
 * [Okta 2FA Articles](https://www.okta.com/corporate-blog/tag/2fa/)
 * https://confluenceent.cms.gov/display/IDM/MACPro-eAPD+-++CMCS+-+IDM+Integration+Meetings
 * https://confluenceent.cms.gov/display/IDM/Authentication+Offerings+-+OaaS
+
+
+## npm-audit-resolver alternatives
+
+* snyk
+* AuditJS
+* ~nsp~
+* greenkeeper
+
+https://snyk.io/blog/ten-npm-security-best-practices/
+
+
+## Versioning of APDs
+
+There's a table in our database named `apd_versions`, which is described as a
+place to store **submitted** APDs. However, it doesn't look like we ever write
+to this table. I don't believe we can currently submit an APD through the
+interface. On the submit page we have a `mailto:` link to submit a pdf of the APD.
+
+On the frontend, we use something called `jsonpatch` to patch update frontend
+APD state.
+
+The Development Backend page in the wiki talks about using `jsonpatch` and
+`jsonpointer` to apply changes to the APD data structure. However, it looks like
+this is now outdated. This might be a remnant from when the APD was mapped to
+a relational structure within the APD, or some forward-thinking from the team
+on how to handle versions of an APD.
+
+So, it doesn't look like there's anything in the app currently to handle APD versions on the backend.
+
+ https://github.com/18F/cms-hitech-apd/wiki/Development-backend
+
+
+## 2335 - Auditing NPM pacakges
+
+Current solution: `npx -p npm-audit-resolver check-audit` in CI.
+
+Problems:
+  - fails on dev dependencies, no option to run in `prod` mode
+  - excessive noise when failing dependency is common (e.g. - `lodash`)
+
+Try:
+
+```bash
+$ npx audit-ci --config
+```
+
+
+## Local Dev Commands
+
+```bash
+$ cd api
+$ NODE_ENV=development DEV_DB_HOST=localhost npm run start-dev
+$ cd ../web
+$ NODE_ENV=development npm run start
+```
+
+
+## URLs
+
+production: eapd.cms.gov
+username: rdavis@fearless.tech
+password: password-password
+
+
+## 2188 - Navigation Refactor
+
+Issues
+
+* [x] Clicking Export and Submit skips the review step.
+* [ ] Unable to scroll Sidebar/Nav independently from the right-hand page.
+* [x] Continue/Previous buttons missing "Activity #" when on the main Activity List.
+* [ ] Click top-level navigation label, go to the first page in list.
+
+Open APD
+Expand Key State Personnel
+Scroll to bottom of the page
+Click Key State Personnel (in the sub nav menu)
+
+It should go back up to the top of the page, but it stays in place. The side panel does highlight like it should as you scroll. This does work if you click on State Director and Office Address.
+
+This is also the case for Results of Previous Activities, Proposed Budget, and Executive Summary. It might be related to the main menu item and the sub menu item having the same name.
+
+
+When navigating with the Continue/Previous buttons, the Left-side Nav does not
+automatically expand to the current location. Also, suprise-yellow.
+
+"Suprise yellow" is a feature of the CMSGOV Design System. It indicates screen reader tab location. If you click on a focusable item (e.g. - a button, a link), the screen reader tab focus stays where you last clicked. If you press tab, you move to the next focusable item. If you press shift+tab, you move to the previous focusable item.
+
+Updating the 'selectedId' of the Nav does not update
+or clear the focus state, which honestly feels like a bug in the design system.
+
+
+Because of the way the CMS Design System VerticalNav component works, simply setting
+the 'selectedId' will not expand to the current location. You must do that manually.
