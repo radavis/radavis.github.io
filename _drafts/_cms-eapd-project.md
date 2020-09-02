@@ -188,6 +188,7 @@ $ NODE_ENV=development npm run start
 ## URLs
 
 production: eapd.cms.gov
+staging: staging-eapd.cms.gov
 username: rdavis@fearless.tech
 password: password-password
 
@@ -222,3 +223,30 @@ or clear the focus state, which honestly feels like a bug in the design system.
 
 Because of the way the CMS Design System VerticalNav component works, simply setting
 the 'selectedId' will not expand to the current location. You must do that manually.
+
+
+## Running api tests, from scratch
+
+```bash
+nvm use 10
+
+# refresh node_modules
+rm -rf {api,web}/node_modules
+cd api && npm i
+cd ../web && npm i
+cd ../
+
+# refresh local docker images
+docker rmi --force $(docker images -q --filter=reference='cms-eapd/*')
+docker-compose build
+
+docker-compose -f api/docker-compose.endpoint-tests.yml up
+```
+
+
+## psql
+
+```
+$ dropdb hitech_apd
+$ createdb hitech_apd
+```
