@@ -250,3 +250,34 @@ docker-compose -f api/docker-compose.endpoint-tests.yml up
 $ dropdb hitech_apd
 $ createdb hitech_apd
 ```
+
+
+## update api snapshots
+
+edit `api/endpoint-test/endpoint.sh`:
+
+```bash
+# append '-- -u' to line 10, and run
+docker-compose -f docker-compose.endpoint-tests.yml exec api-for-testing npm run test-endpoints $@ -- -u
+```
+
+
+## Thursday, September 9th, 2020
+
+I'm currently trying figure out how to modify the `api/schema/apd.json` file  to accomodate a change to the frontend. An Activity goes from having one Other Funding Source, to having one per FFY. I need to modify the structure of the schema to reflect this change.
+
+I have tests in place to validate the seed apds. So, my approach has been to modify a seed file (`api/seeds/test/4000.json`), and run the test. My next step is to change the apd schema so that I can store something like
+
+```js
+{
+  year: "2020",
+  otherSources: "<p>...</p>"
+}
+```
+
+within the `costAllocationNarrative` property of an `activity`.
+
+I'm getting lost in `api/schema/apd.json`. I think I need to break it into smaller pieces. I'm having a difficult time reasoning about and modifying a deeply-nested, 600-line, json document definition.
+
+
+I'm also having serious difficulty focusing lately. So, my brain isn't doing me any favors.
