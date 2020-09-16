@@ -239,8 +239,6 @@ cd ../
 # refresh local docker images
 docker rmi --force $(docker images -q --filter=reference='cms-eapd/*')
 docker-compose build
-
-docker-compose -f api/docker-compose.endpoint-tests.yml up
 ```
 
 
@@ -281,3 +279,56 @@ I'm getting lost in `api/schema/apd.json`. I think I need to break it into small
 
 
 I'm also having serious difficulty focusing lately. So, my brain isn't doing me any favors.
+
+
+## AWS
+
+* url: https://aws-hhs-cms-cmcs-hi-c.signin.aws.amazon.com/console
+* account id: aws-hhs-cms-cmcs-hi-c
+* username: rdavis@fearless.tech
+* password: Df2bbfc8961f5b24b5640@cc219b3c07
+* password: B#8qtypedgdmcn
+
+
+## Tuesday, September 15th, 2020
+
+### Slack
+
+```
+I want to share this with you, since I shared it with Jon at our 1-on-1, and I would hate for it to appear that I'm talking trash about our project behind anyone's back...
+
+I'm a bit frustrated at the current state of the app. Normally, I would expect to find patterns to follow in order to "slice the layers" of the app to build out new functionality. For example, if design asks to add a new page to an APD, or to add a new field to a section of an APD, I would expect there to be examples of how to change a component, change the redux layer, change the middleware layer, change the api layer, etc, to implement this change. Looking at past PRs, I'm unable to find such examples.
+
+I haven't mentioned this to you yet because (1) you're deep into the Okta integration, and don't necessarily need to hear about other problems right now, and (2) I don't really like to complain unless I have a potential solution or two in mind.
+
+#justventing
+
+I shudder at the thought of building on top of what we currently have to create "APD templates" for users to choose and then complete.
+
+The conversation yesterday around building different but similar APDs got me thinking about how there isn't a clear path on how to augment the existing APD document structure, let alone allowing users to roll their own APD document that they can then fill out.
+```
+
+### APD work
+
+Use a feature test to slice the stack. - Unknown problems lie in wait, here.
+
+What are the steps involved when adding a new field or a new group of fields to an APD?
+
+Can we get to a place where an APD is described by a collection of schema objects, each schema has a show/edit component, with component text fields defined as json, with a back-end API route? What would it look like to build CRUD layers across the front-end and back-end?
+
+| Software Stack     |
+| ------------------ |
+| Component-based UI |
+| Redux, Middleware  |
+| HTTP (Axios)       |
+| API (Express)      |
+| JSON Schema        |
+| KNEX Querybuilder  |
+| Postgres Database  |
+
+Does it make sense to store a JSON object in a relational database? Would we have
+a better experience with something like mongo since we're mostly passing around JSON data?
+
+Why does this feel like a bunch of technology thrown together by a 5-year-old? - don't be negative.
+
+We're all losing our minds, watching the fall of democracy and representative government in real-time, live-streamed over the internet. I'm supposed to focus on my work and be productive? Are you serious?
