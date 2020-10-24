@@ -4,7 +4,7 @@
 
 [[source](https://github.com/lukesampson/scoop#installation)]
 
-Open PowerShell: Win, type "powershell"
+Open PowerShell: Win+r, type "powershell"
 
 ```no-highlight
 C:\Users\username> Set-ExecutionPolicy RemoteSigned -scope CurrentUser
@@ -50,6 +50,17 @@ Type 'scoop help <command>' to get help for a specific command.
 [Enable debugging on your device](https://developer.android.com/studio/command-line/adb#Enabling)
 
 ```no-highlight
-C:\Users\username> scoop install adb android-sdk
+C:\Users\username> scoop install adb
+C:\Users\username> adb kill-server
+C:\Users\username> adb start-server
+C:\Users\username> adb devices -l
 C:\Users\username> adb backup -apk -shared -all -f 20201024-android-device-backup.ab
+```
+
+## Install Java
+
+```no-highlight
+C:\Users\username> scoop bucket add java
+C:\Users\username> scoop search jdk
+C:\Users\username> scoop install openjdk15
 ```
