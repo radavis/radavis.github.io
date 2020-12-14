@@ -36,50 +36,6 @@
 * [Math flows](https://app.mural.co/t/eapd5455/m/eapd5455/1588711183141/acecb4562692e2b1e5bd412411b4d5c540d07b3e)
 
 
-## Useful commands
-
-postgres development console (after running `docker-compose up`)
-
-```bash
-$ psql postgres://postgres:cms@localhost:54325/hitech_apd
-```
-
-show express routes
-
-```bash
-$ DEBUG=express:* node index.js
-```
-
-update documentation diagram written in mermaid
-
-```bash
-$ npm install -g @mermaid-js/mermaid-cli  # install mermaid-cli
-$ mmdc -i diagrams/auth.verify.mmd -o diagrams/auth.verify.png
-```
-
-run migrations
-
-```bash
-$ docker-compose exec api npm run migrate
-```
-
-revert app to prior release
-
-```bash
-git checkout vX.Y.Z
-
-rm -rf {api,web}/node_modules pgdata/*
-cd api && npm i
-cd ../web && npm i
-cd ../
-
-docker rmi --force $(docker images -q --filter=reference='cms-eapd/*')
-docker-compose up
-docker-compose exec api npm run migrate
-docker-compose exec api npm run seed
-```
-
-
 ## 2100 - Refactor Authentication (remove cookies)
 
 ### Branch: remove-request-node-module
@@ -174,25 +130,6 @@ Try:
 $ npx audit-ci --config
 ```
 
-
-## Local Dev Commands
-
-```bash
-$ cd api
-$ NODE_ENV=development DEV_DB_HOST=localhost npm run start-dev
-$ cd ../web
-$ NODE_ENV=development npm run start
-```
-
-
-## URLs
-
-production: eapd.cms.gov
-staging: staging-eapd.cms.gov
-username: rdavis@fearless.tech
-password: password-password
-
-
 ## 2188 - Navigation Refactor
 
 Issues
@@ -225,41 +162,6 @@ Because of the way the CMS Design System VerticalNav component works, simply set
 the 'selectedId' will not expand to the current location. You must do that manually.
 
 
-## Running api tests, from scratch
-
-```bash
-nvm use 10
-
-# refresh node_modules
-rm -rf {api,web}/node_modules
-cd api && npm i
-cd ../web && npm i
-cd ../
-
-# refresh local docker images
-docker rmi --force $(docker images -q --filter=reference='cms-eapd/*')
-docker-compose build
-```
-
-
-## psql
-
-```
-$ dropdb hitech_apd
-$ createdb hitech_apd
-```
-
-
-## update api snapshots
-
-edit `api/endpoint-test/endpoint.sh`:
-
-```bash
-# append '-- -u' to line 10, and run
-docker-compose -f docker-compose.endpoint-tests.yml exec api-for-testing npm run test-endpoints $@ -- -u
-```
-
-
 ## Thursday, September 9th, 2020
 
 I'm currently trying figure out how to modify the `api/schema/apd.json` file  to accomodate a change to the frontend. An Activity goes from having one Other Funding Source, to having one per FFY. I need to modify the structure of the schema to reflect this change.
@@ -279,15 +181,6 @@ I'm getting lost in `api/schema/apd.json`. I think I need to break it into small
 
 
 I'm also having serious difficulty focusing lately. So, my brain isn't doing me any favors.
-
-
-## AWS
-
-* url: https://aws-hhs-cms-cmcs-hi-c.signin.aws.amazon.com/console
-* account id: aws-hhs-cms-cmcs-hi-c
-* username: rdavis@fearless.tech
-* password: Df2bbfc8961f5b24b5640@cc219b3c07
-* password: B#8qtypedgdmcn
 
 
 ## Tuesday, September 15th, 2020
