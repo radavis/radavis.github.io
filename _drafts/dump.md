@@ -1,0 +1,1 @@
+I hate this project. It's garbage. Scratch that. It _might_ not be garbage, but I feel consistently ineffective attempting to augment it for new functionality. I'd rather not work in this industry than continue working on this project. 
