@@ -14,3 +14,8 @@
   - Tech giants and the-small-guy don't have the same business needs.
 
 more to come...
+
+Small teams need to iterate quickly. "Don't worry about code organization.
+Let organization of the codebase come with iteration." This approach sucks.
+I've got enough to worry about. Throw on top of that a tendancy for any one
+developer to come in and shift the house. Fuck that.
