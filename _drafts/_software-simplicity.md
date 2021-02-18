@@ -1,4 +1,4 @@
-# software simplified
+# software simplicity
 
 In the early-to-mid 2000s, Max Kanat-Alexander started contributing to Bugzilla,
 a project that had "famously messy code." Adding a new feature took months.
