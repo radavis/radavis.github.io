@@ -51,6 +51,8 @@ Ineffective coping strategies, which do not improve your situation:
 
 **Radical Acceptance**: acknowledge your present situation with no judgement. A very long chain of events that started far in the past have lead us here to this moment. Look at the present situation without judgement or blame in order to observe the facts of the matter. Radical acceptance is not condoning bad behavior, it's realizing you cannot change the past, and that being angry about the past or the situation only harms us. The correct response is to focus your attention on what you can do now to improve the situation.
 
+**What can I do right now to improve this situation?**
+
 Radical Acceptance Coping Statements:
 
 - All the events have led to this moment.
@@ -107,7 +109,7 @@ Distract yourself by focusing on someone else:
 - Sit and watch others, without judgment. Notice the details of how they dress and act.
 - Think of someone you care about. Imagine an enjoyable conversation with this person. What would they say?
 - Run an errand for your significant other.
-- How can I help in this moment? Ask if is OK to help by doing ___.
+- How can I help in this moment? Ask if is OK to help by doing something specific.
 
 Distract your thoughts. Forcing yourself to forget about a past event is impossible. Try to distract yourself with other memories or creative images.
 
@@ -200,3 +202,47 @@ Relaxation plan when out:
 8. get tacos
 9. eat a fruit
 10. go to the park, bookstore, or museum
+
+## Advanced Distress Tolerance Skills
+
+**Safe-place visualization**: Create a peaceful, relaxing scene in your thoughts.
+
+**Cue-controlled relaxation**: Pick a "cue" word, such as "relax." Systematically relax your muscles from your head to your toes. "breathe in", exhale "relax".
+
+**Rediscover your values**: What are your ethics, principles, ideals, standards, and morals?
+
+**Valued Living Questionnaire**
+
+- Romantic relationships: 8
+- Friends/social life: 4
+- Work: 10
+- Education/training: 7
+- Recreation/fun: 7
+- Spirituality/religion: 2
+- Self-care: 9
+
+**Committed Action Worksheet**
+
+I value what I do for a living, and want to create quality software that solves problems for others. Actions I'm willing to take: quit my job and work as an independent contractor.
+
+I value my relationship with Deb. I will think of thoughful gifts to give to her and think of ways to surprise her.
+
+I value taking time off and relaxing. I will plan a long weekend to get away for my 40th birthday this year.
+
+**Identify your Higher Power**
+
+I believe in the benevolence that exists within all of us. I believe that most people want to see others succeed. I believe that finding ways to help others is more powerful than attacking or denigrating others.
+
+Without these beliefs, I could not comprehend how society would work. I could not comprehend how humanity has endured.
+
+These beliefs make me feel helpful and good and worthy.
+
+These beliefs make me feel that others could understand the value of kindness.
+
+**Higher-Power Activities**
+
+Should I seek out a structured religion that aligns with my values? Buddahism? Satanism? Amish?
+
+Who embodies "my higher power?"
+
+page 41
