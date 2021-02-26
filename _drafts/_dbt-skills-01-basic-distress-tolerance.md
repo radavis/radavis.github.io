@@ -1,19 +1,3 @@
-# Dialectical Behavior Therapy (DBT) Skills Workbook
-
-DBT, deveoped by Marsha Linehan, is an effective method for helping others to
-deal with overwhelming emotions and handling stress. DBT consists of four skills:
-
-1. Distress tolerance: build up resiliency so that difficult circumstances are easier to handle.
-2. Mindfulness: "living in the moment", instead of living in the past or the future.
-3. Emotional regulation: observe your emotions, instead of becoming overwhelmed by emotion.
-4. Interpersonal effectiveness: how to work better with others.
-
-What are the ways I currently react to emotions that I want to change.
-
-1. I become frustrated when presented with difficult work.
-2. I get stressed out when my partner starts crying over money-related issues.
-3. I lock up or lash out when the ideas that I present are challenged.
-
 ## Basic Distress Tolerance Skills
 
 Common self-destructive coping strategies I use to cope with stressful situations:
@@ -202,47 +186,3 @@ Relaxation plan when out:
 8. get tacos
 9. eat a fruit
 10. go to the park, bookstore, or museum
-
-## Advanced Distress Tolerance Skills
-
-**Safe-place visualization**: Create a peaceful, relaxing scene in your thoughts.
-
-**Cue-controlled relaxation**: Pick a "cue" word, such as "relax." Systematically relax your muscles from your head to your toes. "breathe in", exhale "relax".
-
-**Rediscover your values**: What are your ethics, principles, ideals, standards, and morals?
-
-**Valued Living Questionnaire**
-
-- Romantic relationships: 8
-- Friends/social life: 4
-- Work: 10
-- Education/training: 7
-- Recreation/fun: 7
-- Spirituality/religion: 2
-- Self-care: 9
-
-**Committed Action Worksheet**
-
-I value what I do for a living, and want to create quality software that solves problems for others. Actions I'm willing to take: quit my job and work as an independent contractor.
-
-I value my relationship with Deb. I will think of thoughful gifts to give to her and think of ways to surprise her.
-
-I value taking time off and relaxing. I will plan a long weekend to get away for my 40th birthday this year.
-
-**Identify your Higher Power**
-
-I believe in the benevolence that exists within all of us. I believe that most people want to see others succeed. I believe that finding ways to help others is more powerful than attacking or denigrating others.
-
-Without these beliefs, I could not comprehend how society would work. I could not comprehend how humanity has endured.
-
-These beliefs make me feel helpful and good and worthy.
-
-These beliefs make me feel that others could understand the value of kindness.
-
-**Higher-Power Activities**
-
-Should I seek out a structured religion that aligns with my values? Buddahism? Satanism? Amish?
-
-Who embodies "my higher power?"
-
-page 41
