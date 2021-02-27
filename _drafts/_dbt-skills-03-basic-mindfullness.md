@@ -32,3 +32,9 @@ Mindfulness exercises will teach you...
 
 - Focus on a single minute. How good is your timing? -3 seconds
 - Focus on a single object for five minutes. Enumerate the visual qualities of the object. Hold the object, enumerate the physical sensations it produces.
+- Band of light
+- Record three minutes of thoughts. Multiply by 20 to get number of thoughts per hour.
+- Thought diffusion. Imagine symbols of your distressing thoughts float away into the sky, float away down a river, dissolve into nothing while practicing radical acceptance.
+- Describe your emotion. Pick an emotion, draw a picture of it. What sound, action, indensity level, quality describes it? What thoughts arise when feeling this emotion?
+- Focus shifting
+- Mindful breathing
