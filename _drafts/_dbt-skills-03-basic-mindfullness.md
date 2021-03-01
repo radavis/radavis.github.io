@@ -32,3 +32,5 @@ Mindfulness exercises will teach you...
 
 - Focus on a single minute. How good is your timing? -3 seconds
 - Focus on a single object for five minutes. Enumerate the visual qualities of the object. Hold the object, enumerate the physical sensations it produces.
+
+pg 69
