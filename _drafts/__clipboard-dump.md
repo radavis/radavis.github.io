@@ -90,3 +90,11 @@ Your User ID: DXVN. Your Next Steps
 2. Contact your CMS Access Administrator (CAA) for help. A list of CAAs can be found in the EUA system (link to CAA List).. Once you have logged in scroll down the page until you see EUA Info on the left hand side (Under Tasks box). Click on the CAA Listing button and search for CAAs using the “Org Path”, entering CMS organization (Component/Office or Group) and clicking on the Search button.
 
 3. Contact our IT Service Desk at 800-562-1963. DO NOT REPLY TO THIS EMAIL. This email is generated from an unattended mailbox.
+
+As someone who learns slowly and intentionally, the "skills treadmill" has flung me into a wall.
+
+From my observation, the same young ones who enjoy plugging in new tech to their stack aren't concerned with the impact of adding GraphQL or Redux Thunk on long-term maintainability of the application.
+
+They're probably more concerned with adding another skill to the list on their resume instead of how the addition of another layer of technology will negatively impact software maintenance and extensibility. So it goes. I reject the Magpie Developer mindset, since it is in direct opposition with [The Purpose of Software](https://www.codesimplicity.com/post/the-purpose-of-software/), which can only be achieved through a reduction in complexity.
+
+For sure. We can all easily get obsessed with chasing the latest and "greatest" tech. The unfortunate reality is, the people making the decision to add new X library don't consider if this technology is appropriate for the team size or the abilities of their current or future teammates. They're blinded by the new and shiny. "This tech works for for Google, this works for Facebook. Of course we should use it!" Stop and consider if you have the same problems, scale, and human resources of these companies. You don't.
