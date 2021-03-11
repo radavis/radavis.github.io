@@ -1,12 +1,12 @@
 title: radavis.github.io
 email: rdavis.bacs@gmail.com
 description: >
-  A place where I occasionally dump my technology-related thoughts.
+  A place where I occasionally export my technology-related thoughts and findings.
 baseurl: ""
 url: "https://radavis.github.io" # the base hostname & protocol for your site
 twitter_username: radavis__
 github_username:  radavis
-linkedin_username: davisra
+linkedin_username: radavis-swe
 exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
 permalink: /:categories/:title/
 paginate: 12
