@@ -32,7 +32,7 @@ Email, SMS Text, and
 are great for asynchronous communication. I enjoy having the
 illusion of control over my schedule, so if you want to talk for more than a
 few minutes, let's schedule a time to chat.
-I keep [my calendar](https://calendar.google.com/calendar/b/1?cid=cmRhdmlzQGZlYXJzb2wuY29t)
+I keep [my calendar](https://calendar.google.com/calendar/u/0?cid=cmRhdmlzLmJhY3NAZ21haWwuY29t)
 up-to-date and I'm always keeping tabs on good spots to grab coffee.
 
 "Headphones on" means I'm "heads-down working." I probably don't want to talk
