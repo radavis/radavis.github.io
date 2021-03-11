@@ -14,8 +14,8 @@ probably need to take a break, take a walk, and recharge.
 
 ### What do I value?
 
-I value open-mindedness, collaboration, honest feedback, positive thinking
-(the [pygmalion effect](https://nesslabs.com/pygmalion-effect) is reality),
+I value open-mindedness, collaboration, honest feedback,
+[positive thinking](https://nesslabs.com/pygmalion-effect),
 sharing knowledge, and being kind.
 
 
@@ -27,11 +27,13 @@ points-of-view.
 
 ### How can you communicate best with me?
 
-Email and Slack are great for asynchronous communication. I enjoy having the
+Email, SMS Text, and
+[Messaging Apps](https://en.wikipedia.org/wiki/Messaging_apps#Popular_messaging_applications)
+are great for asynchronous communication. I enjoy having the
 illusion of control over my schedule, so if you want to talk for more than a
 few minutes, let's schedule a time to chat.
-[My work calendar](https://calendar.google.com/calendar/b/1?cid=cmRhdmlzQGZlYXJzb2wuY29t)
-is typically up-to-date, and I know of some good spots to grab coffee.
+I keep [my calendar](https://calendar.google.com/calendar/b/1?cid=cmRhdmlzQGZlYXJzb2wuY29t)
+up-to-date and I'm always keeping tabs on good spots to grab coffee.
 
 "Headphones on" means I'm "heads-down working." I probably don't want to talk
 about my weekend, right now. However, if you have something urgent and important
@@ -42,15 +44,16 @@ that needs my immediate attention, please interrupt me.
 
 Help me to see the alternatives. I'm sure I have not considered every possibility.
 How does the situation look from your perspective? Help me to see the desired
-outcomes and your current concerns.
+outcomes and tell me your current concerns.
 
 
 ### What do people misunderstand about me?
 
 People often think I'm angry when I'm simply in a mode of quiet contemplation.
-I'm an introvert. I live quite a bit in my own brain. It might take me a moment
-to organize my thoughts when I'm verbally expressing what I'm thinking, so,
-apologies for the awkward pauses when I speak.
+I'm an introvert. I live quite a bit in my own brain. It may take me a moment
+to organize my thoughts when I'm verbally expressing what I'm thinking.
+I sometimes stop mid-sentence to ensure I'm using the correct vocabulary in
+order to most clearly express my ideas.
 
 
 ### Resources
