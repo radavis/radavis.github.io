@@ -225,3 +225,7 @@ a better experience with something like mongo since we're mostly passing around 
 Why does this feel like a bunch of technology thrown together by a 5-year-old? - don't be negative.
 
 We're all losing our minds, watching the fall of democracy and representative government in real-time, live-streamed over the internet. I'm supposed to focus on my work and be productive? Are you serious?
+
+---
+
+This thing is a fucking tangled mess. Fuck this shit.
