@@ -6,11 +6,16 @@ My blog.
 
 Automatic deploys from `master` are enabled. [source](https://dashboard.heroku.com/apps/radavis/deploy/github)
 
-## TODO
+## Getting Started
 
-* [ ] Script for publishing a draft
-* [ ] Change website title based on environment
-* [ ] Full-text search of articles
+```bash
+$ git clone git@github.com:radavis/radavis.github.io blog
+$ cd blog
+$ bundle
+$ bundle exec jekyll serve
+```
+
+Visit http://localhost:4000
 
 ## Resources
 
