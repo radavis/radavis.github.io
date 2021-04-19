@@ -12,7 +12,8 @@ Automatic deploys from `master` are enabled. [source](https://dashboard.heroku.c
 $ git clone git@github.com:radavis/radavis.github.io blog
 $ cd blog
 $ bundle
-$ bundle exec jekyll serve
+$ alias be="bundle exec"
+$ be jekyll serve
 ```
 
 Visit http://localhost:4000
