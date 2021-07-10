@@ -59,8 +59,3 @@ $ adb push --sync /Volumes/128GB_MSD/music /storage/292A-0FE1/Music
 * [x] Movies
 * [x] Downloads
 * [x] Pictures
-
-Signal Passphrase:
-
-45366 01098 29443
-37526 91226 00767
