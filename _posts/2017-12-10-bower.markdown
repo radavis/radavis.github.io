@@ -1,0 +1,120 @@
+---
+layout: post
+title: "Bower"
+date: 2017-12-10 12:45
+tags: javascript
+redirect_from: "/2017/12/10/bower.html"
+---
+
+With tools like Yarn and NPM around, Bower seems like an unnecessary technology.
+
+While that might _seem_ like the case, there are plenty of applications still
+using this tool to manage CSS and JavaScript assets. So, understanding how to
+use it is valuable.
+
+A search for
+["bower.json" on GitHub](https://github.com/search?utf8=%E2%9C%93&q=%22bower.json%22+in%3Apath+path%3A%2F&type=Code)
+returns ~490K results.
+
+
+## Install Bower
+
+Assuming you already have npm installed, get the `bower` command by running:
+
+```
+$ npm install -g bower
+```
+
+## Managing Assets w/ Bower
+
+Add Bower to your project with the following command:
+
+```
+$ bower init
+```
+
+This will interactively create a `bower.json` file which will describe your
+application, as well as the JavaScript assets you wish to have as a part of your
+application.
+
+Install some dependencies, such as
+[moment](http://momentjs.com/) or
+[konami-js](http://snaptortoise.github.io/konami-js/).
+
+```
+$ bower install moment --save
+$ bower install konami-js --save
+```
+
+Entries will be placed in the "dependencies" section of the project's
+`bower.json` file.
+
+
+```json
+{
+  "name": "project-name",
+  "homepage": "https://github.com/github-user/project-name",
+
+  ...
+
+  "dependencies": {
+    "moment": "momentjs#^2.19.3",
+    "konami-js": "^1.4.7"
+  }
+}
+```
+
+Other project contributors will need to run `bower install` from the project root.
+
+By default, dependencies managed by bower will be installed to the `bower_components`
+folder. You should add this folder to the `.gitignore` file in order to keep
+these assets separate from your git repository.
+
+
+## Bower and Rails 3.2/4
+
+### Setting the bower_components folder
+
+Bower, by default, uses the `bower_components` folder to store installed assets.
+
+Rails expects to find assets you and your team have created in the `app/assets`
+folder, and assets from other developers in the `vendor/assets` folder.
+
+Set up Bower to install dependencies in the `vendor/assets` folder. Create a
+`.bowerrc` file in your project's root path with the following contents.
+
+```
+{
+  "directory": "vendor/assets/bower_components"
+}
+```
+
+Be sure to `.gitignore` this folder.
+
+
+### Referencing Bower-installed assets in Rails
+
+Within files in `app/assets`, add require the dependencies installed by Bower.
+Note the omission of file extensions.
+
+In `app/assets/javascripts/application.js`:
+
+```
+//= require bower_components/moment/moment
+```
+
+**Note**: load any necessary CSS files, as well.
+
+Compiled assets will end up in the `public/assets` folder.
+Read more about the
+[Rails Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html),
+here.
+
+If we want to be able to reference assets without specifying the `bower_components`
+folder, modify the `Rails.application.config.assets.path` array.
+
+In `config/application.rb`:
+
+```
+config.assets.paths << Rails.root.join("vendor", "assets", "bower_components")
+```

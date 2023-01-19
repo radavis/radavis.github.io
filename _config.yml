@@ -1,0 +1,18 @@
+title: radavis.github.io
+email: rdavis.bacs@gmail.com
+description: >
+  A place where I occasionally export my technology-related discoveries.
+baseurl: ""
+url: "https://radavis.github.io" # the base hostname & protocol for your site
+twitter_username: radavis__
+github_username:  radavis
+linkedin_username: radavis-swe
+exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+permalink: /:categories/:title/
+paginate: 12
+paginate_path: "/pages/:num/"
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap

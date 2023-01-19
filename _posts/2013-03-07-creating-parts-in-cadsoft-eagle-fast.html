@@ -1,0 +1,60 @@
+---
+layout: post
+title: Creating Parts in Cadsoft Eagle, FAST.
+tags: eagle pcb schematics
+---
+
+<p><img alt="image" src="http://i.imgur.com/B3xKzHA.png" title="eagle logo" width="90"/></p>
+<p>When drawing a schematic in Eagle, it's a pretty common occurrence that you will need to create a part. There are a few good resources for finding parts already created in Eagle: <a href="http://www.opencircuits.com/SFE_Footprint_Library_Eagle">Sparkfun</a>, <a href="http://www.cadsoftusa.com/downloads/libraries?language=en">CadSoft's site</a>, <a href="http://www.google.com/search?q=eagle+library+site%3Agithub.com">GitHub</a>. Sometimes, it's faster and easier to just create your own rather than scouring the Interwebs for that part library that *might* exist. Let me show you some tricks that will make this process quick and relatively painless.</p>
+<p><!-- more --></p>
+<hr><p><strong>First, a vocabulary lesson.</strong></p>
+<p><img alt="image" src="http://i.imgur.com/P3PRVqJ.png" title="package icon"/><strong>Package</strong> - This is how the part will physically connect to the board. The package for a part describes all the holes and pads needed to accommodate the part. </p>
+<p><img alt="image" src="http://i.imgur.com/2uqRFVl.png" title="symbol icon"/><strong>Symbol</strong> - This is what you will see when drawing a schematic. It will give you some indication as to what mechanical properties the part has, or if it is a microcontroller, it's a box with some pins coming out the sides.</p>
+<p><img alt="image" src="http://i.imgur.com/nQGk7Sf.png" title="device icon"/><strong>Device</strong> - This is the combination of a Package and a Symbol. This allows us to create complex devices, using Packages and Symbols as building blocks. </p>
+<p><img alt="image" src="http://i.imgur.com/ENVzXcZ.png" title="library icon"/><strong>Library</strong> - This is a container for one or many Devices. Typically, parts are grouped into a Library by type and manufacturer.</p>
+<hr><p><strong>Gather The Data</strong></p>
+<p><img alt="image" src="http://i.imgur.com/LimEpbw.png" title="datasheet excerpt"/></p>
+<p>Grab the pdf datasheet for the part. <a href="http://www.octopart.com/">Octopart</a>, <a href="http://http://www.alldatasheet.com/">All-Datasheet</a>, the manufacturer's site, or your <a href="http://www.mouser.com/">favorite</a> <a href="http://www.digikey.com/">parts</a> <a href="http://www.newark.com/">distributor</a> should have these for download. If those options fail you, grab your calipers and continue on.</p>
+<hr><p><strong>Plot the Coords</strong></p>
+<p><img alt="image" src="http://i.imgur.com/UoiKzYT.png" title="Draw out the major features of the part, indicating coordinates for holes and the outline." width="90%"/></p>
+<p>Print out your datasheet and grab a blank sheet of paper. We are going to map all the features of the part to a coordinate system. Pick a good point for the origin. This will make your calculations easier. Plot the points for the drill holes, pads, and outline of the part on paper. Write down all the points in '(x y) drill_diameter' format, or '(x y) width height' if they are SMD pads. The (x y) coordinate is the center point of the pad.</p>
+<p>I should point out that the way a manufacturer's datasheet describes a part layout may not be the same way that Eagle visualizes it. When we layout a package in Eagle, we are looking <strong>through</strong> the top of the board. Many times, the datasheet will have the part layout shown as a <strong>bottom view</strong>. If this is the case, we need to flip the pins and pads along a vertical or horizontal axis before inputting them into Eagle. For this particular example, the relay's function is symmetrical along the horizontal axis, so it doesn't matter.</p>
+<hr><p><strong>Construct the Package</strong></p>
+<p><img alt="image" src="http://i.imgur.com/pF4sNuv.png" title="Draw the package. You can also set the pad diameter, shape, and angle from the Eagle command line." width="95%"/></p>
+<p>Now, here's where things get fun. We are going to use some Eagle commands to make quick work of laying out this part. Create a new Library, then, a new Package. Set your grid based on whatever measurements you are using (IN or MM):</p>
+<pre>GRID MM 0.5;</pre>
+<p>Set the layer you want to alter:</p>
+<pre>LAYER Pads;</pre>
+<p>Use data you collected to make quick work of placing pads. Click on the Pad icon, set the pad diameter to 'auto' from the drop-down menu, and then punch in the following commands to set your drill diameter and place your pads.  Note that there is not a comma between the x and y coordinates. Eagle doesn't like commas, apparently.</p>
+<pre>SET DRILL_MENU drill_diameter;
+PAD 'name' (x y);
+SMD width height 'name' (x y);
+</pre>
+<p>If you need to change the orientation of a pad, just right click on it, go to properties, and change the angle. Now, Make an outline for your part:</p>
+<pre>LAYER tPlace;
+WIRE 0 (x1 y1) (x2 y2) (x3 y3) (x4 y4) (x1 y1);</pre>
+<p>Place your "&gt;NAME" and "&gt;VALUE" tags.</p>
+<pre>LAYER tNames;
+TEXT &gt;NAME
+LAYER tValues;
+TEXT &gt;VALUE
+</pre>
+<p>Note that the omission of the semicolon when using the TEXT command will allow you to place the text with the mouse.</p>
+<p>Boom. You are done with Package creation. This is typically the biggest chore of creating parts. Using the command line saves us the time of hunting and clicking for the right options, changing the grid and zoom levels, clicking on pads to name them, and the tedious task of finding the right coordinates with the mouse.</p>
+<p>If you want to know more about any of these commands, just type:</p>
+<pre>HELP cmdname</pre>
+<hr><p><strong>Draw the Symbol</strong></p>
+<p><img alt="image" src="http://i.imgur.com/ntj679B.png" title="Be consistent when naming pins and pads." width="95%"/></p>
+<p>Next, save your work and create a new Symbol. Typically, I will just copy the schematic symbol from the pdf freehand with the wire tool onto the Symbols layer, place and name the pins (make sure to use the same name for corresponding pins and pads!), drop in the &gt;NAME and &gt;VALUE tags just like we did for the Package, and we're done with the symbol editing. </p>
+<hr><p><strong>Build the Device</strong></p>
+<p><img alt="image" src="http://i.imgur.com/d4KvNgN.png" title="Bind the Package and Symbol." width="95%"/></p>
+<p>Finally, and this is the easy part, bind together the Package and Symbol to create a Device. Add the Symbol we just created into left window (via the 'Add' button). Select the new Package we created (via the 'New' button). Then, connect all the pins and pads together.</p>
+<p>Pat yourself on the back. You just created a new Device! Now, repeat for as many devices as you need to create. </p>
+<p>You can speed up this process even more by reusing other people's work. Maybe, the symbol is already created, but it is in a different package, or vice-versa. Import the symbol or package you need into your library and use it. Make sure to give credit to the appropriate people or organizations for any work you use.</p>
+<hr><p><strong>Wrap up</strong></p>
+<p>Here are some general guidlines to follow when making parts in Eagle:</p>
+<ol><li>Map the pins, pads, and outline of the part to exact coordinates on paper.</li>
+<li>When naming pins and pads, be consistent!</li>
+<li>Shortcut drawing the Package or Symbol, if you can, by importing from another Library into your Library.</li>
+<li>The Eagle command line is your friend.</li>
+</ol><p>I hope these tips will help you to create some quality parts libraries, quickly. Feel free to contact me with any of your Eagle-related tips and comments.</p>

@@ -1,0 +1,39 @@
+---
+layout: post
+title: "DIY GIFs"
+date: 2016-02-11 19:00
+tags: gif bash
+redirect_from: "/2016/02/11/diy-gifs.html"
+---
+
+![Pry session demonstrating how to set the visibility of a method to private](/assets/images/private.gif)
+
+If a picture is worth 1000 words, does that mean an animated GIF is worth num_frames * 1000 words?
+
+That question aside, I wanted a dead simple way to create animated GIFs of my screen in order to show off some OOP programming concepts.
+
+After coming across a few websites that offer a "video to GIF" conversion service, I found [a nice gist on the subject](https://gist.github.com/dergachev/4627207). Browsing through the comments, I found a [comment](https://gist.github.com/dergachev/4627207#gistcomment-1407037), which included a nice and tidy bash function utilizing two of my favorite command line utilities `ffmpeg` and `imagemagick`. I made a few tweaks to suit my needs. Now, I can cook up a GIF of anything in the span of a few minutes by recording my screen with QuickTime and running a single command.
+
+## Dependencies
+
+{% highlight bash %}
+$ brew install ffmpeg
+$ brew install imagemagick
+{% endhighlight %}
+
+## Code
+
+You can drop this in wherever you like to store your bash functions. If you aren't sure where it should go, place it at the end of your `~/.zshrc` or `~/.bash_profile` file.
+
+{% highlight bash %}
+mov2gif() {
+  ffmpeg -i "$1" -r 10 -f image2pipe -vcodec ppm - |\
+  convert -delay 5 -layers Optimize -loop 0 - "$2"
+}
+{% endhighlight %}
+
+## Usage:
+
+{% highlight bash %}
+$ mov2gif input.mov output.gif
+{% endhighlight %}
