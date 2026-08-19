@@ -76,7 +76,6 @@ $ hf download hf://bartowski/Qwen_Qwen3.6-35B-A3B-GGUF/Qwen_Qwen3.6-35B-A3B-Q4_K
 # from llama-cpp-turboquant/build
 $ ./bin/llama-server \
     -hf bartowski/Qwen_Qwen3.6-35B-A3B-GGUF:Q4_K_M \
-    --slot-save-path ~/.cache/llama-cpp \
     --host 0.0.0.0 \
     --port 8080 \
     --cache-type-k turbo4 \
@@ -84,10 +83,7 @@ $ ./bin/llama-server \
     --load-mode mlock \
     --cpu-moe \
     --fit-ctx 262144 \
-    --fit-target 100 \
-    --jinja \
-    --reasoning-preserve \
-    --image-min-tokens 1024
+    --fit-target 100
 ```
 
 Open [localhost:8080](http://localhost:8080), and prompt away! 🤖
@@ -95,6 +91,7 @@ Open [localhost:8080](http://localhost:8080), and prompt away! 🤖
 ## Finally...
 
 - [x] Connect VSCode ([VSCodium](https://github.com/VSCodium/vscodium#readme)) to your running model. I like [Continue.dev](https://docs.continue.dev/).
-- [x] Setup an agent harness such as [pi.dev](https://pi.dev/) with the [pi-llama-cpp extension](https://pi.dev/packages/pi-llama-cpp)
-- [x] Experiment with other models, such as [Gemma 4](https://huggingface.co/models?search=gemma+4)
+- [x] Setup an agent harness such as [pi.dev](https://pi.dev/) with the [pi-llama-cpp extension](https://pi.dev/packages/pi-llama-cpp).
+- [x] Ask your running model about llama.cpp CLI flags. (e.g. -- `What does --cache-type-k turbo4 do when running llama.cpp?`).
+- [x] Experiment with other models, such as [Gemma 4](https://huggingface.co/models?search=gemma+4).
 - [x] Cancel your [Claude subscription](https://claude.com/pricing). 🤭
