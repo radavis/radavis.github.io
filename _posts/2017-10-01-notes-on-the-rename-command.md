@@ -75,5 +75,12 @@ $ rename -n -v 's/The\ Cure\ -\ Japanese\ Whispers\ -\ (\d*)\ -(.*)(\.mp3$)/"$1.
 ## Convert Spaces to Dashes
 
 ```no-highlight
-$ find -name "* *" -type d -v | rename 's/ /-/g'
+$ rename -v 's/ /-/g' *.png
+```
+
+## Rename Screenshots
+
+```no-highlight
+$ rename 's/^Screenshot\ //' Screenshot*.png
+$ rename 's/-at-//' *.png
 ```
