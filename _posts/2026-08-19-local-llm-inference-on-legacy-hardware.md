@@ -13,7 +13,7 @@ How to run Qwen3.6 35B on hardware that's probably gathering dust somewhere.
 
 ## Background
 
-This video **[Running a 35B AI Model on 6GB VRAM by Codacus](https://www.youtube.com/watch?v=8F_5pdcD3HY)** piqued my interests, as I've been trying out local models with LM Studio on a M4. I had to see if I could replicate their results on my old gaming PC.
+This video **[Running a 35B AI Model on 6GB VRAM by Codacus](https://www.youtube.com/watch?v=8F_5pdcD3HY)** piqued my interest, as I've been trying out local models with LM Studio on a M4. I had to see if I could replicate their results on my old gaming PC.
 
 I'm getting around a **~20 token/second** response rate on hardware that's about to celebrate its 10th birthday. 🎂
 
@@ -30,7 +30,7 @@ We're going to use it for local model inference. 😈
 
 ## Cost
 
-The UPS is reporting ~70W when idle, and ~230W under load. Operational cost I'll estimate to be `0.2kW * 8h * $0.15kWh`, **$0.24/day**, **$5.28/month**, assuming its not working weekends. I'll have to pull up some old receipts to know what this rig cost when I built it oh so long ago. Cosidering its age, and seeing as it is pulling double-duty running old FPSes _and_ performing local model inference, I think we can safely call that line item negligible.
+The UPS is reporting ~70W when idle, and ~230W under load. Operational cost I'll estimate to be `0.2kW * 8h * $0.15kWh`, **$0.24/day**, **$5.28/month**, assuming it's not working weekends. I'll have to pull up some old receipts to know what this rig cost when I built it oh so long ago. Considering its age, and seeing as it is pulling double-duty running old FPSes _and_ performing local model inference, I think we can safely call that line item negligible.
 
 The remainder of the information here documents the steps on how to replicate these results on similar hardware.
 
@@ -80,10 +80,9 @@ $ ./bin/llama-server \
     --port 8080 \
     --cache-type-k turbo4 \
     --cache-type-v turbo3 \
-    --load-mode mlock \
-    --cpu-moe \
-    --fit-ctx 262144 \
-    --fit-target 100
+    --load-mode mmap+mlock \
+    --n-cpu-moe 36 \
+    --fit-ctx 262144
 ```
 
 Open [localhost:8080](http://localhost:8080), and prompt away! 🤖
